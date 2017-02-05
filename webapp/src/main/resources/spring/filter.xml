@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    ">
+
+    <!--
+        Конфигурация приоритетов источников данных
+    -->
+    <bean id="sourcePriorityComparator" class="ru.nullpointer.nkbrelation.dao.impl.filter.SourcePriorityComparator">
+        <property name="defaultSource" value="${relations.neo4j.source.default}" />
+        <property name="sourcePriorities">
+            <map>
+                <entry key="rosstat" value="10" />
+                <entry key="eaf" value="20" />
+                <entry key="egrul_individual_founder" value="30" />
+                <entry key="egrul_individual_executive" value="30" />
+                <entry key="egrul" value="30" />
+                <entry key="xegrul" value="30" />
+            </map>
+        </property>
+    </bean>
+
+    <bean id="actualRelationFilter" class="ru.nullpointer.nkbrelation.dao.impl.filter.ComparatorActualRelationFilter">
+        <property name="comparators">
+            <list>
+                <ref bean="sourcePriorityComparator" />
+                <bean class="ru.nullpointer.nkbrelation.dao.impl.RelationPropertyComparator">
+                    <constructor-arg value="_actual" />
+                    <constructor-arg value="true" />
+                    <constructor-arg value="#{ actualDateFormat.parse('${relations.neo4j.actual.default}').time }" />
+                    <constructor-arg value="false" />
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!--
+        Конфигурация на максимальное количество связей при поиске путей
+    -->
+    <bean id="countRelationFilter" class="ru.nullpointer.nkbrelation.dao.impl.filter.CountRelationFilter">
+        <constructor-arg name="limits">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.RelationCounts">
+                <property name="out">
+                    <map>
+                        <entry key="FOUNDER_COMPANY" value="100" />
+                        <entry key="ADDRESS" value="100" />
+                        <entry key="PHONE" value="100" />
+
+                        <entry key="FOUNDER_INDIVIDUAL" value="100" />
+                        <entry key="EXECUTIVE_INDIVIDUAL" value="100" />
+
+                        <entry key="EMPLOYEE" value="100" />
+
+                        <!-- Исключить связи реестродержатель-эмитент -->
+                        <entry key="REGISTER_HOLDER" value="0" />
+                    </map>
+                </property>
+                <property name="in">
+                    <map>
+                        <entry key="EMPLOYEE" value="100" />
+
+                        <!-- Исключить связи реестродержатель-эмитент -->
+                        <entry key="REGISTER_HOLDER" value="0" />
+                    </map>
+                </property>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="shortestTraceNodeTypeFilter" class="ru.nullpointer.nkbrelation.dao.impl.filter.NodeTypeFilter">
+        <property name="inverse" value="true" />
+        <property name="types">
+            <set>
+                <value>PURCHASE</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="shortestTraceRelationFilter" class="ru.nullpointer.nkbrelation.dao.impl.filter.OtherNodeRelationFilter">
+        <property name="nodeFilter" ref="shortestTraceNodeTypeFilter" />
+    </bean>
+
+</beans>

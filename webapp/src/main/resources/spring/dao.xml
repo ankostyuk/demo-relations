@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    ">
+
+    <bean id="reportDAO" class="ru.nullpointer.nkbrelation.dao.impl.MongoReportDAO" />
+
+    <bean id="nodeFactory" class="ru.nullpointer.nkbrelation.dao.impl.NodeFactory">
+        <constructor-arg ref="graphDatabaseService"/>
+    </bean>
+
+    <bean id="daoHttpClient" class="org.apache.commons.httpclient.HttpClient">
+        <constructor-arg>
+            <bean class="org.apache.commons.httpclient.MultiThreadedHttpConnectionManager">
+                <!--
+                    http://blog.scriptkiddie.org/2010/09/06/why-i-hate-java-httpclient-maxconnectionsperhost/#sthash.S6dFIybF.dpbs
+                -->
+                <property name="params.defaultMaxConnectionsPerHost" value="10000" />
+                <property name="params.maxTotalConnections" value="40000" />
+
+                <property name="params.connectionTimeout" value="1000" />
+                <property name="params.soTimeout" value="10000" />
+                <property name="params.tcpNoDelay" value="true" />
+                <property name="params.staleCheckingEnabled" value="true" />
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="companyNodeDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jNodeDAODecorator">
+        <property name="dao">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.SolrNodeDAO">
+                <property name="nodeType" ref="companyNodeType" />
+                <property name="solrUrl" value="${relations.solr.company.url}" />
+                <property name="httpClient" ref="daoHttpClient" />
+            </bean>
+        </property>
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="storeToDao" value="false" />
+        <property name="storeToNeo" value="true" />
+        <property name="neoProperties">
+            <array>
+                <value>individual_placeholders</value>
+                <value>egrul_state</value>
+                <value>egrul_reg</value>
+                <value>egrul_liq</value>
+                <value>disclosure_type</value>
+                <value>disclosure_id</value>
+                <value>kpp</value>
+            </array>
+        </property>
+        <property name="storeTransformer">
+            <bean class="ru.nullpointer.nkbrelation.common.transform.impl.CompanyNodeStorePropertyTransformer" />
+        </property>
+        <property name="loadTransformer">
+            <bean class="ru.nullpointer.nkbrelation.common.transform.impl.CompanyNodeLoadPropertyTransformer" />
+        </property>
+    </bean>
+
+    <bean id="individualNodeDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jNodeDAODecorator">
+        <property name="dao">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.SolrNodeDAO">
+                <property name="nodeType" ref="individualNodeType" />
+                <property name="solrUrl" value="${relations.solr.individual.url}" />
+                <property name="httpClient" ref="daoHttpClient" />
+            </bean>
+        </property>
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="storeToDao" value="true" />
+        <property name="storeToNeo" value="false" />
+    </bean>
+
+    <bean id="addressNodeDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jNodeDAODecorator">
+        <property name="dao">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.SolrNodeDAO">
+                <property name="nodeType" ref="addressNodeType" />
+                <property name="solrUrl" value="${relations.solr.address.url}" />
+                <property name="httpClient" ref="daoHttpClient" />
+            </bean>
+        </property>
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="storeToDao" value="true" />
+        <property name="storeToNeo" value="false" />
+    </bean>
+
+    <bean id="phoneNodeDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jNodeDAODecorator">
+        <property name="dao">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.SolrNodeDAO">
+                <property name="nodeType" ref="phoneNodeType" />
+                <property name="solrUrl" value="${relations.solr.phone.url}" />
+                <property name="httpClient" ref="daoHttpClient" />
+            </bean>
+        </property>
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="storeToDao" value="true" />
+        <property name="storeToNeo" value="false" />
+    </bean>
+
+    <bean id="purchaseNodeDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jNodeDAODecorator">
+        <property name="dao">
+            <bean class="ru.nullpointer.nkbrelation.dao.impl.SolrNodeDAO">
+                <property name="nodeType" ref="purchaseNodeType" />
+                <property name="solrUrl" value="${relations.solr.purchase.url}" />
+                <property name="httpClient" ref="daoHttpClient" />
+            </bean>
+        </property>
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="storeToDao" value="false" />
+        <property name="storeToNeo" value="true" />
+        <property name="neoProperties">
+            <array>
+                <value>abandoned</value>
+                <value>applications</value>
+                <value>applications_rejection</value>
+            </array>
+        </property>
+    </bean>
+
+    <bean id="nodeDAOList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="companyNodeDAO" />
+                <ref bean="individualNodeDAO" />
+                <ref bean="addressNodeDAO" />
+                <ref bean="phoneNodeDAO" />
+                <ref bean="purchaseNodeDAO" />
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="relationDAO" class="ru.nullpointer.nkbrelation.dao.impl.Neo4jRelationDAO">
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="nodeFactory" ref="nodeFactory" />
+        <property name="relationTypeDAO" ref="relationTypeDAO" />
+        <property name="defaultSource" value="${relations.neo4j.source.default}" />
+        <property name="defaultActualDate">
+            <bean factory-bean="actualDateFormat" factory-method="parse">
+                <constructor-arg value="${relations.neo4j.actual.default}" />
+            </bean>
+        </property>
+        <property name="storeTransformer">
+            <bean class="ru.nullpointer.nkbrelation.common.transform.impl.RelationStorePropertyTransformer" />
+        </property>
+        <property name="loadTransformer">
+            <bean class="ru.nullpointer.nkbrelation.common.transform.impl.RelationLoadPropertyTransformer" />
+        </property>
+        <property name="algorithms" ref="algorithms" />
+        <property name="maxRelationsCount" value="1000" />
+    </bean>
+
+    <bean id="graphDatabaseFactory" class="org.neo4j.graphdb.factory.GraphDatabaseFactory"/>
+
+    <bean id="graphDatabaseService" factory-bean="graphDatabaseFactory" class="org.neo4j.graphdb.factory.GraphDatabaseFactory" factory-method="newEmbeddedDatabase" destroy-method="shutdown">
+        <constructor-arg index="0" value="${relations.neo4j.data.path}" />
+    </bean>
+
+    <!-- Раскомментировать для апгрейда neo4j -->
+    <!--<bean id="graphDatabaseService" class="org.neo4j.kernel.EmbeddedGraphDatabase"-->
+          <!--destroy-method="shutdown">-->
+        <!--<constructor-arg index="0" value="${relations.neo4j.data.path}" />-->
+        <!--<constructor-arg index="1">-->
+            <!--<map><entry key="allow_store_upgrade" value="true"/></map>-->
+        <!--</constructor-arg>-->
+        <!--<constructor-arg index="2">-->
+            <!--<bean id="neo4jDependencies" class="org.neo4j.kernel.GraphDatabaseDependencies" factory-method="newDependencies"/>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
+
+    <bean id="actualDateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy-MM-dd" />
+    </bean>
+
+    <bean id="relationTypeDAO" class="ru.nullpointer.nkbrelation.dao.impl.RelationTypeDAOImpl">
+        <property name="relationTypeList" ref="relationTypeList" />
+    </bean>
+
+</beans>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- production -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            ">
+
+    <bean id="okvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.OkvedClassifier">
+        <property name="okvedInfoResource" ref="okvedInfoResource" />
+    </bean>
+
+    <bean id="shortOkvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.ShortOkvedClassifier">
+        <property name="okvedInfoResource" ref="okvedInfoResource" />
+    </bean>
+
+    <bean id="okfsClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.OkfsClassifier">
+        <property name="okfsInfoResource" ref="okfsInfoResource" />
+    </bean>
+
+    <bean id="okvedInfoContentServiceFactory" class="org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean">
+        <property name="serviceClass" value="creditnet.db.rest.client.resource.classifier.OkvedInfoResource" />
+        <property name="address" value="${relations.classifier.rest.url}" />
+        <property name="inheritHeaders" value="true" />
+        <property name="headers">
+            <map>
+                <entry key="Accept" value="application/json;charset=UTF-8" />
+            </map>
+        </property>
+        <property name="provider">
+            <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />
+        </property>
+        <property name="outInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" />
+            </list>
+        </property>
+    </bean>
+    <bean id="okvedInfoResource" class="ru.nullpointer.creditnet.db.rest.cache.classifier.CachedOkvedInfoResource">
+        <constructor-arg>
+            <bean class="creditnet.db.rest.client.resource.classifier.OkvedInfoResource" factory-bean="okvedInfoContentServiceFactory" factory-method="create" />
+        </constructor-arg>
+    </bean>
+
+    <bean id="okfsInfoContentServiceFactory" class="org.apache.cxf.jaxrs.client.JAXRSClientFactoryBean">
+        <property name="serviceClass" value="creditnet.db.rest.client.resource.classifier.OkfsInfoResource" />
+        <property name="address" value="${relations.classifier.rest.url}" />
+        <property name="inheritHeaders" value="true" />
+        <property name="headers">
+            <map>
+                <entry key="Accept" value="application/json;charset=UTF-8" />
+            </map>
+        </property>
+        <property name="provider">
+            <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />
+        </property>
+        <property name="outInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" />
+            </list>
+        </property>
+    </bean>
+    <bean id="okfsInfoResource" class="ru.nullpointer.creditnet.db.rest.cache.classifier.CachedOkfsInfoResource">
+        <constructor-arg>
+            <bean class="creditnet.db.rest.client.resource.classifier.OkfsInfoResource" factory-bean="okfsInfoContentServiceFactory" factory-method="create" />
+        </constructor-arg>
+    </bean>
+
+</beans>

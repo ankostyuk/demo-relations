@@ -1,0 +1,42 @@
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1000", "shareAmount": 2500, "sharePercent": 25, "inn": "100000000002", "_since": 1423094400000, "_actual": 1429056000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1000", "shareAmount": 2500, "sharePercent": 25, "inn": "100000000002", "_since": 1422748800000, "_actual": 1426377600000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "shareAmount": 7500, "sharePercent": 75, "inn": "100000000001", "_since": 1422748800000, "_actual": 1423958400000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "shareAmount": 7500, "sharePercent": 75, "inn": "100000000001", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "shareAmount": 7500, "sharePercent": 75, "inn": "100000000001", "_since": 1420156800000, "_actual": 1420156800000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "position": "Генеральный директор", "inn": "100000000001", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "position": "ГЕНЕРАЛЬНЫЙ ДИРЕКТОР", "inn": "100000000001", "_since": 1391212800000, "_actual": 1392422400000, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1000", "shareAmount": 5000, "sharePercent": 50, "inn": "100000000001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1011", "_dstId": "COMPANY.1000", "shareAmount": 5000, "sharePercent": 50, "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1000", "position": "Главный директор", "inn": "100000000002", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+
+
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1001", "shareAmount": 5000, "sharePercent": 50, "inn": "100000000001", "_since": 1422748800000, "_actual": 1423958400000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1001", "shareAmount": 5000, "sharePercent": 50, "inn": "100000000001", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1001", "shareAmount": 5000, "sharePercent": 50, "inn": "100000000002", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1001", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1001", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1001", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000002", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-3", "_dstId": "COMPANY.1001", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000003", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-4", "_dstId": "COMPANY.1001", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000004", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-5", "_dstId": "COMPANY.1001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1001", "position": "Главный директор", "inn": "100000000001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "rosstat"}
+
+
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1011", "shareAmount": 5000, "sharePercent": 50, "inn": "100000000001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1001", "_dstId": "COMPANY.1011", "shareAmount": 5000, "sharePercent": 50, "_since": 1388534400000, "_actual": 1389744000000, "_source": "egrul"}
+
+
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1000", "_dstId": "COMPANY.1002", "shareAmount": 2000, "sharePercent": 20, "_since": 1425168000000, "_actual": 1426377600000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1001", "_dstId": "COMPANY.1002", "shareAmount": 2000, "sharePercent": 20, "_since": 1425168000000, "_actual": 1426377600000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Foreign-1", "_dstId": "COMPANY.1002", "shareAmount": 2000, "sharePercent": 20, "_since": 1425168000000, "_actual": 1426377600000, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1002", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000001", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-2", "_dstId": "COMPANY.1002", "shareAmount": 2000, "sharePercent": 20, "inn": "100000000002", "_since": 1420070400000, "_actual": 1421280000000, "_source": "egrul"}
+
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.Individual-1", "_dstId": "COMPANY.1002", "position": "Генеральный директор", "inn": "100000000001", "_since": 1388534400000, "_actual": 1389744000000, "_source": "egrul"}

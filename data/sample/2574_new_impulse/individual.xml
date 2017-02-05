@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="id">ddb8fb6a07de0a754ff71eeb0c7a783409cdce40</field>
+    <field name="name">Рюмин Владимир Валентинович</field>
+  </doc>
+  <doc>
+    <field name="id">51b28464c9b003b1c50ac05905f52b63652a679c</field>
+    <field name="name">КОПЦЕВ БОРИС ПЕТРОВИЧ</field>
+  </doc>
+  <doc>
+    <field name="id">06fcd1acddb729136cac43a1b03e219453528533</field>
+    <field name="name">ЯЦЕНКО МИХАИЛ АНАТОЛЬЕВИЧ</field>
+  </doc>
+</add>

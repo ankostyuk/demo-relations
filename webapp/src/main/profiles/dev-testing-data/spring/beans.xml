@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dev -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+    ">
+
+    <!-- Security -->
+    <bean id="securityService" class="ru.nullpointer.nkbrelation.service.security.AnonymousSecurityServiceWrapper">
+        <property name="securityService">
+            <bean class="ru.nullpointer.nkbrelation.service.security.SimpleSecurityService">
+                <property name="userDetailsService" ref="userDetailsService" />
+            </bean>
+        </property>
+    </bean>
+    <!-- Без демо-версии <bean id="securityService" class="ru.nullpointer.nkbrelation.service.security.SimpleSecurityService">
+        <property name="userDetailsService" ref="userDetailsService" />
+    </bean> -->
+
+    <security:user-service id="userDetailsService">
+        <security:user name="user0" password="user0" authorities="DATA_VIEWFULL,SEARCH,SEARCH_RELATED,REPORT_SAVE" />
+        <security:user name="SuperUser" password="SuperUser" authorities="#{ T(ru.nullpointer.nkbrelation.service.security.Permissions).stringValues() }" />
+        <security:user name="user1" password="user1" authorities="SEARCH_TRACES" />
+    </security:user-service>
+
+    <!-- Billing -->
+    <bean id="billingService" class="ru.nullpointer.nkbrelation.service.billing.AnonymousBillingServiceWrapper">
+        <property name="billingService">
+            <bean class="ru.nullpointer.nkbrelation.service.billing.SimpleBillingService" />
+        </property>
+    </bean>
+    <!-- Без демо-версии <bean id="billingService" class="ru.nullpointer.nkbrelation.service.billing.SimpleBillingService">
+    </bean> -->
+
+</beans>

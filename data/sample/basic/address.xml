@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="index">199034</field>
+    <field name="id">af610bd3672c14ae3e3566a8dba172cc8cf19671</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП МАЛЫЙ ВО, 15</field>
+  </doc>
+  <doc>
+    <field name="index">197183</field>
+    <field name="id">3020baa5736aea6dd691f946209ede172adbb353</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЗАУСАДЕБНАЯ, 25</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">423049d092186459497ec92ec32e22914d9e4c71</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ГАВАНСКАЯ, 20 ЛИТЕР А ЧАСТЬ ПОМ 2Н</field>
+  </doc>
+  <doc>
+    <field name="index">191014</field>
+    <field name="id">9cfb396acd59643a086f69511053d0ce637d747e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ВОССТАНИЯ, 25 ПОМ 3Н</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">75fc28614ebb8fc4e182a612955533e9870c0a2b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 7 ЛИНИЯ, 28 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">196084</field>
+    <field name="id">fb524bc17e97add2f57638b2d97f232c370ec40a</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ШОССЕ МИТРОФАНЬЕВСКОЕ, 29</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">6b6f7d6e6a8c1a7ca20527e872a0427f4d86d9d7</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ ВО, 55</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">00aeeef7ed2ad8836398f79328c9ba446d8539e6</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 12 ЛИНИЯ, 13 ЛИТЕР А ПОМ 18-Н</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">b9cb05361f9cdc51708f1fc3b5ec196cd1a4c794</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КАДЕТСКАЯ, 19 КВ 22</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">52b22dac56a043e331ee5cfb3024bce1c54ff94e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ, 55</field>
+  </doc>
+  <doc>
+    <field name="index">199406</field>
+    <field name="id">e4b3dec097663caa3eda2a4ceca1b5d1aaf3ec94</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ГАВАНСКАЯ, 44 ЛИТЕР А ПОМ 1-Н</field>
+  </doc>
+  <doc>
+    <field name="index">199048</field>
+    <field name="id">73b8f7017b254cccd060dbc6c7b22c017b2e5db0</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП МАЛЫЙ ВО, 40</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">aabc1278ba78216e6c5f9d0a37eb441d8556f7e2</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАЛИЧНАЯ, 6 КВ 11</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">204340fcf970399ee8e931798df4901fc4887147</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 15 ЛИТЕР А ПОМ 3Н</field>
+  </doc>
+  <doc>
+    <field name="index">199406</field>
+    <field name="id">4b63cb0f4d480d66a9587817fc05337cc6eef134</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАЛИЧНАЯ, 16 А</field>
+  </doc>
+  <doc>
+    <field name="index">192019</field>
+    <field name="id">eccd7f555b37b2fae4f3716166a1fd62b44cf07e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ФАЯНСОВАЯ, 22 ЛИТЕР Е</field>
+  </doc>
+  <doc>
+    <field name="index">199406</field>
+    <field name="id">c8a632c23b903f00077571773b8b71371d53e0c8</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ШЕВЧЕНКО, 25 КВ 3</field>
+  </doc>
+  <doc>
+    <field name="index">198262</field>
+    <field name="id">04025e10af6197078b41bfc965199bce98183c88</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЛЕНИ ГОЛИКОВА, 27 ЛИТЕР А КОРП 3 ПОМ 1Н</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">b3fa8c3fdd8095afcd38e5869991f87601e0d63c</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП КИМА, 6</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">52b22dac56a043e331ee5cfb3024bce1c54ff94e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ, 55</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">d818bea30da0b8f702568d4e819b5291ba066e57</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 21 ЛИНИЯ, 14, А</field>
+  </doc>
+  <doc>
+    <field name="index">197342</field>
+    <field name="id">8982d8a8a3dd79f9dc98f47eac6bf60b426d9529</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ СЕРДОБОЛЬСКАЯ, 64 КОРП 1 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">c0f5b7b5dea4b5e800cee1c900474cf48747a0f2</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КОЖЕВЕННАЯ, 1/3</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">4bd8c14c95641fd750fffd5ab43e191386e2d619</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП СРЕДНЕГАВАНСКИЙ, 1 ЛИТЕР А ПОМ 8-Н</field>
+  </doc>
+  <doc>
+    <field name="index">191065</field>
+    <field name="id">642a020bff80b95ff0f2b0378cd36a855f6a448f</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПЛ ДВОРЦОВАЯ, 6-8 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199397</field>
+    <field name="id">96d38bdcc91c99c56a88acd79d21776e859c2de9</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, НАБ НОВОСМОЛЕНСКАЯ, 1 КОРП 2</field>
+  </doc>
+  <doc>
+    <field name="index">197376</field>
+    <field name="id">6332138f88e8d9eaa46f5a51920c4eaed141fcb1</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ АКАДЕМИКА ПАВЛОВА, 14 КОРП 2</field>
+  </doc>
+  <doc>
+    <field name="index">190000</field>
+    <field name="id">249415ed53ea187b8bfc20e4f2ce153e0a1054c6</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ДЕКАБРИСТОВ, 5</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">9b4a90af9cde7ff9337df971d1b3adcd05e7d392</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КОСАЯ, 16 КОРП 14 ЛИТЕР А ПОМ 2Н</field>
+  </doc>
+  <doc>
+    <field name="index">196158</field>
+    <field name="id">b577ded65623185e9cab05a0bee62369b1c90f78</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЛЕНСОВЕТА, 88 КВ 196</field>
+  </doc>
+  <doc>
+    <field name="index">199406</field>
+    <field name="id">5dc14342b896a505bfc7f0aa21650e57478d09f5</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАЛИЧНАЯ, 33</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">2b74ce9742285db6e134af0df5e866225fd811eb</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 21 ЛИНИЯ, 16 КОРП 2 ЛИТЕР В ПОМ 1Н</field>
+  </doc>
+  <doc>
+    <field name="index">199397</field>
+    <field name="id">c03bd133ee827e04640697d2618756f76244ad2a</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАЛИЧНАЯ, 42 КОРП 1</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">2b7c44c57b53d452bb25ea79126a8587950d781b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 5 ЛИНИЯ, 68 КОРП 2, В</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">5523216139551c892b47e5f0fc9a8c22b4aa0c74</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 17/5</field>
+  </doc>
+  <doc>
+    <field name="index">199397</field>
+    <field name="id">96d38bdcc91c99c56a88acd79d21776e859c2de9</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, НАБ НОВОСМОЛЕНСКАЯ, 1 КОРП 2</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">1e9c938a298c27f7c5b74dd20b94f80559d84af9</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 20 ЛИНИЯ, 5/7 ЛИТЕР А КОРП 1</field>
+  </doc>
+  <doc>
+    <field name="index">193224</field>
+    <field name="id">94efc9f63cb965f3c92ea126549eff0042b122aa</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАРОДНАЯ, 52 КОРП 2 ЛИТЕР У</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">3584f70956658112e66f1eef09ad0f713c124def</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 3 ЛИНИЯ, 8 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199034</field>
+    <field name="id">06bab5e7be107a94cd8609e779ac1e710d14da8c</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 1 ЛИНИЯ, 16 КВ 10</field>
+  </doc>
+  <doc>
+    <field name="index">191028</field>
+    <field name="id">eb33360425919359411e8ccd28dc03f29ef2d760</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ГАГАРИНСКАЯ, 20 ПОМ 1-Н ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">99057e5fe8e23ff6b99c6523bb0a6020e97696b9</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 22 ЛИНИЯ, 3 КОРП 10 ЛИТЕР З</field>
+  </doc>
+  <doc>
+    <field name="index">199406</field>
+    <field name="id">dbd27b0cc0122094e934f37cfa5eaa47134fd188</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ГАВАНСКАЯ, 42</field>
+  </doc>
+  <doc>
+    <field name="index">660005</field>
+    <field name="id">a0af4a3c1c2f8153330529e1b57daa3bda502b58</field>
+    <field name="value">г Красноярск, ул Краснодарская д 15 кв 165</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">c0f5b7b5dea4b5e800cee1c900474cf48747a0f2</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КОЖЕВЕННАЯ, 1/3</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">1d6e13cbe0db2d058c3430850d75bf90a4af14a0</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 17 ЛИНИЯ, 58 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">1eba24a505448e0ba7ccfd8807013ba68bf845af</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП МАЛЫЙ, 33 ЛИТЕР Б</field>
+  </doc>
+  <doc>
+    <field name="index">192148</field>
+    <field name="id">42d5e0f6422f66cfc9523287a98908542d9e7a1d</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НЕВЗОРОВОЙ, 11 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">8dfb476e82c832bc810e5b5daf12c1f230babbba</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ УРАЛЬСКАЯ, 10 КОРП 2</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">41bc6b3276ada1b7b6f9844e4280d15e24b1a04e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ УРАЛЬСКАЯ, 17</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">d04c9325cceff9531a295cfee5b16929c6781378</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ НАЛИЧНАЯ, 15</field>
+  </doc>
+  <doc>
+    <field name="index">196650</field>
+    <field name="id">4292482acdb9d8efac86ec9b3e9dfbc45cf954f6</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, Г КОЛПИНО, УЛ ПРОЛЕТАРСКАЯ, 137</field>
+  </doc>
+  <doc>
+    <field name="index">196650</field>
+    <field name="id">0bcaace477f2270f807efdbfe5c4344fbe548d7c</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, Г КОЛПИНО, УЛ МЕТАЛЛУРГОВ, 15</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">98dfd89b1f2f9ee941d6d2e1a21f13ebff45e00d</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП СРЕДНИЙ, 88 КВ 16Н</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">35430fe3e474b029506764b8d31577c4d6299d9f</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 4 ЛИНИЯ, 65 ЛИТЕР А ОФИС №7</field>
+  </doc>
+  <doc>
+    <field name="index">199026</field>
+    <field name="id">56432a09a94b5d3ed1e7ad6b0c09447929ecc487</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КОЖЕВЕННАЯ, 34</field>
+  </doc>
+  <doc>
+    <field name="index">194292</field>
+    <field name="id">cdeb74dd4e7c527853daa53d6cacaaad8a08c66b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ДОМОСТРОИТЕЛЬНАЯ, 4</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">c5828dabdbe75ef9b737eda2eb8f5f300e7a8bc5</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 68</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">534daef4ebfd5ba3e1fd69c26c46ed13ce038402</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 3 ЛИНИЯ, 46 ЛИТЕР А ПОМ 15-Н</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">9e4d850d049977381ba75062ce9e1efc9a9b689b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 17 ЛИНИЯ, 64, А</field>
+  </doc>
+  <doc>
+    <field name="index">199034</field>
+    <field name="id">4444da167ac3540dd946df0266a3fe7986795d8a</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ ВО, 18 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">188661</field>
+    <field name="id">d614c49b7965b4a7471799af16ad23cf8e6cae49</field>
+    <field name="value">ЛЕНИНГРАДСКАЯ ОБЛАСТЬ, ВСЕВОЛОЖСКИЙ РАЙОН, Д НОВОЕ ДЕВЯТКИНО, ДОМ 104</field>
+  </doc>
+  <doc>
+    <field name="index">199048</field>
+    <field name="id">9a04483ddc981a98bcf2d1192dba581a5e1a29b0</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 16 ЛИНИЯ, 67 ЛИТЕР А ПОМ 21-Н</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">8875537395f634d60bab37ab64d5c46ea57a902c</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 16 ЛИНИЯ, 93 КОРП 2 ЛИТЕР Б</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">a32e4d27e64f604bf4f65864f14673cc607a1f9c</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП СРЕДНИЙ, 27</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">14a5a4474a50212903f230a44ede9d25b85574b1</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ УРАЛЬСКАЯ, 10 КОРП 2 КВ 12Н ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">52b22dac56a043e331ee5cfb3024bce1c54ff94e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ, 55</field>
+  </doc>
+  <doc>
+    <field name="index">195196</field>
+    <field name="id">4d533e3c71fae1d62c313ed74af5388dbafcf78d</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ТАЛЛИНСКАЯ, 7 ЛИТЕР Ц</field>
+  </doc>
+  <doc>
+    <field name="index">195273</field>
+    <field name="id">62482b7dd2a7cca9144db5f912cabe2a5cc0d6b8</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ РУСТАВЕЛИ, 29</field>
+  </doc>
+  <doc>
+    <field name="index">190013</field>
+    <field name="id">6f128a525649ddfee713aa522070ec58d909fb31</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ВЕРЕЙСКАЯ, 9 ЛИТЕР А ПОМ 1-Н</field>
+  </doc>
+  <doc>
+    <field name="index">195273</field>
+    <field name="id">49373c0da33c9938e6e7388a8b845c551ab3d41b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП ПИСКАРЕВСКИЙ, 63 ОФИС 212</field>
+  </doc>
+  <doc>
+    <field name="index">646885</field>
+    <field name="id">e15b61d0498e50e4fcd91349ff3d8706568ade93</field>
+    <field name="value">Омская область, Азовский Немецкий Национальный район, д Новинка</field>
+  </doc>
+  <doc>
+    <field name="index">192019</field>
+    <field name="id">bd9134ae7b665d0e9646980d19cd7562bf115f89</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ КНИПОВИЧ, 13 КОРП 2, Н</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">c7feb9719064af93d2d7742f3698125c27a372ba</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 17/5 ЛИТЕР Д</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">08e218478fd690e5001328394d3dec4327da0482</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, НАБ МОРСКАЯ, 31 КОРП 2 3</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">652747ef8b9a1eabe5890dae05c2fb48d1f8389d</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 8 ЛИНИЯ, 47/37 ЛИТЕР А ПОМ 3Н</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">b7e010707074d12cad66a69b6fdf9cf0d1c693d6</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 4 ЛИНИЯ, 7 ЛИТЕР А ПОМ 6Н</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">6b6f7d6e6a8c1a7ca20527e872a0427f4d86d9d7</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ ВО, 55</field>
+  </doc>
+  <doc>
+    <field name="index">195112</field>
+    <field name="id">81aaa6cdb57559670c12c109f8ef1cb17d0dd925</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП УТКИН, 13 КОРП 5Б ЛИТЕР А ПОМ 1Н</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">c01a75924c562b725c434236b234ad173461bdc2</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ГАВАНСКАЯ, 20 ЛИТЕР А ПОМ 2Н</field>
+  </doc>
+  <doc>
+    <field name="index">190103</field>
+    <field name="id">2cf2e39f233342f62903eaed5f796a15ae6569f6</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ 9 КРАСНОАРМЕЙСКАЯ, 11</field>
+  </doc>
+  <doc>
+    <field name="index">194017</field>
+    <field name="id">a23ca63f7eabc6674df4ebc3047e6d9c88760509</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП КОСТРОМСКОЙ, 7 ЛИТЕР А ПОМ 2-Н</field>
+  </doc>
+  <doc>
+    <field name="index">346480</field>
+    <field name="id">1a9b70d1ea590657ce62cc0035427cda91d8ddba</field>
+    <field name="value">РОСТОВСКАЯ ОБЛАСТЬ, РП КАМЕНОЛОМНИ, ПЕР СОВЕТСКИЙ, 10</field>
+  </doc>
+  <doc>
+    <field name="index">199226</field>
+    <field name="id">9edf9d3c5f48b9ca73c948d111187a9e865a99e4</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ КОРАБЛЕСТРОИТЕЛЕЙ, 21 КОРП 1 ЛИТЕР А</field>
+  </doc>
+  <doc>
+    <field name="index">193024</field>
+    <field name="id">3bc70ba274a3df63cd19a9c2cf25d892051050fc</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ КОННАЯ, 28, Ж</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">717fd89632342a61b6ddc759203e2f2551db3d10</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 4 ЛИНИЯ, 65 КОРП 2 ЛИТЕР З</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">52b22dac56a043e331ee5cfb3024bce1c54ff94e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ, 55</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">3791da835d896d42f62ff395cee6b496a3b0435e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 11 ЛИНИЯ, 24 КВ 39</field>
+  </doc>
+  <doc>
+    <field name="index">199034</field>
+    <field name="id">178701c72d2b3ad63d058eb7d94db90f622801db</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 6 ЛИНИЯ, 5/7</field>
+  </doc>
+  <doc>
+    <field name="index">186326</field>
+    <field name="id">74de505c3da1a347cfa35e4d61b5e20e3ca49ab2</field>
+    <field name="value">Республика Карелия, Медвежьегорский район, пгт Повенец, ул 9 Мая</field>
+  </doc>
+  <doc>
+    <field name="index">353730</field>
+    <field name="id">7b288b51af74394452570497a27b5988b86ff09f</field>
+    <field name="value">Краснодарский край, Каневский район, ст-ца Каневская, ул Гагарина, д 16</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">c7feb9719064af93d2d7742f3698125c27a372ba</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 17/5 ЛИТЕР Д</field>
+  </doc>
+  <doc>
+    <field name="index">199026</field>
+    <field name="id">af978e90ba19a887a2b821fbb8d4e8eedf10ec44</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ПРОСП БОЛЬШОЙ ВО, 68</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">a3a0c2a40c3ff7077faf3df7a6e1d95839cda257</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, ЛИНИЯ КАДЕТСКАЯ, 11 ЛИТЕР А ПОМ 4Н</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">c7feb9719064af93d2d7742f3698125c27a372ba</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ЖЕЛЕЗНОВОДСКАЯ, 17/5 ЛИТЕР Д</field>
+  </doc>
+  <doc>
+    <field name="index">199155</field>
+    <field name="id">91c673b1d326f6aabe5f932a185ab5568e22be0e</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ ОДОЕВСКОГО, 24 КОРП 2</field>
+  </doc>
+  <doc>
+    <field name="index">199106</field>
+    <field name="id">6ce61c49ee7acaee082eca9d8e2e6fb5558ac13b</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, УЛ КАНАРЕЕЧНАЯ, 12 ЛИТЕР А ПОМ 3-Н</field>
+  </doc>
+  <doc>
+    <field name="index">199178</field>
+    <field name="id">24b8599d90a0ead35bbc6d06d3f540e22d072117</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, НАБ МАКАРОВА, 32</field>
+  </doc>
+  <doc>
+    <field name="index">199004</field>
+    <field name="id">f76948a2b59b8fd53703da1afff9c65afc36c232</field>
+    <field name="value">Г САНКТ-ПЕТЕРБУРГ, 6 ЛИНИЯ, 51/16</field>
+  </doc>
+  <doc>
+    <field name="index">346780</field>
+    <field name="id">f29c240bd3a470085ca67034751119e1d4ef0bcd</field>
+    <field name="value">РОСТОВСКАЯ ОБЛАСТЬ, Г АЗОВ, УЛ ПРОМЫШЛЕННАЯ, 2</field>
+  </doc>
+  <doc>
+    <field name="index">450008</field>
+    <field name="id">560fa3f8f7f8a5fb34b85e4f3c835c1e210d2915</field>
+    <field name="value">г Уфа, ул Карла Маркса,30</field>
+  </doc>
+</add>

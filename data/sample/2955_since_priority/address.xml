@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="index">664007</field>
+    <field name="id">09faa1d1e8f1fcee4dd43030807c420a234373f6</field>
+    <field name="value">г Иркутск, пр-кт Большой Литейный, д 4</field>
+  </doc>
+  <doc>
+    <field name="index">664007</field>
+    <field name="id">14524e3505e01bd3df8004a5986447e9e028e82f</field>
+    <field name="value">г Иркутск, просп Большой Литейный, д 4</field>
+  </doc>
+</add>

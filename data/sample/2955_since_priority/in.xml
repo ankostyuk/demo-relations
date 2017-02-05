@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <lst name="responseHeader">
+        <int name="status">0</int>
+        <int name="QTime">3</int>
+    </lst>
+    <result name="response" numFound="2" start="0">
+        <doc>
+            <arr name="address">
+                <str>664007, г Иркутск, пр-кт Большой Литейный, д 4</str>
+                <str>664035, Г ИРКУТСК,УЛ ШЕВЦОВА Д 1</str>
+            </arr>
+            <arr name="addresshistory">
+                <str>Г ИРКУТСК,УЛ ШЕВЦОВА Д 1</str>
+                <str>Г ИРКУТСК, УЛ ШЕВЦОВА Д 1</str>
+                <str>Г ИРКУТСК, УЛ РОССИЙСКАЯ Д 12</str>
+                <str>г Иркутск, ул Российская, д 12</str>
+            </arr>
+            <int name="addressindex">664007</int>
+            <str name="addresssort">г Иркутск, пр-кт Большой Литейный, д 4</str>
+            <arr name="balance">
+                <int>2013</int>
+                <int>2012</int>
+                <int>2011</int>
+                <int>2010</int>
+                <int>2009</int>
+                <int>2008</int>
+                <int>2007</int>
+                <int>2006</int>
+                <int>2005</int>
+                <int>2004</int>
+            </arr>
+            <arr name="balance_forms_2004">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2005">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2006">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2007">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2008">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2010">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2011">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2012">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2013">
+                <int>1</int>
+                <int>2</int>
+                <int>3</int>
+                <int>4</int>
+                <int>6</int>
+            </arr>
+            <long name="bsn_id">1861830</long>
+            <arr name="chief">
+                <str>Буйнов Николай Михайлович</str>
+            </arr>
+            <str name="chief_name">Буйнов Николай Михайлович</str>
+            <str name="chief_position">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР</str>
+            <arr name="contact_fax_legal">
+                <str>211353</str>
+            </arr>
+            <arr name="contact_history_phone_legal">
+                <str>211352</str>
+            </arr>
+            <arr name="contact_phone_legal">
+                <str>83952-211352</str>
+            </arr>
+            <date name="founded_dt">2004-05-26T20:00:00Z</date>
+            <arr name="founder">
+                <str>Граждане России</str>
+            </arr>
+            <arr name="founderhistory">
+                <str>ГРАЖДАНЕ РОССИИ (11)</str>
+                <str>Граждане России(12)</str>
+                <str>75075441,ООО "ПРИОР"</str>
+                <str>ГРАЖДАНЕ РОССИИ (13)</str>
+                <str>Граждане России(14)</str>
+                <str>ГРАЖДАНЕ РОССИИ (12)</str>
+                <str>ГРАЖДАНЕ РОССИИ</str>
+            </arr>
+            <arr name="founderoksmcode">
+                <int>643</int>
+            </arr>
+            <arr name="founderoksmcodehistory">
+                <int>643</int>
+            </arr>
+            <arr name="ident">
+                <str>2043801059300</str>
+                <str>2063808300378</str>
+                <str>2073808227810</str>
+                <str>2083808160610</str>
+                <str>2093850007216</str>
+                <str>2093850583099</str>
+                <str>2103850349095</str>
+                <str>2103850393986</str>
+                <str>2103850563771</str>
+                <str>2103850605109</str>
+                <str>2113850189055</str>
+                <str>2113850276736</str>
+                <str>2113850391103</str>
+                <str>2123850123945</str>
+                <str>2123850464571</str>
+                <str>2133850015320</str>
+                <str>2143850946435</str>
+                <str>6143850059094</str>
+                <str>2153850114526</str>
+                <str>2153850148087</str>
+                <str>2153850243325</str>
+                <str>2153850261585</str>
+                <str>2153850348287</str>
+                <str>3808106324</str>
+                <str>1043801018348</str>
+                <str>75075441</str>
+            </arr>
+            <bool name="in_tpp">false</bool>
+            <str name="inn">3808106324</str>
+            <arr name="name">
+                <str>ООО "ПРИОР"</str>
+                <str>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРИОР"</str>
+            </arr>
+            <str name="nameshortsort">ООО "ПРИОР"</str>
+            <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРИОР"</str>
+            <long name="ogrn">1043801018348</long>
+            <date name="ogrn_dt">2004-05-26T20:00:00Z</date>
+            <long name="okatocode">25401370000</long>
+            <int name="okfscode">16</int>
+            <int name="okogucode">4210014</int>
+            <int name="okopfcode">12300</int>
+            <int name="okopfpre2013code">65</int>
+            <str name="okpo">75075441</str>
+            <int name="oktmocode">25701000</int>
+            <str name="okvedcode_bal">5151</str>
+            <str name="okvedcode_main">74152</str>
+            <arr name="okvedcodes">
+                <str>7020</str>
+                <str>5151</str>
+                <str>74131</str>
+                <str>65231</str>
+                <str>71211</str>
+                <str>6024</str>
+                <str>631221</str>
+                <str>731</str>
+                <str>7414</str>
+                <str>7411</str>
+                <str>7412</str>
+            </arr>
+            <long name="p11104_2013">0</long>
+            <long name="p11204_2013">0</long>
+            <long name="p11354_2013">0</long>
+            <long name="p11404_2004">23000</long>
+            <long name="p11404_2005">23000</long>
+            <long name="p11404_2006">23000</long>
+            <long name="p11404_2007">33000</long>
+            <long name="p11404_2008">22473532000</long>
+            <long name="p11404_2010">22517122000</long>
+            <long name="p11404_2011">22521157000</long>
+            <long name="p11404_2012">22525786000</long>
+            <long name="p11404_2013">22473522000</long>
+            <long name="p11454_2006">250000</long>
+            <long name="p11454_2007">431000</long>
+            <long name="p11454_2008">1001000</long>
+            <long name="p11454_2010">645000</long>
+            <long name="p11454_2011">43000</long>
+            <long name="p11454_2013">0</long>
+            <long name="p11504_2013">0</long>
+            <long name="p11904_2004">23000</long>
+            <long name="p11904_2005">23000</long>
+            <long name="p11904_2006">273000</long>
+            <long name="p11904_2007">464000</long>
+            <long name="p11904_2008">22474533000</long>
+            <long name="p11904_2010">22517767000</long>
+            <long name="p11904_2011">22521200000</long>
+            <long name="p11904_2013">22473522000</long>
+            <long name="p12104_2005">1402000</long>
+            <long name="p12104_2006">2000</long>
+            <long name="p12104_2007">1000</long>
+            <long name="p12104_2008">3000</long>
+            <long name="p12104_2013">0</long>
+            <long name="p12144_2005">1401000</long>
+            <long name="p12164_2005">1000</long>
+            <long name="p12164_2006">2000</long>
+            <long name="p12164_2007">1000</long>
+            <long name="p12164_2008">3000</long>
+            <long name="p12204_2013">0</long>
+            <long name="p12404_2004">3000</long>
+            <long name="p12404_2005">464000</long>
+            <long name="p12404_2006">2921000</long>
+            <long name="p12404_2007">2846000</long>
+            <long name="p12404_2008">3466000</long>
+            <long name="p12404_2010">6870000</long>
+            <long name="p12404_2011">2732000</long>
+            <long name="p12404_2012">5630000</long>
+            <long name="p12404_2013">718000</long>
+            <long name="p12504_2005">2155000</long>
+            <long name="p12504_2007">444000</long>
+            <long name="p12504_2008">63250000</long>
+            <long name="p12504_2013">3564500000</long>
+            <long name="p12604_2004">29000</long>
+            <long name="p12604_2005">111000</long>
+            <long name="p12604_2006">7000</long>
+            <long name="p12604_2007">30000</long>
+            <long name="p12604_2008">1790000</long>
+            <long name="p12604_2010">967000</long>
+            <long name="p12604_2011">4000</long>
+            <long name="p12604_2012">59000</long>
+            <long name="p12604_2013">19000</long>
+            <long name="p12704_2008">328000</long>
+            <long name="p12704_2010">6504000</long>
+            <long name="p12704_2011">11418000</long>
+            <long name="p12704_2013">3000</long>
+            <long name="p12904_2004">32000</long>
+            <long name="p12904_2005">4132000</long>
+            <long name="p12904_2006">2930000</long>
+            <long name="p12904_2007">3321000</long>
+            <long name="p12904_2008">68837000</long>
+            <long name="p12904_2010">14340000</long>
+            <long name="p12904_2011">14154000</long>
+            <long name="p12904_2013">3565241000</long>
+            <long name="p13004_2004">55000</long>
+            <long name="p13004_2005">4155000</long>
+            <long name="p13004_2006">3203000</long>
+            <long name="p13004_2007">3785000</long>
+            <long name="p13004_2008">22543370000</long>
+            <long name="p13004_2010">22532107000</long>
+            <long name="p13004_2011">22535354000</long>
+            <long name="p13004_2012">22531475000</long>
+            <long name="p13004_2013">26038763000</long>
+            <long name="p14104_2004">10000</long>
+            <long name="p14104_2005">10000</long>
+            <long name="p14104_2006">10000</long>
+            <long name="p14104_2007">10000</long>
+            <long name="p14104_2008">10000</long>
+            <long name="p14104_2010">10000</long>
+            <long name="p14104_2011">10000</long>
+            <long name="p14104_2013">10000</long>
+            <long name="p14114_2013">0</long>
+            <long name="p14204_2007">260000</long>
+            <long name="p14204_2008">260000</long>
+            <long name="p14204_2010">260000</long>
+            <long name="p14204_2011">260000</long>
+            <long name="p14204_2013">260000</long>
+            <long name="p14304_2013">0</long>
+            <long name="p14704_2004">10000</long>
+            <long name="p14704_2005">2456000</long>
+            <long name="p14704_2006">-362000</long>
+            <long name="p14704_2007">38000</long>
+            <long name="p14704_2008">22530351000</long>
+            <long name="p14704_2010">22531721000</long>
+            <long name="p14704_2011">22167396000</long>
+            <long name="p14704_2013">24803592000</long>
+            <long name="p14904_2004">20000</long>
+            <long name="p14904_2005">2466000</long>
+            <long name="p14904_2006">-352000</long>
+            <long name="p14904_2007">308000</long>
+            <long name="p14904_2008">22530621000</long>
+            <long name="p14904_2010">22531991000</long>
+            <long name="p14904_2011">22167666000</long>
+            <long name="p14904_2012">22531201000</long>
+            <long name="p14904_2013">24803862000</long>
+            <long name="p15104_2013">0</long>
+            <long name="p15154_2013">0</long>
+            <long name="p15204_2013">0</long>
+            <long name="p15904_2013">0</long>
+            <long name="p16104_2006">3349000</long>
+            <long name="p16104_2007">3224000</long>
+            <long name="p16104_2013">0</long>
+            <long name="p16204_2004">35000</long>
+            <long name="p16204_2005">1154000</long>
+            <long name="p16204_2006">158000</long>
+            <long name="p16204_2007">205000</long>
+            <long name="p16204_2008">11786000</long>
+            <long name="p16204_2010">115000</long>
+            <long name="p16204_2011">367472000</long>
+            <long name="p16204_2012">76000</long>
+            <long name="p16204_2013">1234649000</long>
+            <long name="p16214_2005">1080000</long>
+            <long name="p16214_2006">112000</long>
+            <long name="p16214_2007">174000</long>
+            <long name="p16214_2008">29000</long>
+            <long name="p16224_2004">35000</long>
+            <long name="p16224_2005">13000</long>
+            <long name="p16224_2006">39000</long>
+            <long name="p16224_2007">18000</long>
+            <long name="p16224_2008">18000</long>
+            <long name="p16234_2005">4000</long>
+            <long name="p16234_2006">4000</long>
+            <long name="p16234_2007">5000</long>
+            <long name="p16234_2008">5000</long>
+            <long name="p16244_2005">57000</long>
+            <long name="p16244_2006">3000</long>
+            <long name="p16244_2007">7000</long>
+            <long name="p16244_2008">7000</long>
+            <long name="p16254_2008">11726000</long>
+            <long name="p16304_2005">535000</long>
+            <long name="p16304_2006">48000</long>
+            <long name="p16304_2007">48000</long>
+            <long name="p16304_2008">963000</long>
+            <long name="p16404_2013">0</long>
+            <long name="p16504_2011">217000</long>
+            <long name="p16504_2013">252000</long>
+            <long name="p16604_2012">199000</long>
+            <long name="p16604_2013">0</long>
+            <long name="p16904_2004">35000</long>
+            <long name="p16904_2005">1689000</long>
+            <long name="p16904_2006">3555000</long>
+            <long name="p16904_2007">3477000</long>
+            <long name="p16904_2008">12749000</long>
+            <long name="p16904_2010">115000</long>
+            <long name="p16904_2011">367688000</long>
+            <long name="p16904_2013">1234900000</long>
+            <long name="p17004_2004">55000</long>
+            <long name="p17004_2005">4155000</long>
+            <long name="p17004_2006">3203000</long>
+            <long name="p17004_2007">3785000</long>
+            <long name="p17004_2008">22543370000</long>
+            <long name="p17004_2010">22532107000</long>
+            <long name="p17004_2011">22535354000</long>
+            <long name="p17004_2012">22531475000</long>
+            <long name="p17004_2013">26038763000</long>
+            <long name="p20103_2005">34450000</long>
+            <long name="p20103_2006">1102000</long>
+            <long name="p20103_2013">0</long>
+            <long name="p20203_2004">152000</long>
+            <long name="p20203_2005">14843000</long>
+            <long name="p20203_2006">1401000</long>
+            <long name="p20203_2012">1037000</long>
+            <long name="p20203_2013">0</long>
+            <long name="p20293_2004">-152000</long>
+            <long name="p20293_2005">19607000</long>
+            <long name="p20293_2006">-299000</long>
+            <long name="p20293_2013">0</long>
+            <long name="p20303_2005">4961000</long>
+            <long name="p20303_2013">0</long>
+            <long name="p20403_2006">348000</long>
+            <long name="p20403_2007">447000</long>
+            <long name="p20403_2008">3793000</long>
+            <long name="p20403_2010">781000</long>
+            <long name="p20403_2011">1127000</long>
+            <long name="p20403_2013">1122000</long>
+            <long name="p20503_2004">-152000</long>
+            <long name="p20503_2005">14646000</long>
+            <long name="p20503_2006">-647000</long>
+            <long name="p20503_2007">-447000</long>
+            <long name="p20503_2008">-3793000</long>
+            <long name="p20503_2010">-781000</long>
+            <long name="p20503_2011">-1127000</long>
+            <long name="p20503_2013">-1122000</long>
+            <long name="p20603_2005">706000</long>
+            <long name="p20603_2006">17000</long>
+            <long name="p20603_2007">44000</long>
+            <long name="p20603_2008">756000</long>
+            <long name="p20603_2010">4424000</long>
+            <long name="p20603_2011">4924000</long>
+            <long name="p20603_2013">17430000</long>
+            <long name="p20703_2006">432000</long>
+            <long name="p20703_2007">412000</long>
+            <long name="p20703_2008">181000</long>
+            <long name="p20703_2012">9595000</long>
+            <long name="p20703_2013">0</long>
+            <long name="p20803_2004">162000</long>
+            <long name="p20803_2005">92000</long>
+            <long name="p20803_2006">216000</long>
+            <long name="p20803_2007">910000</long>
+            <long name="p20803_2008">72709000</long>
+            <long name="p20803_2010">237000</long>
+            <long name="p20803_2013">4906247000</long>
+            <long name="p20903_2006">4225000</long>
+            <long name="p20903_2007">140000</long>
+            <long name="p20903_2008">22484057000</long>
+            <long name="p20903_2010">6000000</long>
+            <long name="p20903_2012">1285217000</long>
+            <long name="p20903_2013">0</long>
+            <long name="p21003_2004">2000</long>
+            <long name="p21003_2005">4000</long>
+            <long name="p21003_2006">4244000</long>
+            <long name="p21003_2007">16000</long>
+            <long name="p21003_2008">11884000</long>
+            <long name="p21003_2010">10026000</long>
+            <long name="p21003_2011">21000</long>
+            <long name="p21003_2012">108000</long>
+            <long name="p21003_2013">389000</long>
+            <long name="p21303_2005">1181000</long>
+            <long name="p21403_2004">8000</long>
+            <long name="p21403_2005">14259000</long>
+            <long name="p21403_2006">-865000</long>
+            <long name="p21403_2007">219000</long>
+            <long name="p21403_2008">22541664000</long>
+            <long name="p21403_2010">-146000</long>
+            <long name="p21403_2011">3776000</long>
+            <long name="p21403_2013">4922166000</long>
+            <long name="p21413_2006">250000</long>
+            <long name="p21413_2007">180000</long>
+            <long name="p21413_2008">770000</long>
+            <long name="p21413_2010">134000</long>
+            <long name="p21413_2011">-601000</long>
+            <long name="p21413_2013">-1010000</long>
+            <long name="p21423_2013">0</long>
+            <long name="p21503_2005">3412000</long>
+            <long name="p21503_2006">1000</long>
+            <long name="p21503_2011">154000</long>
+            <long name="p21503_2012">-966000</long>
+            <long name="p21503_2013">2174000</long>
+            <long name="p21903_2004">8000</long>
+            <long name="p21903_2005">10847000</long>
+            <long name="p21903_2006">-616000</long>
+            <long name="p21903_2007">399000</long>
+            <long name="p21903_2008">22542434000</long>
+            <long name="p21903_2010">-12000</long>
+            <long name="p21903_2011">3021000</long>
+            <long name="p21903_2012">1275443000</long>
+            <long name="p21903_2013">4918982000</long>
+            <long name="p71014_2013">0</long>
+            <long name="p71024_2013">0</long>
+            <long name="p71034_2013">0</long>
+            <long name="p72013_2013">981249000</long>
+            <long name="p72023_2013">0</long>
+            <long name="p72033_2013">0</long>
+            <long name="p72043_2013">0</long>
+            <long name="p72053_2011">3021000</long>
+            <long name="p72053_2013">4918982000</long>
+            <str name="status">17</str>
+            <date name="timestamp">2015-08-04T14:00:53.802Z</date>
+        </doc>
+        <doc>
+            <arr name="address">
+                <str>664007, г Иркутск, просп Большой Литейный, д 4</str>
+            </arr>
+            <arr name="addresshistory">
+                <str>Г ИРКУТСК, УЛ РОССИЙСКАЯ Д 12</str>
+                <str>Г ИРКУТСК, УЛ РАБОЧАЯ Д 2 А</str>
+                <str>г Иркутск, ул Российская, д 12</str>
+            </arr>
+            <int name="addressindex">664007</int>
+            <str name="addresssort">г Иркутск, просп Большой Литейный, д 4</str>
+            <arr name="balance">
+                <int>2013</int>
+                <int>2012</int>
+                <int>2011</int>
+                <int>2010</int>
+                <int>2009</int>
+                <int>2008</int>
+            </arr>
+            <arr name="balance_forms_2008">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2010">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2011">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2012">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2013">
+                <int>1</int>
+                <int>2</int>
+                <int>3</int>
+                <int>4</int>
+                <int>6</int>
+            </arr>
+            <long name="bsn_id">5522815</long>
+            <arr name="chief">
+                <str>Седых Марина Владимировна</str>
+            </arr>
+            <str name="chief_name">Седых Марина Владимировна</str>
+            <str name="chief_position">ГЕНЕРАЛЬНЫЙ ДИРЕКТОР</str>
+            <arr name="contact_fax_legal">
+                <str>211353</str>
+            </arr>
+            <arr name="contact_history_phone_legal">
+                <str>211352</str>
+            </arr>
+            <arr name="contact_phone_legal">
+                <str>3952-211352</str>
+            </arr>
+            <date name="founded_dt">2008-03-17T21:00:00Z</date>
+            <arr name="founder">
+                <str>75075441,1043801018348,ООО "Приор"</str>
+                <str>European Bank for Reconst</str>
+            </arr>
+            <arr name="founderhistory">
+                <str>75075441,ООО "ПРИОР"</str>
+                <str>75075441,ООО "Приор"</str>
+                <str>European Bank for Reconst</str>
+            </arr>
+            <arr name="founderoksmcode">
+                <int>826</int>
+            </arr>
+            <arr name="founderoksmcodehistory">
+                <int>643</int>
+                <int>826</int>
+            </arr>
+            <arr name="ident">
+                <str>2083808138302</str>
+                <str>9103850099817</str>
+                <str>2103850466510</str>
+                <str>2133850353360</str>
+                <str>2143850381233</str>
+                <str>2143850783690</str>
+                <str>2143850989588</str>
+                <str>3808175078</str>
+                <str>1083808004004</str>
+                <str>83513292</str>
+            </arr>
+            <bool name="in_tpp">false</bool>
+            <str name="inn">3808175078</str>
+            <arr name="name">
+                <str>ЗАО "ИНК-Капитал"</str>
+                <str>Закрытое акционерное общество "ИНК-Капитал"</str>
+            </arr>
+            <str name="nameshortsort">ЗАО "ИНК-Капитал"</str>
+            <str name="namesort">Закрытое акционерное общество "ИНК-Капитал"</str>
+            <long name="ogrn">1083808004004</long>
+            <date name="ogrn_dt">2008-03-17T21:00:00Z</date>
+            <long name="okatocode">25401370000</long>
+            <int name="okfscode">16</int>
+            <int name="okogucode">4210011</int>
+            <int name="okopfcode">12267</int>
+            <int name="okopfpre2013code">67</int>
+            <str name="okpo">83513292</str>
+            <int name="oktmocode">25701000</int>
+            <str name="okvedcode_bal">111</str>
+            <str name="okvedcode_main">74152</str>
+            <arr name="okvedcodes">
+                <str>5151</str>
+                <str>11101</str>
+                <str>232</str>
+                <str>452</str>
+                <str>112</str>
+                <str>631221</str>
+                <str>60301</str>
+                <str>6024</str>
+                <str>453</str>
+                <str>741</str>
+            </arr>
+            <long name="p11104_2013">0</long>
+            <long name="p11204_2013">0</long>
+            <long name="p11354_2013">0</long>
+            <long name="p11404_2008">24480401000</long>
+            <long name="p11404_2010">24480380000</long>
+            <long name="p11404_2011">24481252000</long>
+            <long name="p11404_2012">24549110000</long>
+            <long name="p11404_2013">24641552000</long>
+            <long name="p11454_2010">6109000</long>
+            <long name="p11454_2011">11869000</long>
+            <long name="p11454_2013">0</long>
+            <long name="p11504_2013">0</long>
+            <long name="p11904_2008">24480401000</long>
+            <long name="p11904_2010">24486488000</long>
+            <long name="p11904_2011">24493121000</long>
+            <long name="p11904_2013">24641552000</long>
+            <long name="p12104_2008">37000</long>
+            <long name="p12104_2013">0</long>
+            <long name="p12164_2008">37000</long>
+            <long name="p12204_2008">7228000</long>
+            <long name="p12204_2013">0</long>
+            <long name="p12404_2008">41077000</long>
+            <long name="p12404_2010">84859000</long>
+            <long name="p12404_2011">48801000</long>
+            <long name="p12404_2012">28749000</long>
+            <long name="p12404_2013">301000</long>
+            <long name="p12504_2011">400000000</long>
+            <long name="p12504_2013">0</long>
+            <long name="p12604_2008">48000</long>
+            <long name="p12604_2010">7056000</long>
+            <long name="p12604_2011">1040000</long>
+            <long name="p12604_2012">172000</long>
+            <long name="p12604_2013">63000</long>
+            <long name="p12704_2010">3000</long>
+            <long name="p12704_2011">86000</long>
+            <long name="p12704_2013">1483000</long>
+            <long name="p12904_2008">48391000</long>
+            <long name="p12904_2010">91918000</long>
+            <long name="p12904_2011">449927000</long>
+            <long name="p12904_2013">1847000</long>
+            <long name="p13004_2008">24528792000</long>
+            <long name="p13004_2010">24578407000</long>
+            <long name="p13004_2011">24943048000</long>
+            <long name="p13004_2012">24578031000</long>
+            <long name="p13004_2013">24643399000</long>
+            <long name="p14104_2008">30000000</long>
+            <long name="p14104_2010">30000000</long>
+            <long name="p14104_2011">30000000</long>
+            <long name="p14104_2013">30000000</long>
+            <long name="p14114_2013">0</long>
+            <long name="p14204_2008">24450680000</long>
+            <long name="p14204_2010">24450680000</long>
+            <long name="p14204_2011">24450680000</long>
+            <long name="p14204_2013">24450680000</long>
+            <long name="p14304_2010">555000</long>
+            <long name="p14304_2011">916000</long>
+            <long name="p14304_2013">1500000</long>
+            <long name="p14704_2008">-3133000</long>
+            <long name="p14704_2010">14626000</long>
+            <long name="p14704_2011">413582000</long>
+            <long name="p14704_2013">155659000</long>
+            <long name="p14904_2008">24477547000</long>
+            <long name="p14904_2010">24495860000</long>
+            <long name="p14904_2011">24895178000</long>
+            <long name="p14904_2012">24553183000</long>
+            <long name="p14904_2013">24637838000</long>
+            <long name="p15104_2008">47817000</long>
+            <long name="p15104_2013">0</long>
+            <long name="p15154_2013">0</long>
+            <long name="p15204_2013">0</long>
+            <long name="p15904_2008">47817000</long>
+            <long name="p15904_2013">0</long>
+            <long name="p16104_2013">0</long>
+            <long name="p16204_2008">3428000</long>
+            <long name="p16204_2010">203000</long>
+            <long name="p16204_2011">184000</long>
+            <long name="p16204_2012">225000</long>
+            <long name="p16204_2013">5408000</long>
+            <long name="p16214_2008">2716000</long>
+            <long name="p16224_2008">105000</long>
+            <long name="p16234_2008">13000</long>
+            <long name="p16244_2008">137000</long>
+            <long name="p16254_2008">456000</long>
+            <long name="p16404_2010">82344000</long>
+            <long name="p16404_2011">47644000</long>
+            <long name="p16404_2013">0</long>
+            <long name="p16504_2011">42000</long>
+            <long name="p16504_2013">153000</long>
+            <long name="p16604_2012">24623000</long>
+            <long name="p16604_2013">0</long>
+            <long name="p16904_2008">3428000</long>
+            <long name="p16904_2010">82547000</long>
+            <long name="p16904_2011">47870000</long>
+            <long name="p16904_2013">5560000</long>
+            <long name="p17004_2008">24528792000</long>
+            <long name="p17004_2010">24578407000</long>
+            <long name="p17004_2011">24943048000</long>
+            <long name="p17004_2012">24578031000</long>
+            <long name="p17004_2013">24643399000</long>
+            <long name="p20103_2013">0</long>
+            <long name="p20203_2012">3706000</long>
+            <long name="p20203_2013">0</long>
+            <long name="p20293_2013">0</long>
+            <long name="p20303_2013">0</long>
+            <long name="p20403_2008">1598000</long>
+            <long name="p20403_2010">7550000</long>
+            <long name="p20403_2011">3279000</long>
+            <long name="p20403_2013">4176000</long>
+            <long name="p20503_2008">-1598000</long>
+            <long name="p20503_2010">-7550000</long>
+            <long name="p20503_2011">-3279000</long>
+            <long name="p20503_2013">-4176000</long>
+            <long name="p20603_2008">8424000</long>
+            <long name="p20603_2010">136000</long>
+            <long name="p20603_2011">151000</long>
+            <long name="p20603_2013">128725000</long>
+            <long name="p20703_2008">2526000</long>
+            <long name="p20703_2013">0</long>
+            <long name="p20803_2010">41862000</long>
+            <long name="p20803_2011">434700000</long>
+            <long name="p20803_2013">5366153000</long>
+            <long name="p20903_2008">3000</long>
+            <long name="p20903_2010">1136000</long>
+            <long name="p20903_2011">101000</long>
+            <long name="p20903_2012">1097274000</long>
+            <long name="p20903_2013">87000</long>
+            <long name="p21003_2008">4673000</long>
+            <long name="p21003_2010">34316000</long>
+            <long name="p21003_2011">38082000</long>
+            <long name="p21003_2012">43728000</long>
+            <long name="p21003_2013">46485000</long>
+            <long name="p21403_2008">-370000</long>
+            <long name="p21403_2010">1268000</long>
+            <long name="p21403_2011">393591000</long>
+            <long name="p21403_2013">5444304000</long>
+            <long name="p21413_2010">5949000</long>
+            <long name="p21413_2011">5760000</long>
+            <long name="p21413_2013">-12858000</long>
+            <long name="p21423_2013">0</long>
+            <long name="p21503_2008">2763000</long>
+            <long name="p21503_2012">-988000</long>
+            <long name="p21503_2013">5203000</long>
+            <long name="p21903_2008">-3133000</long>
+            <long name="p21903_2010">7217000</long>
+            <long name="p21903_2011">399318000</long>
+            <long name="p21903_2012">1050828000</long>
+            <long name="p21903_2013">5426243000</long>
+            <long name="p71014_2013">0</long>
+            <long name="p71024_2013">0</long>
+            <long name="p71034_2013">0</long>
+            <long name="p72013_2013">1070800000</long>
+            <long name="p72023_2011">33000</long>
+            <long name="p72023_2013">0</long>
+            <long name="p72033_2013">0</long>
+            <long name="p72043_2013">0</long>
+            <long name="p72053_2011">399318000</long>
+            <long name="p72053_2013">5426243000</long>
+            <str name="status">17</str>
+            <date name="timestamp">2015-08-04T14:49:24.132Z</date>
+        </doc>
+    </result>
+</response>
+

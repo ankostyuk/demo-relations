@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="id">phone_legal4957455614</field>
+    <field name="value">495-745-56-14</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_actual9673404</field>
+    <field name="value">967-34-04</field>
+    <field name="phoneType">phone_actual</field>
+  </doc>
+</add>

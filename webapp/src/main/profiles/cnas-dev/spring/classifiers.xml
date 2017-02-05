@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dev -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="okvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="Код вида деятельности: " />
+    </bean>
+
+    <bean id="shortOkvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="ОКВЭД: " />
+    </bean>
+
+    <bean id="okfsClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="Код формы собственности: " />
+    </bean>
+
+</beans>

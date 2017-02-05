@@ -1,0 +1,6 @@
+{"id":"0330100010514000004","type":"PURCHASE","abandoned":[{"lot":1}]}
+{"id":"0338300051614000001","type":"PURCHASE","applications":[{"lot":1,"number":"8095290","price":244000.00},{"lot":2,"number":"8106711","price":242750.01}]}
+{"id":"0138300000414000173","type":"PURCHASE","applications":[{"lot":1,"number":"1","price":120000.00},{"lot":1,"number":"2","price":119000.01}],"type":"PURCHASE"}
+{"id":"0373200138713000007","applications_rejection":[{"status":"NOT_ADMITTED","lot":1,"number":"1"}],"type":"PURCHASE"}
+{"id":"0373200138713000007","applications":[{"status":"WIN","lot":1,"number":"2"}],"type":"PURCHASE"}
+

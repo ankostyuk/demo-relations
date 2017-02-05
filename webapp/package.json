@@ -1,0 +1,16 @@
+{
+    "name" : "creditnet-relations-webapp",
+    "version" : "",
+    "description": "",
+    "author": {
+        "name": "nullpointer",
+        "url": "http://null-pointer.ru/"
+    },
+    "repository": {},
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-bower-task": "*"
+    }
+}

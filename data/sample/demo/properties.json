@@ -1,0 +1,9 @@
+{"id":"1","type":"COMPANY","ogrn":1037739110562, "individual_placeholders":[{"_actual":1133384400000,"_since":1125518400000,"sharePercent":100,"shareAmount":2000000,"name":"ГРАЖДАНЕ РОССИИ"}]}
+{"id":"2","type":"COMPANY","ogrn":1057747690890, "individual_placeholders":[{"_actual":1364677200000,"_since":1154094790253,"sharePercent":0,"shareAmount":0,"name":"ГРАЖДАНИН ИЗРАИЛЯ"},{"_actual":1364677200000,"_since":1154094790253,"sharePercent":0,"shareAmount":0,"name":"ГРАЖДАНИН ФРАНЦИИ"}]}
+{"id":"3","type":"COMPANY","ogrn":1027739185968}
+{"id":"5","type":"COMPANY","ogrn":1027739863854, "individual_placeholders":[{"_actual":1272571200000,"_since":1249480299612,"sharePercent":100,"shareAmount":490000,"name":"Гражданин России"}]}
+{"id":"6", "type":"COMPANY", "ogrn":1037739365751, "individual_placeholders":[{"_actual":1133384400000,"_since":1125518400000,"sharePercent":100,"shareAmount":1234567,"name":"ГРАЖДАНЕ  РОССИИ(5)"}]}
+{"id":"7", "type":"COMPANY", "ogrn":1027746000853, "inn":7710026920, "ogrn_history":[1027700000001, 1027700000002], "inn_history":[7710000001, 7710000002], "individual_placeholders":[{"_actual":1364677200000,"_since":1154094790253,"sharePercent":0,"shareAmount":0,"name":"ГРАЖДАНИН АРМЕНИИ"},{"_actual":1364677200000,"_since":1154094790253,"sharePercent":50,"shareAmount":10000,"name":"ГРАЖДАНИН ЧАДА"}]}
+
+{"id":"2","type":"COMPANY","disclosure_type":"interfax","disclosure_id":"2917"}
+

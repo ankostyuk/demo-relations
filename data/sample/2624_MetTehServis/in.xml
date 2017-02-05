@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <lst name="responseHeader">
+        <int name="status">0</int>
+        <int name="QTime">16</int>
+    </lst>
+    <result name="response" numFound="1" start="0">
+        <doc>
+            <arr name="address">
+                <str>236009, г калининград ул большая окружная 4-я 35</str>
+                <str>236000, г калининградул пацаева 6-а</str>
+            </arr>
+            <arr name="addresshistory">
+                <str>г калининградул александра невского 188/1 кв 60</str>
+                <str>г калининград ул александра невского 188/1 кв 60</str>
+            </arr>
+            <int name="addressindex">236009</int>
+            <str name="addresssort">г Калининград, ул Большая Окружная 4-я, 35</str>
+            <arr name="balance">
+                <int>2001</int>
+                <int>2000</int>
+            </arr>
+            <arr name="balance_forms_2000">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <arr name="balance_forms_2001">
+                <int>1</int>
+                <int>2</int>
+            </arr>
+            <long name="bsn_id">657325</long>
+            <arr name="chief">
+                <str>ДИРЕКТОР: Ковальчук Ольга Андреевна</str>
+            </arr>
+            <str name="chief_name">Ковальчук Ольга Андреевна</str>
+            <arr name="chiefhistory">
+                <str>худяков владимир васильевич</str>
+            </arr>
+            <arr name="contact_history_phone_legal">
+                <str>553357</str>
+                <str>55-33-57</str>
+                <str>4012-553357</str>
+            </arr>
+            <arr name="contact_phone_legal">
+                <str>4012-597803</str>
+            </arr>
+            <date name="founded_dt">1997-07-08T20:00:00Z</date>
+            <arr name="founder">
+                <str>граждане россии(2)</str>
+            </arr>
+            <arr name="founderhistory">
+                <str>граждане рф</str>
+            </arr>
+            <arr name="founderoksmcode">
+                <int>643</int>
+            </arr>
+            <arr name="founderoksmcodehistory">
+                <int>643</int>
+            </arr>
+            <arr name="ident">
+                <str>3906049032</str>
+                <str>1023901003763</str>
+                <str>44200711</str>
+                <str>6321-ЛНР (6321)</str>
+                <str>2113926299452</str>
+                <str>2123926254428</str>
+            </arr>
+            <bool name="in_tpp">false</bool>
+            <long name="inn">3906049032</long>
+            <arr name="name">
+                <str>ооо меттехсервис</str>
+                <str>общество с ограниченной ответственностью меттехсервис</str>
+            </arr>
+            <str name="nameshortsort">ООО "МЕТТЕХСЕРВИС"</str>
+            <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТТЕХСЕРВИС"</str>
+            <long name="ogrn">1023901003763</long>
+            <date name="ogrn_dt">2002-11-18T21:00:00Z</date>
+            <long name="okatocode">27401368000</long>
+            <int name="okfscode">16</int>
+            <int name="okogucode">4210014</int>
+            <int name="okopfcode">12165</int>
+            <int name="okopfpre2013code">65</int>
+            <long name="okpo">44200711</long>
+            <int name="oktmocode">27701000</int>
+            <str name="okvedcode_main">51444</str>
+            <arr name="okvedcodes">
+                <str>5170</str>
+                <str>5151</str>
+            </arr>
+            <long name="p11104_2000">11042</long>
+            <long name="p11204_2000">12725</long>
+            <long name="p11204_2001">12725</long>
+            <long name="p11904_2000">23767</long>
+            <long name="p11904_2001">12725</long>
+            <long name="p12104_2000">306174</long>
+            <long name="p12104_2001">604</long>
+            <long name="p12114_2000">4320</long>
+            <long name="p12134_2000">67312</long>
+            <long name="p12144_2000">233938</long>
+            <long name="p12154_2000">604</long>
+            <long name="p12154_2001">604</long>
+            <long name="p12304_2001">587006</long>
+            <long name="p12404_2000">993831</long>
+            <long name="p12404_2001">30920</long>
+            <long name="p12414_2000">370756</long>
+            <long name="p12414_2001">12580</long>
+            <long name="p12504_2001">20000</long>
+            <long name="p12604_2000">19981</long>
+            <long name="p12604_2001">5043</long>
+            <long name="p12904_2000">1319986</long>
+            <long name="p12904_2001">643573</long>
+            <long name="p13004_2000">1343753</long>
+            <long name="p13004_2001">656298</long>
+            <long name="p14104_2000">8400</long>
+            <long name="p14104_2001">8400</long>
+            <long name="p14904_2000">713922</long>
+            <long name="p14904_2001">579106</long>
+            <long name="p15104_2000">50000</long>
+            <long name="p15104_2001">50000</long>
+            <long name="p15904_2000">50000</long>
+            <long name="p15904_2001">50000</long>
+            <long name="p16104_2000">243131</long>
+            <long name="p16204_2000">336700</long>
+            <long name="p16204_2001">27192</long>
+            <long name="p16214_2000">21656</long>
+            <long name="p16214_2001">1250</long>
+            <long name="p16244_2000">194</long>
+            <long name="p16244_2001">194</long>
+            <long name="p16254_2000">871</long>
+            <long name="p16254_2001">882</long>
+            <long name="p16904_2000">579831</long>
+            <long name="p16904_2001">27192</long>
+            <long name="p17004_2000">1343753</long>
+            <long name="p17004_2001">656298</long>
+            <long name="p20103_2000">5736796</long>
+            <long name="p20103_2001">344352</long>
+            <long name="p20203_2000">4419023</long>
+            <long name="p20203_2001">293148</long>
+            <long name="p20293_2000">1317773</long>
+            <long name="p20293_2001">51204</long>
+            <long name="p20303_2000">854093</long>
+            <long name="p20303_2001">126373</long>
+            <long name="p20503_2000">463680</long>
+            <long name="p20503_2001">-75169</long>
+            <long name="p20903_2001">11664</long>
+            <long name="p21003_2000">20598</long>
+            <long name="p21003_2001">24</long>
+            <long name="p21203_2000">13632</long>
+            <long name="p21403_2000">456714</long>
+            <long name="p21403_2001">-63529</long>
+            <long name="p21503_2000">70637</long>
+            <long name="p21503_2001">4889</long>
+            <long name="p21903_2000">386077</long>
+            <long name="p21903_2001">-68418</long>
+            <str name="status">17</str>
+            <date name="timestamp">2014-08-13T08:04:00.292Z</date>
+        </doc>
+    </result>
+</response>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="id">bff8465826b667581d7b02a213ecb747533e1a03</field>
+    <field name="name">Буйнов Николай Михайлович</field>
+  </doc>
+  <doc>
+    <field name="id">41581880c1697f25e138084fb59e931d1b4301f2</field>
+    <field name="name">Седых Марина Владимировна</field>
+  </doc>
+</add>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.nullpointer</groupId>
+    <artifactId>creditnet-relations-webapp</artifactId>
+    <version>9.0.0-a2</version>
+    <packaging>war</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.5.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+
+        <cxf.version>3.1.6</cxf.version>
+        <atmosphere.version>1.0.13</atmosphere.version>
+        <creditnet.auth.version>2.12.2</creditnet.auth.version>
+        <creditnet.reldata.version>3.7.0</creditnet.reldata.version>
+        <creditnet.relation.common.version>6.6.0</creditnet.relation.common.version>
+        <creditnet.relations.data.version>6.6.0</creditnet.relations.data.version>
+        <creditnet.db.rest.cache.version>1.0.1</creditnet.db.rest.cache.version>
+        <creditnet.db.rest.client.version>2.11.0</creditnet.db.rest.client.version>
+        <relation.genius.version>1.0.2</relation.genius.version>
+        <solr.version>1.4.1</solr.version>
+
+        <neo4j.data.path>${basedir}/../neo4j/data/</neo4j.data.path>
+        <netbeans.hint.deploy.server>Tomcat</netbeans.hint.deploy.server>
+
+        <frontend.init.skip>false</frontend.init.skip>
+    </properties>
+
+    <build>
+        <defaultGoal>clean install</defaultGoal>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <filtering>true</filtering>
+                <directory>${basedir}/src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>${basedir}/src/main/resources</directory>
+                <includes>
+                    <include>*.properties</include>
+                </includes>
+            </testResource>
+        </testResources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <compilerArgument>-Xlint:all,-path</compilerArgument>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>frontend-init</id>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <skip>${frontend.init.skip}</skip>
+                            <target>
+                                <exec dir="${basedir}" executable="npm" failonerror="true">
+                                    <arg line="install"/>
+                                </exec>
+                                <exec dir="${basedir}" executable="grunt" failonerror="true">
+                                    <arg line="init"/>
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <useDefaultDelimiters>true</useDefaultDelimiters>
+                </configuration>
+                <executions>
+                    <!-- Копирование ресурсов профиля -->
+                    <execution>
+                        <id>copy-profile-resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/classes</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${profile.resources.dir}</directory>
+                                    <filtering>true</filtering>
+                                    <includes>
+                                        <include>main.properties</include>
+                                    </includes>
+                                </resource>
+                                <resource>
+                                    <directory>${profile.resources.dir}</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <compress>false</compress>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>production</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/production</profile.resources.dir>
+            </properties>
+        </profile>
+        <profile>
+            <id>testing</id>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/testing</profile.resources.dir>
+                <skipTests>true</skipTests>
+            </properties>
+        </profile>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/dev</profile.resources.dir>
+                <frontend.init.skip>true</frontend.init.skip>
+            </properties>
+        </profile>
+        <profile>
+            <id>dev-testing-data</id>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/dev-testing-data</profile.resources.dir>
+                <frontend.init.skip>true</frontend.init.skip>
+                <neo4j.data.path>${basedir}/../../neo4j-testing-data/</neo4j.data.path>
+            </properties>
+        </profile>
+        <profile>
+            <id>dev-skip-tests</id>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/dev</profile.resources.dir>
+                <skipTests>true</skipTests>
+                <frontend.init.skip>true</frontend.init.skip>
+            </properties>
+        </profile>
+        <profile>
+            <id>cnas-dev</id>
+            <properties>
+                <profile.resources.dir>${basedir}/src/main/profiles/cnas-dev</profile.resources.dir>
+                <skipTests>true</skipTests>
+                <frontend.init.skip>true</frontend.init.skip>
+            </properties>
+        </profile>
+    </profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Internal Releases</name>
+            <url>http://repo.nkb/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>http://repo.nkb/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>repo.nkb</id>
+            <url>http://repo.nkb/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>18.0</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>99.0-does-not-exist</version>
+            </dependency>
+
+            <!-- synchronize validation versions - http://stackoverflow.com/a/28608219 -->
+            <!-- JSR-303 from creditnet-auth-web-api and creditnet-reldata -->
+            <!-- JSR-349 from spring-boot -->
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>1.1.0.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>5.2.4.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>creditnet.db</groupId>
+            <artifactId>creditnet-db-rest-client</artifactId>
+            <version>${creditnet.db.rest.client.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-simple</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>creditnet-db-rest-cache</artifactId>
+            <version>${creditnet.db.rest.cache.version}</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>creditnet-auth-web-api</artifactId>
+            <groupId>creditnet.auth</groupId>
+            <version>${creditnet.auth.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>creditnet.egrul</groupId>
+                    <artifactId>creditnet-egrul-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>creditnet.db</groupId>
+            <artifactId>creditnet-reldata</artifactId>
+            <version>${creditnet.reldata.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>creditnet-relations-common</artifactId>
+            <version>${creditnet.relation.common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>creditnet-relations-kinship</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>creditnet-relations-data</artifactId>
+            <version>${creditnet.relations.data.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <!-- Apache Commons -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+        </dependency>
+
+        <!-- Solr -->
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>${solr.version}</version>
+        </dependency>
+
+        <!-- Apache CXF -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-rs-client</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-frontend-jaxrs</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-frontend-jaxws</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+
+        <!-- Spring mongodb -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+        </dependency>
+
+        <!-- Spring framework -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+        </dependency>
+
+        <!-- docx4j -->
+        <dependency>
+            <groupId>org.docx4j</groupId>
+            <artifactId>docx4j</artifactId>
+            <version>2.8.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+        </dependency>
+
+        <!-- iText -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>core-renderer</artifactId>
+            <version>R8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kitfox.svg</groupId>
+            <artifactId>svg-salamander</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.jtidy</groupId>
+            <artifactId>jtidy</artifactId>
+            <version>r938</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.imgscalr</groupId>
+            <artifactId>imgscalr-lib</artifactId>
+            <version>4.2</version>
+            <type>jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.atmosphere</groupId>
+            <artifactId>atmosphere-runtime</artifactId>
+            <version>${atmosphere.version}</version>
+            <!--
+            <exclusions>
+                <exclusion>
+                    <groupId>org.atmosphere</groupId>
+                    <artifactId>atmosphere-compat-jbossweb</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.atmosphere</groupId>
+                    <artifactId>atmosphere-compat-tomcat7</artifactId>
+                </exclusion>
+            </exclusions>
+            -->
+        </dependency>
+
+        <!-- i18n -->
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>i18n-common</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>creditnet.translation</groupId>
+            <artifactId>creditnet-translation-position</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>creditnet.translation</groupId>
+            <artifactId>creditnet-translation-shareholder</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>creditnet.translation</groupId>
+            <artifactId>creditnet-translation-egrul</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>1.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.kubek2k</groupId>
+            <artifactId>springockito</artifactId>
+            <version>1.0.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.nullpointer</groupId>
+            <artifactId>relation-genius</artifactId>
+            <version>${relation.genius.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

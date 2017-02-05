@@ -1,0 +1,8 @@
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.FIND_TR_NODE1", "_dstId": "COMPANY.200", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.FIND_TR_NODE2", "_dstId": "COMPANY.201", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.200", "_dstId": "COMPANY.202", "_source": "rosstat", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.200", "_dstId": "COMPANY.202", "_source": "egrul", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.200", "_dstId": "COMPANY.203", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.202", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.203", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.203", "_actual": 1363112360001, "_since": 1363112360001}

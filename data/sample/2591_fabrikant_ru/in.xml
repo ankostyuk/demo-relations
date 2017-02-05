@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <lst name="responseHeader">
+        <int name="status">0</int>
+        <int name="QTime">1</int>
+    </lst>
+    <result name="response" numFound="1" start="0">
+        <doc>
+            <arr name="address">
+                <str>123242, г москва ул дружинниковская д 30 стр 1</str>
+            </arr>
+            <arr name="addresshistory">
+                <str>г москва ул дружинниковская д 30 стр 1</str>
+                <str>г москваул дружинниковская д 30 стр 1</str>
+            </arr>
+            <int name="addressindex">123242</int>
+            <str name="addresssort">г Москва, ул Дружинниковская, д 30, стр 1</str>
+            <long name="bsn_id">3956163</long>
+            <arr name="chief">
+                <str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Габестро Сергей Владиленович</str>
+            </arr>
+            <str name="chief_name">Габестро Сергей Владиленович</str>
+            <arr name="chiefhistory">
+                <str>мишутин дмитрий викторович</str>
+            </arr>
+            <date name="founded_dt">2005-08-28T20:00:00Z</date>
+            <arr name="founder">
+                <str>граждане россии(6)</str>
+                <str>компания с ограниченной ответственностью кселентра</str>
+            </arr>
+            <arr name="founderhistory">
+                <str>граждане россии(8)</str>
+                <str>граждане россии(9)</str>
+                <str>граждане россии (6)</str>
+                <str>граждане россии (5)</str>
+            </arr>
+            <arr name="founderoksmcode">
+                <int>196</int>
+            </arr>
+            <arr name="founderoksmcodehistory">
+                <int>643</int>
+            </arr>
+            <arr name="ident">
+                <str>7703561549</str>
+                <str>1057748006139</str>
+                <str>78522076</str>
+                <str>2077763580453</str>
+                <str>6097746582070</str>
+                <str>6107747827962</str>
+                <str>6107748683400</str>
+                <str>9107748116291</str>
+                <str>9117746433686</str>
+                <str>7137746572198</str>
+            </arr>
+            <bool name="in_tpp">false</bool>
+            <long name="inn">7703561549</long>
+            <arr name="name">
+                <str>Общество с ограниченной ответственностью "Фабрикант.ру"</str>
+                <str>ООО "Фабрикант.ру"</str>
+            </arr>
+            <str name="nameshortsort">ООО "Фабрикант.ру"</str>
+            <str name="namesort">Общество с ограниченной ответственностью "Фабрикант.ру"</str>
+            <long name="ogrn">1057748006139</long>
+            <date name="ogrn_dt">2005-08-28T20:00:00Z</date>
+            <long name="okatocode">45286575000</long>
+            <int name="okfscode">34</int>
+            <int name="okogucode">4210011</int>
+            <int name="okopfcode">12165</int>
+            <int name="okopfpre2013code">65</int>
+            <long name="okpo">78522076</long>
+            <int name="oktmocode">45380000</int>
+            <str name="okvedcode_main">7210</str>
+            <arr name="okvedcodes">
+                <str>7414</str>
+                <str>741</str>
+                <str>7260</str>
+                <str>7220</str>
+                <str>7240</str>
+                <str>7230</str>
+            </arr>
+            <str name="status">17</str>
+            <date name="timestamp">2013-10-10T08:47:18.179Z</date>
+        </doc>
+    </result>
+</response>

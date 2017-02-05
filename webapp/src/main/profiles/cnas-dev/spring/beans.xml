@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cnas-dev -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+    ">
+
+    <!-- Security -->
+    <bean id="securityService" class="ru.nullpointer.nkbrelation.service.security.AnonymousSecurityServiceWrapper">
+        <property name="securityService">
+            <bean class="ru.nullpointer.nkbrelation.service.security.CnasSecurityService">
+                <property name="securityServiceEndpoint" ref="cnasSecurityServiceEndpoint" />
+                <property name="clientRequestServiceEndpoint" ref="cnasClientRequestServiceEndpoint" />
+            </bean>
+        </property>
+    </bean>
+    <!-- Без демо-версии <bean id="securityService" class="ru.nullpointer.nkbrelation.service.security.CnasSecurityService">
+        <property name="securityServiceEndpoint" ref="cnasSecurityServiceEndpoint" />
+    </bean> -->
+
+    <bean id="cnasSecurityServiceEndpoint" class="creditnet.cnas.auth.SecurityServiceEndpoint"
+          factory-bean="cnasSecurityServiceFactory" factory-method="create" />
+
+    <bean id="cnasSecurityServiceFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+        <property name="serviceClass" value="creditnet.cnas.auth.SecurityServiceEndpoint" />
+        <property name="address" value="${relations.cnas.securityServiceUrl}" />
+        <property name="outInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" />
+            </list>
+        </property>
+        <property name="inInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingInInterceptor" />
+            </list>
+        </property>
+    </bean>
+
+    <!-- Billing -->
+    <bean id="billingService" class="ru.nullpointer.nkbrelation.service.billing.AnonymousBillingServiceWrapper">
+        <property name="billingService">
+            <bean class="ru.nullpointer.nkbrelation.service.billing.CnasBillingService">
+                <property name="clientRequestServiceEndpoint" ref="cnasClientRequestServiceEndpoint" />
+            </bean>
+        </property>
+    </bean>
+    <!-- Без демо-версии <bean id="billingService" class="ru.nullpointer.nkbrelation.service.billing.CnasBillingService">
+        <property name="clientRequestServiceEndpoint" ref="cnasClientRequestServiceEndpoint" />
+    </bean> -->
+
+    <bean id="cnasClientRequestServiceEndpoint" class="creditnet.cnas.service.ClientRequestServiceEndpoint"
+          factory-bean="cnasClientRequestServiceFactory" factory-method="create" />
+
+    <bean id="cnasClientRequestServiceFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+        <property name="serviceClass" value="creditnet.cnas.service.ClientRequestServiceEndpoint" />
+        <property name="address" value="${relations.cnas.requestServiceUrl}" />
+        <property name="outInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" />
+            </list>
+        </property>
+        <property name="inInterceptors">
+            <list merge="true">
+                <bean class="org.apache.cxf.interceptor.LoggingInInterceptor" />
+            </list>
+        </property>
+    </bean>
+
+</beans>

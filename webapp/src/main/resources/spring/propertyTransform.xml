@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    ">
+
+    <!-- Порядок важен -->
+    <util:list id="transformManagers">
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.purchase.PurchaseLotPropertyTransformer">
+                    <property name="type" value="PURCHASE" />
+                </bean>
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.CompanyNameDifferencePropertyTransformer">
+                    <property name="type" value="COMPANY" />
+                </bean>
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierPropertyTransformer">
+                    <property name="configKey" value="_type" />
+                    <property name="config" ref="classifierConfig" />
+                    <property name="defaultLanguage" value="ru" />
+                </bean>
+            </property>
+            <property name="contextFactory">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.LanguageContextFactory" />
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.NameGenderPropertyTransformer">
+                    <property name="configKey" value="_type" />
+                    <property name="config" ref="nameGenderConfig" />
+                </bean>
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.impl.AddressPropertyTransformer">
+                    <property name="configKey" value="_type" />
+                    <property name="config" ref="normalizeAddressConfig" />
+                </bean>
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.impl.EgrulRegStatePropertyTransformer">
+                    <property name="type" value="COMPANY" />
+                    <property name="defaultActualDate">
+                        <bean factory-bean="actualDateFormat" factory-method="parse">
+                            <constructor-arg value="${relations.neo4j.actual.default}" />
+                        </bean>
+                    </property>
+                </bean>
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.translate.TranslatePropertyTransformer">
+                    <property name="languages" value="en,de" />
+                    <property name="config" ref="translateConfig" />
+                    <property name="configKey" value="_type" />
+                    <property name="translitRules" value="classpath:/i18n/translit-rules.txt" />
+                </bean>
+            </property>
+            <property name="contextFactory">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.LanguageContextFactory" />
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.translit.TranslitPropertyTransformer">
+                    <property name="languages" value="en,de" />
+                    <property name="config" ref="translitConfig" />
+                    <property name="configKey" value="_type" />
+                    <property name="translitRules" value="classpath:/i18n/translit-rules.txt" />
+                </bean>
+            </property>
+            <property name="contextFactory">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.LanguageContextFactory" />
+            </property>
+        </bean>
+
+        <bean class="ru.nullpointer.nkbrelation.service.transform.ContextPropertyTransformManager">
+            <property name="propertyTransformer">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.screen.ScreenPropertyTransformer">
+                    <property name="screenPrefix" value="#"/>
+                    <property name="config" ref="screenConfig" />
+                    <property name="configKey" value="_type" />
+                </bean>
+            </property>
+            <property name="contextFactory">
+                <bean class="ru.nullpointer.nkbrelation.service.transform.ScreeningContextFactory" />
+            </property>
+        </bean>
+    </util:list>
+
+    <!-- Транслитерация значений -->
+    <util:map id="translitConfig" value-type="java.lang.String[]">
+        <entry key="COMPANY" value="
+            namesort,
+            nameshortsort,
+            chief_name,
+            addresssort"
+        />
+        <entry key="INDIVIDUAL" value="name" />
+        <entry key="ADDRESS" value="value" />
+        <entry key="PHONE" value="value" />
+        <entry key="EXECUTIVE_COMPANY" value="representative" />
+    </util:map>
+
+    <!-- Перевод значений -->
+    <util:map id="translateConfig" value-type="java.lang.String[]">
+        <entry key="COMPANY" value="
+            individual_placeholders.name,
+            egrul_state.type,
+            egrul_reg.type,
+            egrul_liq.type"
+        />
+        <entry key="EXECUTIVE_INDIVIDUAL" value="position" />
+    </util:map>
+
+    <!-- Нормализация адресов -->
+    <util:map id="normalizeAddressConfig">
+        <entry key="COMPANY" value="addresssort" />
+        <!--
+        <entry key="ADDRESS" value="value" />
+        -->
+    </util:map>
+
+    <!-- Скрининг значений -->
+    <!--
+        ░ &#x2591;
+        ▒ &#x2592;
+        ▓ &#x2593;
+        █ &#x2588;
+        • &#x8226;
+        · &#x183;
+    -->
+    <bean id="screenValue" class="java.lang.String">
+        <constructor-arg value="&#x2591;"/>
+    </bean>
+
+    <bean id="nameScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.NameScreener">
+        <property name="screenValue" ref="screenValue" />
+    </bean>
+
+    <bean id="individualNameScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.IndividualNameScreener">
+        <property name="screenValue" ref="screenValue" />
+    </bean>
+
+    <bean id="addressScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.TextEndScreener">
+        <property name="screenValue" ref="screenValue" />
+        <property name="pivot" value="0.7" />
+    </bean>
+
+    <bean id="numberScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.TextEndScreener">
+        <property name="screenValue" ref="screenValue" />
+        <property name="pivot" value="0.6" />
+    </bean>
+
+    <bean id="fullScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.FullScreener">
+        <property name="screenValue" ref="screenValue" />
+    </bean>
+
+    <bean id="dateScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.PatternScreener">
+        <property name="screenValue" ref="screenValue" />
+        <property name="pattern" value="$$-$$-$$" />
+    </bean>
+
+    <bean id="xxScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.PatternScreener">
+        <property name="screenValue" ref="screenValue" />
+        <property name="pattern" value="$$" />
+    </bean>
+
+    <bean id="quoteScreener" class="ru.nullpointer.nkbrelation.service.transform.screen.QuoteScreener">
+        <property name="screenValue" ref="screenValue" />
+    </bean>
+
+    <!-- Node screeners -->
+    <util:map id="companyScreeners">
+        <entry key="okpo" value-ref="numberScreener" />
+        <entry key="inn" value-ref="numberScreener" />
+        <entry key="ogrn" value-ref="numberScreener" />
+
+        <entry key="namesort" value-ref="quoteScreener" />
+        <entry key="nameshortsort" value-ref="quoteScreener" />
+
+        <entry key="chief_name" value-ref="nameScreener" />
+        <entry key="addresssort" value-ref="addressScreener" />
+        <entry key="founded_dt" value-ref="dateScreener" />
+        <entry key="dead_dt" value-ref="dateScreener" />
+        <entry key="${relations.meta.lastYearSalesProperty}" value-ref="xxScreener" />
+    </util:map>
+
+    <util:map id="individualScreeners">
+        <entry key="name" value-ref="individualNameScreener" />
+    </util:map>
+
+    <!-- TODO свалены в кучу скринеры для нод и связей -->
+    <util:map id="addressScreeners">
+        <entry key="value" value-ref="addressScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <!-- TODO свалены в кучу скринеры для нод и связей -->
+    <util:map id="phoneScreeners">
+        <entry key="value" value-ref="numberScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <!-- Relation screeners -->
+    <util:map id="founderCompanyScreeners">
+        <entry key="shareAmount" value-ref="xxScreener" />
+        <entry key="sharePercent" value-ref="xxScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="founderIndividualScreeners">
+        <entry key="shareAmount" value-ref="xxScreener" />
+        <entry key="sharePercent" value-ref="xxScreener" />
+        <entry key="inn" value-ref="numberScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="headCompanyScreeners">
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="executiveCompanyScreeners">
+        <entry key="representative" value-ref="nameScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="executiveIndividualScreeners">
+        <entry key="inn" value-ref="numberScreener" />
+        <entry key="position" value-ref="quoteScreener" />
+
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="predecessorCompanyScreeners">
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="registerHolderScreeners">
+        <entry key="_since" value-ref="dateScreener" />
+        <entry key="_actual" value-ref="dateScreener" />
+    </util:map>
+
+    <util:map id="screenConfig">
+        <entry key="COMPANY" value-ref="companyScreeners" />
+        <entry key="INDIVIDUAL" value-ref="individualScreeners" />
+        <entry key="ADDRESS" value-ref="addressScreeners" />
+        <entry key="PHONE" value-ref="phoneScreeners" />
+
+        <entry key="FOUNDER_COMPANY" value-ref="founderCompanyScreeners" />
+        <entry key="FOUNDER_INDIVIDUAL" value-ref="founderIndividualScreeners" />
+        <entry key="HEAD_COMPANY" value-ref="headCompanyScreeners" />
+        <entry key="EXECUTIVE_COMPANY" value-ref="executiveCompanyScreeners" />
+        <entry key="EXECUTIVE_INDIVIDUAL" value-ref="executiveIndividualScreeners" />
+        <entry key="PREDECESSOR_COMPANY" value-ref="predecessorCompanyScreeners" />
+        <entry key="REGISTER_HOLDER" value-ref="registerHolderScreeners" />
+    </util:map>
+
+    <!-- Производные свойства -->
+    <util:map id="classifierConfig">
+        <entry key="COMPANY" value-ref="companyClassifiers" />
+    </util:map>
+
+    <util:list id="companyClassifiers">
+        <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierMapping">
+            <property name="sourceField" value="okvedcode_bal" />
+            <property name="resultField" value="okved_bal_text" />
+            <property name="classifier" ref="okvedClassifier" />
+        </bean>
+        <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierMapping">
+            <property name="sourceField" value="okvedcode_bal" />
+            <property name="resultField" value="okved_bal_short_text" />
+            <property name="classifier" ref="shortOkvedClassifier" />
+        </bean>
+        <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierMapping">
+            <property name="sourceField" value="okvedcode_main" />
+            <property name="resultField" value="okved_main_text" />
+            <property name="classifier" ref="okvedClassifier" />
+        </bean>
+        <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierMapping">
+            <property name="sourceField" value="okvedcode_main" />
+            <property name="resultField" value="okved_main_short_text" />
+            <property name="classifier" ref="shortOkvedClassifier" />
+        </bean>
+        <bean class="ru.nullpointer.nkbrelation.service.transform.derived.ClassifierMapping">
+            <property name="sourceField" value="okfscode" />
+            <property name="resultField" value="okfs_text" />
+            <property name="classifier" ref="okfsClassifier" />
+        </bean>
+    </util:list>
+
+    <util:map id="nameGenderConfig">
+        <entry key="COMPANY">
+            <list>
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.Mapping">
+                    <property name="sourceField" value="chief_name" />
+                    <property name="resultField" value="chief_gender" />
+                </bean>
+            </list>
+        </entry>
+        <entry key="INDIVIDUAL">
+            <list>
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.Mapping">
+                    <property name="sourceField" value="name" />
+                    <property name="resultField" value="gender" />
+                </bean>
+            </list>
+        </entry>
+        <entry key="EXECUTIVE_COMPANY">
+            <list>
+                <bean class="ru.nullpointer.nkbrelation.service.transform.derived.Mapping">
+                    <property name="sourceField" value="representative" />
+                    <property name="resultField" value="representative_gender" />
+                </bean>
+            </list>
+        </entry>
+    </util:map>
+
+</beans>

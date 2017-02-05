@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Parameter name="relations.build.type" value="production" override="false" />
+
+    <Parameter name="relations.mongo.host" value="127.0.0.1" override="false" />
+    <Parameter name="relations.mongo.port" value="27017" override="false" />
+    <Parameter name="relations.mongo.dbname" value="nkbrelation" override="false" />
+
+    <Parameter name="relations.neo4j.data.path" value="/srv/neo4j/data/" override="false" />
+    <Parameter name="relations.neo4j.source.default" value="rosstat" override="false" />
+    <Parameter name="relations.neo4j.actual.default" value="2011-12-13" override="false" />
+
+    <Parameter name="relations.solr.company.url" value="http://search.creditnet:8080/solr/bsn/" override="false" />
+
+    <Parameter name="relations.solr.individual.url" value="http://localhost:8080/solr/individual/" override="false" />
+    <Parameter name="relations.solr.address.url" value="http://localhost:8080/solr/address/" override="false" />
+    <Parameter name="relations.solr.phone.url" value="http://localhost:8080/solr/phone/" override="false" />
+    <Parameter name="relations.solr.purchase.url" value="http://localhost:8080/solr/purchase/" override="false" />
+
+    <Parameter name="relations.cnas.securityServiceUrl" value="http://search.creditnet:8080/cnas/services/SecurityService?wsdl" override="false" />
+    <Parameter name="relations.cnas.requestServiceUrl" value="http://search.creditnet:8080/cnas/services/ClientRequestService?wsdl" override="false" />
+
+    <Parameter name="relations.classifier.rest.url" value="http://testing.nkb:8080/rest/" override="false" />
+
+    <Parameter name="relations.webrender.url.template" value="http://localhost:3000/render.png?selector=[app-graph-layout]&amp;check=_REPORT_READY_&amp;zoom={scale}&amp;url=http://localhost:8084/nkbrelation/internal/export/report/{reportId}/?lang={lang}" override="false" />
+
+</Context>

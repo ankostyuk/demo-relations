@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<add overwrite="true">
+    <doc>
+        <field name="id">0338300003314000024</field>
+        <field name="name">Поставка продуктов питания для нужд государственного бюджетного учреждения здравоохранения Камчатского края «Вилючинская городская больница» - хлеб.</field>
+        <field name="law">FZ_223</field>
+        <field name="form">Запрос котировок</field>
+        <field name="date">2014-06-05T08:46:58.373Z</field>
+        <field name="href">http://zakupki.gov.ru/epz/order/notice/zk44/view/common-info.html?regNumber=0338300003314000024</field>
+        <field name="currency">USD</field>
+        <field name="lot_count">1</field>
+        <field name="total_price">332375.00</field>
+        <field name="lot_name_1">Поставка продуктов питания для нужд государственного бюджетного учреждения здравоохранения Камчатского края «Вилючинская городская больница» - хлеб.</field>
+        <field name="lot_price_1">332375.00</field>
+        <field name="lot_okpd_1">15.81.11</field>
+    </doc>
+    <doc>
+        <field name="id">0330100010514000004</field>
+        <field name="name">Выполнение работ по оценке уязвимости объектов транспортной инфраструктуры в сфере дорожного хозяйства по лотам</field>
+        <field name="law">FZ_44</field>
+        <field name="form">Открытый конкурс</field>
+        <field name="date">2014-03-13T16:13:51.593Z</field>
+        <field name="href">http://zakupki.gov.ru/epz/order/notice/ok44/view/common-info.html?regNumber=0330100010514000004</field>
+        <field name="currency">RUB</field>
+        <field name="lot_count">2</field>
+        <field name="total_price">1062117</field>
+        <field name="lot_name_1">Выполнение работ по оценке уязвимости объектов транспортной инфраструктуры в сфере дорожного хозяйства, находящихся в оперативном управлении ФКУ «Управление автомобильной магистрали Москва-Архангельск Федерального дорожного агентства»:  мост через р. Шавшуга на км 713+109 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Шиловская (0,0 км), мост через р. Неленьга на км 920+550 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Кица (4,1 км), мост через р. Юмзеньга на км 864+306 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Литвиново (1,5 км), мост через р. Илас на км 1211+317 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Илас (0,6 км), мост через р. Б. Чурга на км 782+430 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Кухтарево (1,0 км), мост через р. М. Чурга на км 768+757 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Юхнево (8,0 км), мост через р. Сюма на км 909+502 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Климушкино (3,0 км), мост через р. Кехта на км 1171+845 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, п. Беломорье (20,0 км), мост через р. Емца км 1060+638 на автомобильной дороге М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, г. Емец (0,0 км) в Архангельской области</field>
+        <field name="lot_price_1">645078</field>
+        <field name="lot_okpd_1">75.24.12.990</field>
+        <field name="lot_name_2">Выполнение работ по оценке уязвимости объектов транспортной инфраструктуры в сфере дорожного хозяйства, находящихся в оперативном управлении ФКУ «Управление автомобильной магистрали Москва-Архангельск Федерального дорожного агентства»:  путепровод через проселочную дорогу на км 307+935 автомобильной дороги А-114 Вологда - Новая Ладога до магистрали «Кола» (через Тихвин), пос. Сазоново (3,0 км), мост через р. Комела на км 433+600 автомобильной дороги М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, д. Михалево (1,0 км), путепровод над автомобильной дорогой А-114 на км 124+800 автомобильной дороги А-114 Вологда - Новая Ладога до магистрали «Кола» (через Тихвин), пос. Войново (0,2 км), мост через р. Суда на км 148+300 на автомобильной дороге А-114 Вологда - Новая Ладога до магистрали «Кола» (через Тихвин), г. Суда (4,0 км), мост через р. Шексна км 84+275 на автомобильной дороге А-114 Вологда - Новая Ладога до магистрали «Кола» (через Тихвин), пос. Шексна (0,5 км), мост через р. Сухона км 495+590 на автомобильной дороге М-8 «Холмогоры» от Москвы через Ярославль, Вологду до Архангельска, пос. Литега (0,2 км) в Вологодской области</field>
+        <field name="lot_price_2">417039</field>
+        <field name="lot_okpd_2">75.24.12.990</field>
+    </doc>
+    <doc>
+        <field name="id">0338300051614000001</field>
+        <field name="name">приобретение канцелярских товаров</field>
+        <field name="law">FZ_44</field>
+        <field name="form">Электронный аукцион</field>
+        <field name="etp">ЗАО «Сбербанк-АСТ»</field>
+        <field name="date">2014-06-20T04:11:46.389Z</field>
+        <field name="href">http://zakupki.gov.ru/epz/order/notice/ea44/view/common-info.html?regNumber=0338300051614000001</field>
+        <field name="currency">RUB</field>
+        <field name="lot_count">1</field>
+        <field name="total_price">500000.35</field>
+        <field name="lot_name_1">приобретение канцелярских товаров</field>
+        <field name="lot_price_1">249998.35</field>
+        <field name="lot_okpd_1">36.63.21.129</field>
+        <field name="lot_okpd_1">21.12.53.418</field>
+        <field name="lot_okpd_1">21.23.13.110</field>
+        <field name="lot_okpd_1">20.51.14.299</field>
+        <field name="lot_okpd_1">28.75.22.130</field>
+        <field name="lot_okpd_1">36.63.24</field>
+        <field name="lot_okpd_1">36.63.24.140</field>
+        <field name="lot_okpd_1">24.30.23.110</field>
+        <field name="lot_okpd_1">24.30.23</field>
+        <field name="lot_okpd_1">24.62.10.150</field>
+        <field name="lot_okpd_1">24.66.42</field>
+        <field name="lot_okpd_1">25.24.27.190</field>
+        <field name="lot_name_2">приобретение портфелей и папок</field>
+        <field name="lot_price_2">250002</field>
+        <field name="lot_okpd_2">25.24.27.170</field>
+    </doc>
+    <doc>
+        <field name="id">0138300000414000173</field>
+        <field name="name">Школьная ученическая мебель</field>
+        <field name="law">FZ_44</field>
+        <field name="form">Электронный аукцион</field>
+        <field name="etp">ОАО «ЕЭТП»</field>
+        <field name="date">2014-04-30T03:40:29.532Z</field>
+        <field name="href">http://zakupki.gov.ru/epz/order/notice/ea44/view/common-info.html?regNumber=0138300000414000173</field>
+        <field name="currency">RUB</field>
+        <field name="lot_count">1</field>
+        <field name="total_price">123401.27</field>
+        <field name="lot_name_1">Школьная ученическая мебель</field>
+        <field name="lot_price_1">123401.27</field>
+        <field name="lot_okpd_1">36.12.12.122</field>
+        <field name="lot_okpd_1">36.12.12.164</field>
+        <field name="lot_okpd_1">36.11.11.160</field>
+    </doc>
+    <doc>
+        <field name="law">FZ_94</field>
+        <field name="form">Открытый конкурс</field>
+        <field name="lot_price_1">13111328.18</field>
+        <field name="lot_okdp_1">7492050</field>
+        <field name="date">2013-08-01T11:49:51.000Z</field>
+        <field name="total_price">13111328.18</field>
+        <field name="currency">RUB</field>
+        <field name="id">0373200138713000007</field>
+        <field name="lot_count">1</field>
+        <field name="name">Открытый конкурс на право заключения договора на выполнение монтажных и пуско-наладочных работ по модернизации комплексных систем безопасности.</field>
+        <field name="lot_name_1">Выполнение монтажных и пуско-наладочных работ по модернизации комплексных систем безопасности</field>
+        <field name="href">http://zakupki.gov.ru/pgz/public/action/orders/info/common_info/show?notificationId=6711508</field>
+    </doc>
+    <doc>
+        <field name="date">2014-12-08T17:06:42.000Z</field>
+        <field name="lot_name_7">ТРУБА 15*2,8*НД СТ3ПС ГОСТ 10704-91 ГОСТ 380-2005</field>
+        <field name="lot_name_6">ТРУБА 108*4*НД В СТ20 ГОСТ 10704-91 ГОСТ 1050-88</field>
+        <field name="lot_name_9">ТРУБА 20*2,8*НД СТ3ПС   ГОСТ 3262-75</field>
+        <field name="lot_name_8">ТРУБА 159*4*НД СТ3ПС ГОСТ 10704-91 ГОСТ 380-2005</field>
+        <field name="id">31401785749</field>
+        <field name="lot_name_2">ЛИСТ 10*1500*6000 Б-НО-ПН -СТ3СП-  ГОСТ 19903-74 ГОСТ 14637-89</field>
+        <field name="lot_name_3">ЛИСТ 4*1500*6000 Б-О-ПН -СТ3ПС-  ГОСТ 19903-74 ГОСТ 14637-89</field>
+        <field name="lot_name_10">ТРУБА 219*6*НД СТ10 ГОСТ 10704-91 ГОСТ 1050-88</field>
+        <field name="lot_name_11">ТРУБА 25*3,2*НД ГОСТ 3262-75</field>
+        <field name="lot_name_4">ЛИСТ 6*1500*6000 Б-О-ПН СТ3ПС ГОСТ 19903-74 ГОСТ 14637-89</field>
+        <field name="lot_name_12">ТРУБА 273*6*НД СТ10 ГОСТ 10704-91 ГОСТ 1050-88</field>
+        <field name="lot_name_5">ЛИСТ 8*1500*6000 Б-НО-ПН СТ3ПС-5 ГОСТ 19903-74 ГОСТ 14637-89</field>
+        <field name="lot_name_1">АРМАТУРА 20 А-I СТ3 ГОСТ 5781-82</field>
+        <field name="name">Поставка металлопроката для нужд ОАО «КемВод»</field>
+        <field name="lot_name_17">ТРУБА 530*8*НД СТ20 ГОСТ 10704-91 ГОСТ 1050-88</field>
+        <field name="lot_name_18">ТРУБА 57*3,5*НД СТ20 ГОСТ 10704-91 ГОСТ 1050-88</field>
+        <field name="lot_name_19">ТРУБА 76*3,5*НД ГОСТ 3262-75</field>
+        <field name="lot_name_13">ТРУБА 32*3,2*НД ГОСТ 3262-75</field>
+        <field name="lot_name_14">ТРУБА 325*6*НД СТ3ПС ГОСТ 10704-91 ГОСТ 380-2005</field>
+        <field name="href">http://zakupki.gov.ru/epz/order/quicksearch/update.html?placeOfSearch=FZ_223&amp;orderStages=AF&amp;orderStages=CA&amp;orderStages=PC&amp;orderStages=PA&amp;sortBy=UPDATE_DATE&amp;searchString=31401785749</field>
+        <field name="lot_name_15">ТРУБА 377*8*НД СТ08Х18Н10Т ГОСТ 9941-81</field>
+        <field name="lot_name_16">ТРУБА 40*3,5*НД ГОСТ 3262-75</field>
+        <field name="lot_okdp_17">2712000</field>
+        <field name="law">FZ_223</field>
+        <field name="lot_okdp_8">2712000</field>
+        <field name="lot_okdp_16">2712000</field>
+        <field name="lot_okdp_7">2712000</field>
+        <field name="lot_okdp_15">2712000</field>
+        <field name="lot_okdp_6">2712000</field>
+        <field name="lot_okdp_14">2712000</field>
+        <field name="lot_okdp_5">2712000</field>
+        <field name="lot_okdp_13">2712000</field>
+        <field name="form">Запрос предложений</field>
+        <field name="lot_okdp_4">2712000</field>
+        <field name="lot_okdp_12">2712000</field>
+        <field name="lot_okdp_3">2712000</field>
+        <field name="lot_okdp_11">2712000</field>
+        <field name="lot_okdp_2">2712000</field>
+        <field name="lot_okdp_10">2712000</field>
+        <field name="lot_okdp_1">2712000</field>
+        <field name="lot_count">19</field>
+        <field name="lot_okdp_18">2712000</field>
+        <field name="lot_okdp_9">2712000</field>
+        <field name="lot_okdp_19">2712000</field>
+    </doc>
+</add>

@@ -1,0 +1,15 @@
+{
+  "name": "creditnet-relations-webapp",
+  "version": "",
+  "description": "",
+  "dependencies": {
+    "nullpointer-relation-ui": "git@github.com:newpointer/relation-ui.git#5.0.0-a2"
+  },
+  "devDependencies": {},
+  "exportsOverride": {
+    "nullpointer-relation-ui": {
+      "": "dist/nkb-app"
+    }
+  },
+  "private": true
+}

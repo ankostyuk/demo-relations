@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+    ">
+
+    <bean id="springSecurityFilterChain" class="org.springframework.security.web.FilterChainProxy">
+        <constructor-arg>
+            <list>
+                <security:filter-chain pattern="/api/**" filters="
+                    securityContextPersistenceFilter,
+                    requestCookieAuthenticationFilter,
+                    basicAuthenticationFilter,
+                    anonymousAuthenticationFilter
+                " />
+                <security:filter-chain pattern="/internal/**" filters="
+                    securityContextPersistenceFilter,
+                    requestCookieAuthenticationFilter,
+                    basicAuthenticationFilter,
+                    anonymousAuthenticationFilter
+                " />
+                <!-- Без демо-версии <security:filter-chain pattern="/api/**" filters="
+                securityContextPersistenceFilter,
+                persistence
+                requestCookieAuthenticationFilter
+                " /> -->
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="basicAuthenticationFilter"
+          class="org.springframework.security.web.authentication.www.BasicAuthenticationFilter">
+        <constructor-arg ref="authenticationManager"/>
+        <constructor-arg ref="authenticationEntryPoint"/>
+    </bean>
+
+    <bean id="authenticationEntryPoint"
+          class="ru.nullpointer.nkbrelation.security.EmptyBodyBasicAuthenticationEntryPoint">
+        <property name="realmName" value="connections"/>
+    </bean>
+    <!--
+        Этот фильтр нужен для очистки SecurityContextHolder после обработки запроса
+        Должен стоять первым в цепочке фильтров
+        Хранилище не используется (бэкпорт NullSecurityContextRepository из spring-security 3.1)
+    -->
+    <!--
+    <bean id="securityContextPersistenceFilter" class="org.springframework.security.web.context.SecurityContextPersistenceFilter">
+        <property name="securityContextRepository">
+            <bean class="ru.nullpointer.nkbrelation.security.NullSecurityContextRepository" />
+        </property>
+    </bean>
+    -->
+    <bean id="httpSessionSecurityContextRepository" class="org.springframework.security.web.context.HttpSessionSecurityContextRepository"/>
+
+    <bean id="securityContextPersistenceFilter" class="org.springframework.security.web.context.SecurityContextPersistenceFilter">
+        <constructor-arg ref="httpSessionSecurityContextRepository" />
+    </bean>
+
+    <bean id="requestCookieAuthenticationFilter" class="ru.nullpointer.nkbrelation.security.RequestCookieAuthenticationFilter">
+        <property name="principalRequestCookie" value="creditnet_ticket" />
+        <property name="authenticationManager" ref="authenticationManager" />
+        <property name="checkForPrincipalChanges" value="true" />
+    </bean>
+
+    <!-- Поддержка анонимов -->
+    <bean id="anonymousAuthenticationFilter" class="org.springframework.security.web.authentication.AnonymousAuthenticationFilter">
+        <constructor-arg value="anonymous-key"/>
+        <constructor-arg value="#{anonymousConfig.password}"/>
+        <constructor-arg value="#{anonymousConfig.authorities}"/>
+    </bean>
+
+    <bean id="anonymousConfig" class="org.springframework.security.core.userdetails.memory.UserAttribute">
+        <property name="password" value="anonymous" /> <!-- Используется как userId для анонима -->
+        <property name="authoritiesAsString">
+            <list>
+                <!-- отсутствие DATA_VIEWFULL маскирует данные -->
+                <value>SEARCH</value>
+                <value>SEARCH_RELATED</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="anonymousResolver" class="org.springframework.security.authentication.AuthenticationTrustResolverImpl" />
+
+
+    <security:authentication-manager alias="authenticationManager">
+        <security:authentication-provider ref="ticketProvider" />
+        <security:authentication-provider ref="usernamePasswordProvider" />
+    </security:authentication-manager>
+
+    <bean id="ticketProvider" class="ru.nullpointer.nkbrelation.security.TicketAuthenticationProvider">
+        <property name="securityService" ref="securityService" />
+    </bean>
+
+    <bean id="usernamePasswordProvider" class = "ru.nullpointer.nkbrelation.security.UsernamePasswordAuthenticationProvider">
+        <property name="securityService" ref="securityService" />
+    </bean>
+
+</beans>

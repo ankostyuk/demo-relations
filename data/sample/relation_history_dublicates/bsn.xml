@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<add overwrite="true">
+    <doc>
+        <field name="bsn_id">10001</field>
+        <field name="name">Company D1</field>
+        <field name="nameshortsort">Company D1</field>
+    </doc>
+</add>

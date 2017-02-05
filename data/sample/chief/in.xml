@@ -1,0 +1,2761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+ <int name="status">0</int>
+ <int name="QTime">37</int>
+</lst>
+<result name="response" numFound="29" start="0">
+ <doc>
+  <arr name="address"><str>162611, вологодская область г череповец ул промышленная д 9-а</str></arr>
+  <int name="addressindex">162611</int>
+  <str name="addresssort">Вологодская область, г Череповец, ул Промышленная, д 9-А</str>
+  <arr name="balance"><int>2012</int><int>2011</int></arr>
+  <arr name="balance_forms_2011"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2012"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">8371193</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Цветков Андрей Евгеньевич</str></arr>
+  <str name="chief_name">Цветков Андрей Евгеньевич</str>
+  <date name="founded_dt">2011-11-02T20:00:00Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>3528183647</str><str>1113528012982</str><str>30559319</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">3528183647</long>
+  <arr name="name"><str>общество с ограниченной ответственностью череповецмонтажстройсервис</str><str>ооо череповецмонтажстройсервис</str></arr>
+  <str name="nameshortsort">ООО "ЧереповецМонтажСтройСервис"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "ЧереповецМонтажСтройСервис"</str>
+  <long name="ogrn">1113528012982</long>
+  <date name="ogrn_dt">2011-11-02T20:00:00Z</date>
+  <long name="okatocode">19430000000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">30559319</long>
+  <int name="oktmocode">19730000</int>
+  <str name="okvedcode_bal">29249</str>
+  <str name="okvedcode_main">29249</str>
+  <arr name="okvedcodes"><str>45251</str><str>45213</str><str>28229</str>
+	<str>29239</str><str>7484</str><str>74309</str><str>45111</str>
+	<str>2951</str><str>29409</str><str>7450</str><str>45217</str>
+	<str>29129</str><str>4525</str><str>31629</str><str>29229</str>
+	<str>4532</str><str>29569</str><str>45254</str><str>33509</str>
+	<str>4534</str><str>7250</str><str>4533</str><str>28309</str>
+	<str>29219</str><str>452</str><str>453</str><str>4550</str>
+	<str>4521</str></arr>
+  <long name="p12404_2011">417000</long>
+  <long name="p12404_2012">546000</long>
+  <long name="p12604_2011">13000</long>
+  <long name="p12604_2012">46000</long>
+  <long name="p12904_2011">430000</long>
+  <long name="p13004_2011">430000</long>
+  <long name="p13004_2012">592000</long>
+  <long name="p14104_2011">10000</long>
+  <long name="p14704_2011">-3000</long>
+  <long name="p14904_2011">7000</long>
+  <long name="p14904_2012">68000</long>
+  <long name="p16104_2011">3000</long>
+  <long name="p16104_2012">3000</long>
+  <long name="p16204_2011">420000</long>
+  <long name="p16204_2012">521000</long>
+  <long name="p16904_2011">423000</long>
+  <long name="p17004_2011">430000</long>
+  <long name="p17004_2012">592000</long>
+  <long name="p20103_2012">195000</long>
+  <long name="p20203_2012">109000</long>
+  <long name="p21003_2011">3000</long>
+  <long name="p21003_2012">11000</long>
+  <long name="p21403_2011">-3000</long>
+  <long name="p21503_2012">15000</long>
+  <long name="p21903_2011">-3000</long>
+  <long name="p21903_2012">60000</long>
+  <long name="p72053_2011">-3000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T09:10:13.738Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>194156, г санкт-петербург просп б сампсониевский 93</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург просп б сампсониевский 93</str><str>г санкт-петербургпросп б сампсониевский 93</str></arr>
+  <int name="addressindex">194156</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, ПРОСП Б САМПСОНИЕВСКИЙ, 93</str>
+  <long name="bsn_id">3263318</long>
+  <arr name="chief"><str>ДИРЕКТОР: ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str></arr>
+  <str name="chief_name">ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str>
+  <arr name="contact_history_phone_legal"><str>3113662</str><str>311-36-62</str></arr>
+  <arr name="contact_phone_legal"><str>3113662</str></arr>
+  <date name="dead_dt">2010-03-30T20:00:00Z</date>
+  <date name="founded_dt">1994-02-28T04:26:51.895Z</date>
+  <arr name="founder"><str>тоо северо-запад-93</str><str>аозт фирма павлова</str><str>аозт сас мт</str>
+	<str>аозт наше время</str><str>тоо инфос</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7812042568</str><str>6557</str><str>34346425</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7812042568</long>
+  <arr name="name"><str>акционерное общество закрытого типа коломенский завод</str><str>аозт коломенский завод</str></arr>
+  <str name="nameshortsort">АОЗТ "КОЛОМЕНСКИЙ ЗАВОД"</str>
+  <str name="namesort">АКЦИОНЕРНОЕ ОБЩЕСТВО ЗАКРЫТОГО ТИПА "КОЛОМЕНСКИЙ ЗАВОД"</str>
+  <long name="okatocode">40265000000</long>
+  <int name="okfscode">49</int>
+  <int name="okogucode">49014</int>
+  <int name="okopfcode">12267</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">34346425</long>
+  <int name="oktmocode">40000000</int>
+  <str name="okvedcode_main">652</str>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:47:10.741Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>620085, г екатеринбург ул патриса лумумбы д 38 к 32</str></arr>
+  <arr name="addresshistory"><str>г екатеринбург ул патриса лумумбы д 38 к 32</str><str>г екатеринбургул патриса лумумбы д 38 к 32</str></arr>
+  <int name="addressindex">620085</int>
+  <str name="addresssort">Г ЕКАТЕРИНБУРГ, УЛ ПАТРИСА ЛУМУМБЫ Д 38 К 32</str>
+  <long name="bsn_id">4756986</long>
+  <arr name="chief"><str>ДИРЕКТОР: ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str></arr>
+  <str name="chief_name">ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str>
+  <date name="dead_dt">2010-03-30T20:00:00Z</date>
+  <date name="founded_dt">2001-03-07T04:26:53.078Z</date>
+  <arr name="founder"><str>граждане россии (1)</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>6664087419</str><str>173</str><str>56975788</str>
+	<str>524</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6664087419</long>
+  <arr name="name"><str>общество с ограниченной ответственностью до-мартель</str><str>ооо до-мартель</str></arr>
+  <str name="nameshortsort">ООО "ДО-МАРТЕЛЬ"</str>
+  <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ДО-МАРТЕЛЬ"</str>
+  <long name="okatocode">65401390000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">56975788</long>
+  <int name="oktmocode">65701000</int>
+  <str name="okvedcode_main">51</str>
+  <arr name="okvedcodes"><str>9231</str></arr>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:50:02.806Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>620050, г екатеринбург ул монтажников д 24 к 35</str></arr>
+  <arr name="addresshistory"><str>г екатеринбург ул монтажников д 24 к 35</str><str>г екатеринбургул монтажников д 24 к 35</str></arr>
+  <int name="addressindex">620050</int>
+  <str name="addresssort">г Екатеринбург, ул Монтажников, д 24, к 35</str>
+  <long name="bsn_id">4743636</long>
+  <arr name="chief"><str>ДИРЕКТОР: Цветков Андрей Евгеньевич</str></arr>
+  <str name="chief_name">Цветков Андрей Евгеньевич</str>
+  <date name="founded_dt">2002-05-05T20:00:00Z</date>
+  <arr name="founder"><str>1026605778066,27726371-ооо ростехстандарт</str></arr>
+  <arr name="founderhistory"><str>27726371,ооо ростехстандарт</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>6659080023</str><str>586-З</str><str>1026602952815</str>
+	<str>32284602</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6659080023</long>
+  <arr name="name"><str>общество с ограниченной ответственностью компания телур</str><str>ооо компания телур</str></arr>
+  <str name="nameshortsort">ООО Компания "Телур"</str>
+  <str name="namesort">Общество с ограниченной ответственностью Компания "Телур"</str>
+  <long name="ogrn">1026602952815</long>
+  <date name="ogrn_dt">2002-09-19T20:00:00Z</date>
+  <long name="okatocode">65401368000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">32284602</long>
+  <int name="oktmocode">65701000</int>
+  <str name="okvedcode_main">51</str>
+  <arr name="okvedcodes"><str>452</str><str>71</str><str>6024</str>
+	<str>511</str><str>50201</str><str>52</str><str>29</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T09:01:03.015Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>103064, г москва ул садовая-черногрязская д 11 стр 2</str></arr>
+  <arr name="addresshistory"><str>г москва ул садовая-черногрязская д 11 стр 2</str><str>г москваул садовая-черногрязская д 11 стр 2</str></arr>
+  <int name="addressindex">103064</int>
+  <str name="addresssort">Г МОСКВА, УЛ САДОВАЯ-ЧЕРНОГРЯЗСКАЯ, Д 11, СТР 2</str>
+  <long name="bsn_id">3997004</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str></arr>
+  <str name="chief_name">ЦВЕТКОВ АНДРЕЙ ЕВГЕНЬЕВИЧ</str>
+  <date name="founded_dt">2006-03-01T08:02:51.122Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7701646596</str><str>1067746329903</str><str>94415262</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7701646596</long>
+  <arr name="name"><str>общество с ограниченной ответственностью арматрейд</str><str>ооо арматрейд</str></arr>
+  <str name="nameshortsort">ООО "АРМАТРЕЙД"</str>
+  <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АРМАТРЕЙД"</str>
+  <long name="ogrn">1067746329903</long>
+  <date name="ogrn_dt">2006-03-01T08:02:51.122Z</date>
+  <long name="okatocode">45286555000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">94415262</long>
+  <int name="oktmocode">45375000</int>
+  <str name="okvedcode_main">5153</str>
+  <arr name="okvedcodes"><str>52483</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:42:11.925Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>601422, владимирская область вязниковский район пгт никологоры ул пушкинская37</str><str>600005, г владимирул курская5</str></arr>
+  <arr name="addresshistory"><str>г владимирул курская5</str><str>владимирская область вязниковский район рп никологоры ул пушкинская37</str><str>владимирская облвязниковский р-нрп никологорыул пушкинская37</str></arr>
+  <int name="addressindex">601422</int>
+  <str name="addresssort">Владимирская область, Вязниковский район, пгт Никологоры, ул Пушкинская,37</str>
+  <arr name="balance"><int>2012</int><int>2011</int><int>2010</int>
+	<int>2009</int><int>2008</int><int>2007</int><int>2006</int>
+	<int>2005</int><int>2004</int><int>2003</int></arr>
+  <arr name="balance_forms_2003"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2004"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2006"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2009"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2010"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2011"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2012"><int>1</int><int>2</int><int>3</int>
+	<int>4</int></arr>
+  <long name="bsn_id">1444880</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Цветков Алексей Евгеньевич</str></arr>
+  <str name="chief_name">Цветков Алексей Евгеньевич</str>
+  <arr name="chiefhistory"><str>васильев андрей николаевич</str></arr>
+  <arr name="contact_email_legal"><str>nikologory2007@yandex.ru</str></arr>
+  <arr name="contact_fax_legal"><str>5-14-13</str></arr>
+  <arr name="contact_history_email_legal"><str>NIKOLOGORY@YANDEX.RU</str></arr>
+  <arr name="contact_history_phone_legal"><str>23-51-63</str><str>51404,5-14-01</str><str>5-14-04    5-14-01</str>
+	<str>5-14-04</str></arr>
+  <arr name="contact_phone_actual"><str>23-51-63</str></arr>
+  <arr name="contact_phone_legal"><str>49233-5-14-04</str></arr>
+  <date name="founded_dt">2003-10-02T20:00:00Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str><str>59017556,ооо вирстоун</str><str>14110755,ооо римакс</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>3328429068</str><str>1033302023479</str><str>70952021</str>
+	<str>2033302025909</str><str>2043302014028</str><str>2063338039060</str><str>2093338008773</str>
+	<str>2103338000874</str><str>2113338006703</str><str>2123338011740</str><str>2133332033184</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">3328429068</long>
+  <arr name="name"><str>закрытое акционерное общество промцентр</str><str>зао промцентр</str></arr>
+  <str name="nameshortsort">ЗАО "Промцентр"</str>
+  <str name="namesort">Закрытое акционерное общество "Промцентр"</str>
+  <long name="ogrn">1033302023479</long>
+  <date name="ogrn_dt">2003-10-02T20:00:00Z</date>
+  <long name="okatocode">17210565000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12267</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">70952021</long>
+  <int name="oktmocode">17610165</int>
+  <str name="okvedcode_bal">1725</str>
+  <str name="okvedcode_main">1725</str>
+  <arr name="okvedcodes"><str>7414</str><str>1714</str><str>51411</str>
+	<str>26826</str><str>60242</str><str>5263</str><str>70202</str>
+	<str>5170</str><str>1752</str><str>6340</str><str>1721</str>
+	<str>1717</str><str>52411</str><str>45211</str><str>7220</str>
+	<str>1711</str></arr>
+  <long name="p11204_2004">165000</long>
+  <long name="p11204_2006">1766000</long>
+  <long name="p11204_2007">1809000</long>
+  <long name="p11204_2008">1720000</long>
+  <long name="p11204_2009">1539000</long>
+  <long name="p11204_2010">1795000</long>
+  <long name="p11204_2011">1979000</long>
+  <long name="p11304_2004">221000</long>
+  <long name="p11304_2006">8000</long>
+  <long name="p11304_2007">8000</long>
+  <long name="p11304_2008">8000</long>
+  <long name="p11304_2009">8000</long>
+  <long name="p11304_2010">8000</long>
+  <long name="p11404_2012">1950000</long>
+  <long name="p11504_2011">8000</long>
+  <long name="p11904_2004">386000</long>
+  <long name="p11904_2006">1774000</long>
+  <long name="p11904_2007">1817000</long>
+  <long name="p11904_2008">1728000</long>
+  <long name="p11904_2009">1547000</long>
+  <long name="p11904_2010">1803000</long>
+  <long name="p11904_2011">1987000</long>
+  <long name="p11904_2012">1958000</long>
+  <long name="p12104_2003">22000</long>
+  <long name="p12104_2004">5565000</long>
+  <long name="p12104_2006">4149000</long>
+  <long name="p12104_2007">3772000</long>
+  <long name="p12104_2008">5251000</long>
+  <long name="p12104_2009">8548000</long>
+  <long name="p12104_2010">11258000</long>
+  <long name="p12104_2011">28266000</long>
+  <long name="p12104_2012">41426000</long>
+  <long name="p12114_2004">239000</long>
+  <long name="p12114_2006">1589000</long>
+  <long name="p12114_2007">2223000</long>
+  <long name="p12114_2008">1744000</long>
+  <long name="p12114_2009">3767000</long>
+  <long name="p12114_2010">5501000</long>
+  <long name="p12134_2004">454000</long>
+  <long name="p12144_2004">2168000</long>
+  <long name="p12144_2006">2539000</long>
+  <long name="p12144_2007">1350000</long>
+  <long name="p12144_2008">3482000</long>
+  <long name="p12144_2009">4781000</long>
+  <long name="p12144_2010">5713000</long>
+  <long name="p12164_2003">22000</long>
+  <long name="p12164_2004">2704000</long>
+  <long name="p12164_2006">21000</long>
+  <long name="p12164_2007">199000</long>
+  <long name="p12164_2008">25000</long>
+  <long name="p12164_2010">44000</long>
+  <long name="p12204_2004">258000</long>
+  <long name="p12204_2006">781000</long>
+  <long name="p12204_2007">316000</long>
+  <long name="p12204_2008">246000</long>
+  <long name="p12204_2009">246000</long>
+  <long name="p12204_2010">197000</long>
+  <long name="p12204_2011">196000</long>
+  <long name="p12204_2012">6000</long>
+  <long name="p12404_2003">5000</long>
+  <long name="p12404_2004">6394000</long>
+  <long name="p12404_2006">7116000</long>
+  <long name="p12404_2007">5122000</long>
+  <long name="p12404_2008">10327000</long>
+  <long name="p12404_2009">12737000</long>
+  <long name="p12404_2010">15539000</long>
+  <long name="p12404_2011">10018000</long>
+  <long name="p12404_2012">8877000</long>
+  <long name="p12414_2004">4970000</long>
+  <long name="p12414_2006">6260000</long>
+  <long name="p12414_2007">2374000</long>
+  <long name="p12414_2008">6966000</long>
+  <long name="p12414_2009">9375000</long>
+  <long name="p12414_2010">12280000</long>
+  <long name="p12504_2006">10000</long>
+  <long name="p12504_2007">10000</long>
+  <long name="p12504_2008">10000</long>
+  <long name="p12504_2009">10000</long>
+  <long name="p12504_2010">530000</long>
+  <long name="p12504_2011">2659000</long>
+  <long name="p12604_2003">4000</long>
+  <long name="p12604_2004">42000</long>
+  <long name="p12604_2006">14000</long>
+  <long name="p12604_2007">1723000</long>
+  <long name="p12604_2008">369000</long>
+  <long name="p12604_2009">637000</long>
+  <long name="p12604_2010">1497000</long>
+  <long name="p12604_2011">172000</long>
+  <long name="p12604_2012">239000</long>
+  <long name="p12704_2007">92000</long>
+  <long name="p12704_2008">86000</long>
+  <long name="p12704_2009">167000</long>
+  <long name="p12904_2003">31000</long>
+  <long name="p12904_2004">12259000</long>
+  <long name="p12904_2006">12070000</long>
+  <long name="p12904_2007">11035000</long>
+  <long name="p12904_2008">16289000</long>
+  <long name="p12904_2009">22345000</long>
+  <long name="p12904_2010">29021000</long>
+  <long name="p12904_2011">41311000</long>
+  <long name="p12904_2012">50548000</long>
+  <long name="p13004_2003">31000</long>
+  <long name="p13004_2004">12645000</long>
+  <long name="p13004_2006">13844000</long>
+  <long name="p13004_2007">12852000</long>
+  <long name="p13004_2008">18017000</long>
+  <long name="p13004_2009">23892000</long>
+  <long name="p13004_2010">30824000</long>
+  <long name="p13004_2011">43298000</long>
+  <long name="p13004_2012">52506000</long>
+  <long name="p14104_2003">10000</long>
+  <long name="p14104_2004">10000</long>
+  <long name="p14104_2006">10000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">9286000</long>
+  <long name="p14104_2009">10000</long>
+  <long name="p14104_2010">10000</long>
+  <long name="p14104_2011">9290000</long>
+  <long name="p14104_2012">9290000</long>
+  <long name="p14204_2009">9276000</long>
+  <long name="p14204_2010">9266000</long>
+  <long name="p14704_2003">-1000</long>
+  <long name="p14704_2004">-1669000</long>
+  <long name="p14704_2006">-8578000</long>
+  <long name="p14704_2007">-8481000</long>
+  <long name="p14704_2008">-8411000</long>
+  <long name="p14704_2009">-8409000</long>
+  <long name="p14704_2010">-8264000</long>
+  <long name="p14704_2011">-8117000</long>
+  <long name="p14704_2012">-7977000</long>
+  <long name="p14904_2003">9000</long>
+  <long name="p14904_2004">-1659000</long>
+  <long name="p14904_2006">-8568000</long>
+  <long name="p14904_2007">-8471000</long>
+  <long name="p14904_2008">875000</long>
+  <long name="p14904_2009">877000</long>
+  <long name="p14904_2010">1012000</long>
+  <long name="p14904_2011">1173000</long>
+  <long name="p14904_2012">1313000</long>
+  <long name="p15104_2006">9266000</long>
+  <long name="p15104_2007">9035000</long>
+  <long name="p15104_2008">8000000</long>
+  <long name="p15104_2009">16600000</long>
+  <long name="p15104_2010">14850000</long>
+  <long name="p15104_2011">18142000</long>
+  <long name="p15104_2012">15226000</long>
+  <long name="p15904_2006">9266000</long>
+  <long name="p15904_2007">9035000</long>
+  <long name="p15904_2008">8000000</long>
+  <long name="p15904_2009">16600000</long>
+  <long name="p15904_2010">14850000</long>
+  <long name="p15904_2011">18142000</long>
+  <long name="p15904_2012">15226000</long>
+  <long name="p16104_2004">11976000</long>
+  <long name="p16104_2006">2724000</long>
+  <long name="p16104_2007">6306000</long>
+  <long name="p16104_2008">3500000</long>
+  <long name="p16104_2011">5342000</long>
+  <long name="p16104_2012">6316000</long>
+  <long name="p16204_2003">22000</long>
+  <long name="p16204_2004">2328000</long>
+  <long name="p16204_2006">10422000</long>
+  <long name="p16204_2007">5982000</long>
+  <long name="p16204_2008">5642000</long>
+  <long name="p16204_2009">6415000</long>
+  <long name="p16204_2010">14962000</long>
+  <long name="p16204_2011">18641000</long>
+  <long name="p16204_2012">29651000</long>
+  <long name="p16214_2004">1569000</long>
+  <long name="p16214_2006">8497000</long>
+  <long name="p16214_2007">4557000</long>
+  <long name="p16214_2008">4108000</long>
+  <long name="p16214_2009">5752000</long>
+  <long name="p16214_2010">12416000</long>
+  <long name="p16224_2003">13000</long>
+  <long name="p16224_2004">231000</long>
+  <long name="p16224_2006">606000</long>
+  <long name="p16224_2007">646000</long>
+  <long name="p16224_2008">578000</long>
+  <long name="p16224_2009">606000</long>
+  <long name="p16224_2010">1184000</long>
+  <long name="p16234_2003">6000</long>
+  <long name="p16234_2004">107000</long>
+  <long name="p16234_2006">159000</long>
+  <long name="p16234_2007">145000</long>
+  <long name="p16234_2008">95000</long>
+  <long name="p16234_2009">49000</long>
+  <long name="p16234_2010">327000</long>
+  <long name="p16244_2003">2000</long>
+  <long name="p16244_2004">25000</long>
+  <long name="p16244_2006">507000</long>
+  <long name="p16244_2007">634000</long>
+  <long name="p16244_2008">861000</long>
+  <long name="p16244_2009">8000</long>
+  <long name="p16244_2010">1000000</long>
+  <long name="p16254_2003">1000</long>
+  <long name="p16254_2004">396000</long>
+  <long name="p16254_2006">653000</long>
+  <long name="p16254_2010">35000</long>
+  <long name="p16904_2003">22000</long>
+  <long name="p16904_2004">14304000</long>
+  <long name="p16904_2006">13146000</long>
+  <long name="p16904_2007">12288000</long>
+  <long name="p16904_2008">9142000</long>
+  <long name="p16904_2009">6415000</long>
+  <long name="p16904_2010">14962000</long>
+  <long name="p16904_2011">23983000</long>
+  <long name="p16904_2012">35967000</long>
+  <long name="p17004_2003">31000</long>
+  <long name="p17004_2004">12645000</long>
+  <long name="p17004_2006">13844000</long>
+  <long name="p17004_2007">12852000</long>
+  <long name="p17004_2008">18017000</long>
+  <long name="p17004_2009">23892000</long>
+  <long name="p17004_2010">30824000</long>
+  <long name="p17004_2011">43298000</long>
+  <long name="p17004_2012">52506000</long>
+  <long name="p20103_2004">1834000</long>
+  <long name="p20103_2006">42904000</long>
+  <long name="p20103_2007">54411000</long>
+  <long name="p20103_2008">74367000</long>
+  <long name="p20103_2009">51012000</long>
+  <long name="p20103_2010">84037000</long>
+  <long name="p20103_2011">125299000</long>
+  <long name="p20103_2012">129361000</long>
+  <long name="p20203_2004">2237000</long>
+  <long name="p20203_2006">34611000</long>
+  <long name="p20203_2007">43021000</long>
+  <long name="p20203_2008">60790000</long>
+  <long name="p20203_2009">40050000</long>
+  <long name="p20203_2010">68457000</long>
+  <long name="p20203_2011">110027000</long>
+  <long name="p20203_2012">118079000</long>
+  <long name="p20293_2004">-403000</long>
+  <long name="p20293_2006">8293000</long>
+  <long name="p20293_2007">11390000</long>
+  <long name="p20293_2008">13577000</long>
+  <long name="p20293_2009">10962000</long>
+  <long name="p20293_2010">15580000</long>
+  <long name="p20293_2011">15272000</long>
+  <long name="p20293_2012">11282000</long>
+  <long name="p20303_2004">26000</long>
+  <long name="p20303_2006">1372000</long>
+  <long name="p20303_2007">2127000</long>
+  <long name="p20303_2008">3393000</long>
+  <long name="p20303_2009">2071000</long>
+  <long name="p20303_2010">3155000</long>
+  <long name="p20303_2011">3475000</long>
+  <long name="p20303_2012">3570000</long>
+  <long name="p20403_2004">1151000</long>
+  <long name="p20403_2006">6542000</long>
+  <long name="p20403_2007">8165000</long>
+  <long name="p20403_2008">9486000</long>
+  <long name="p20403_2009">6875000</long>
+  <long name="p20403_2010">11936000</long>
+  <long name="p20403_2011">9489000</long>
+  <long name="p20403_2012">6426000</long>
+  <long name="p20503_2004">-1580000</long>
+  <long name="p20503_2006">379000</long>
+  <long name="p20503_2007">1098000</long>
+  <long name="p20503_2008">698000</long>
+  <long name="p20503_2009">2016000</long>
+  <long name="p20503_2010">489000</long>
+  <long name="p20503_2011">2308000</long>
+  <long name="p20503_2012">1286000</long>
+  <long name="p20703_2004">47000</long>
+  <long name="p20703_2006">304000</long>
+  <long name="p20703_2007">321000</long>
+  <long name="p20703_2008">1376000</long>
+  <long name="p20703_2009">1985000</long>
+  <long name="p20703_2010">2421000</long>
+  <long name="p20703_2011">1938000</long>
+  <long name="p20703_2012">2533000</long>
+  <long name="p20903_2004">1822000</long>
+  <long name="p20903_2006">557000</long>
+  <long name="p20903_2007">488000</long>
+  <long name="p20903_2008">1239000</long>
+  <long name="p20903_2009">871000</long>
+  <long name="p20903_2010">2976000</long>
+  <long name="p20903_2011">1460000</long>
+  <long name="p20903_2012">4120000</long>
+  <long name="p21003_2004">1854000</long>
+  <long name="p21003_2006">474000</long>
+  <long name="p21003_2007">918000</long>
+  <long name="p21003_2008">521000</long>
+  <long name="p21003_2009">857000</long>
+  <long name="p21003_2010">852000</long>
+  <long name="p21003_2011">1535000</long>
+  <long name="p21003_2012">2633000</long>
+  <long name="p21303_2003">1000</long>
+  <long name="p21403_2003">-1000</long>
+  <long name="p21403_2004">-1659000</long>
+  <long name="p21403_2006">158000</long>
+  <long name="p21403_2007">347000</long>
+  <long name="p21403_2008">40000</long>
+  <long name="p21403_2009">45000</long>
+  <long name="p21403_2010">192000</long>
+  <long name="p21403_2011">295000</long>
+  <long name="p21403_2012">240000</long>
+  <long name="p21503_2006">85000</long>
+  <long name="p21503_2007">250000</long>
+  <long name="p21503_2009">43000</long>
+  <long name="p21503_2010">57000</long>
+  <long name="p21503_2011">148000</long>
+  <long name="p21503_2012">100000</long>
+  <long name="p21903_2003">-1000</long>
+  <long name="p21903_2004">-1659000</long>
+  <long name="p21903_2006">73000</long>
+  <long name="p21903_2007">97000</long>
+  <long name="p21903_2008">40000</long>
+  <long name="p21903_2009">2000</long>
+  <long name="p21903_2010">135000</long>
+  <long name="p21903_2011">147000</long>
+  <long name="p21903_2012">140000</long>
+  <long name="p72053_2011">147000</long>
+  <long name="p72053_2012">140000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:30:16.398Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>445044, самарская область г тольятти ул офицерская д 15 кв 74</str></arr>
+  <arr name="addresshistory"><str>самарская облг тольяттиул тополиная д 49 кв 9</str><str>самарская область г тольятти ул тополиная д 49 кв 9</str></arr>
+  <int name="addressindex">445044</int>
+  <str name="addresssort">Самарская область, г Тольятти, ул Офицерская, д 15, кв 74</str>
+  <long name="bsn_id">3130072</long>
+  <arr name="chief"><str>ДИРЕКТОР: Цветков Андрей Владимирович</str></arr>
+  <str name="chief_name">Цветков Андрей Владимирович</str>
+  <arr name="chiefhistory"><str>богодяж артем евгеньевич</str></arr>
+  <date name="founded_dt">2005-03-13T21:00:00Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>6321148049</str><str>1056320043526</str><str>76773615</str>
+	<str>2056320046033</str><str>2086320265580</str><str>2136320064329</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6321148049</long>
+  <arr name="name"><str>общество с ограниченной ответственностью лада фейерверк</str><str>ооо лада фейерверк</str></arr>
+  <str name="nameshortsort">ООО "Лада фейерверк"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Лада фейерверк"</str>
+  <long name="ogrn">1056320043526</long>
+  <date name="ogrn_dt">2005-03-13T21:00:00Z</date>
+  <long name="okatocode">36440363000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">76773615</long>
+  <int name="oktmocode">36740000</int>
+  <str name="okvedcode_main">524838</str>
+  <arr name="okvedcodes"><str>7440</str><str>923121</str><str>923</str>
+	<str>92343</str><str>724</str><str>515533</str><str>926</str>
+	<str>2461</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:44:32.477Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>109202, г москва ул 1-я фрезерная д 2/1 стр 1</str><str>109147, г москваул воронцовская д 23</str></arr>
+  <arr name="addresshistory"><str>г москваул воронцовская д 23</str></arr>
+  <int name="addressindex">109202</int>
+  <str name="addresssort">г Москва, ул 1-я Фрезерная, д 2/1, стр 1</str>
+  <arr name="balance"><int>2003</int><int>2002</int><int>2001</int></arr>
+  <arr name="balance_forms_2001"><int>1</int></arr>
+  <arr name="balance_forms_2002"><int>1</int></arr>
+  <arr name="balance_forms_2003"><int>1</int></arr>
+  <long name="bsn_id">1104966</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Цветков Алексей Евгеньевич</str></arr>
+  <str name="chief_name">Цветков Алексей Евгеньевич</str>
+  <arr name="chiefhistory"><str>дмитриев андрей алексеевич</str></arr>
+  <arr name="contact_phone_legal"><str>985-776-97-05</str></arr>
+  <date name="dead_dt">2005-08-31T20:00:00Z</date>
+  <date name="founded_dt">1993-03-09T21:00:00Z</date>
+  <arr name="founder"><str>граждане россии(1)</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7709062786</str><str>7721781233</str><str>Ц1/113.701</str>
+	<str>1137746020994</str><str>17020417</str><str>Ц1/113701-И1</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7721781233</long>
+  <arr name="name"><str>общество с ограниченной ответственностью реверс</str><str>ооо реверс</str></arr>
+  <arr name="namehistory"><str>товарищество с ограниченной ответственностью стоматологическая фирма антайя antaya</str><str>тоо стоматологическая фирма антайя</str></arr>
+  <str name="nameshortsort">ООО "РЕВЕРС"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "РЕВЕРС"</str>
+  <long name="ogrn">1137746020994</long>
+  <date name="ogrn_dt">2013-01-15T21:00:00Z</date>
+  <long name="okatocode">45290578000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">17020417</long>
+  <int name="oktmocode">45392000</int>
+  <str name="okvedcode_main">516</str>
+  <arr name="okvedcodes"><str>721</str><str>517</str><str>7133</str>
+	<str>7134</str><str>515</str><str>514</str><str>725</str>
+	<str>748</str><str>726</str><str>634</str><str>722</str></arr>
+  <long name="p11504_2002">188000</long>
+  <long name="p11904_2002">188000</long>
+  <long name="p13004_2002">188000</long>
+  <long name="p14704_2003">-94000</long>
+  <long name="p14904_2001">-94000</long>
+  <long name="p14904_2002">-94000</long>
+  <long name="p14904_2003">-94000</long>
+  <long name="p15204_2001">88000</long>
+  <long name="p15204_2002">88000</long>
+  <long name="p15204_2003">88000</long>
+  <long name="p15904_2001">88000</long>
+  <long name="p15904_2002">88000</long>
+  <long name="p15904_2003">88000</long>
+  <long name="p16204_2001">6000</long>
+  <long name="p16204_2002">6000</long>
+  <long name="p16204_2003">6000</long>
+  <long name="p16234_2003">2000</long>
+  <long name="p16244_2003">4000</long>
+  <long name="p16254_2001">2000</long>
+  <long name="p16254_2002">2000</long>
+  <long name="p16604_2002">188000</long>
+  <long name="p16904_2001">6000</long>
+  <long name="p16904_2002">194000</long>
+  <long name="p16904_2003">6000</long>
+  <long name="p17004_2002">188000</long>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:12:54.045Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>105082, г москва пер центросоюзный д 1/5</str><str>107082, г москвацентросоюзный пер д 1/5</str></arr>
+  <arr name="addresshistory"><str>г москва центросоюзный пер д 1/5</str><str>г москвацентросоюзный пер д 1/5</str></arr>
+  <int name="addressindex">105082</int>
+  <str name="addresssort">г Москва, пер Центросоюзный, д 1/5</str>
+  <arr name="balance"><int>2012</int><int>2011</int><int>2010</int>
+	<int>2009</int><int>2008</int><int>2007</int><int>2006</int>
+	<int>2005</int></arr>
+  <arr name="balance_forms_2005"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2006"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2011"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2012"><int>1</int><int>2</int><int>3</int>
+	<int>4</int></arr>
+  <long name="bsn_id">2001650</long>
+  <arr name="chief"><str>Генеральный директор УК ОАО "Парк": Вашкетов Валерий Павлович</str></arr>
+  <str name="chief_name">Вашкетов Валерий Павлович</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str></arr>
+  <arr name="contact_fax_legal"><str>261-60-19</str></arr>
+  <arr name="contact_history_phone_legal"><str>2616019</str><str>261-60-19</str></arr>
+  <arr name="contact_phone_actual"><str>261-60-19</str></arr>
+  <arr name="contact_phone_legal"><str>8-499-261-60-19</str></arr>
+  <date name="founded_dt">1995-09-19T20:00:00Z</date>
+  <arr name="founder"><str>18653470,1027700149410,дигм</str></arr>
+  <arr name="founderhistory"><str>17805015,префектура цао</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>8107748454806</str><str>7701110621</str><str>7701895507</str>
+	<str>1000292</str><str>1027739246171</str><str>1107746900470</str><str>3286623</str>
+	<str>100292</str><str>2037701030552</str><str>2107747114100</str><str>7107747057400</str>
+	<str>8107748454839</str><str>9127746951488</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7701895507</long>
+  <arr name="name"><str>открытое акционерное общество предприятие механизации коммунальных работ басманное</str><str>оао пмкр басманное</str></arr>
+  <arr name="namehistory"><str>государственное унитарное предприятие г москвы предприятие механизации коммунальных работ басманное</str><str>государственное унитарное предприятие гмосквы предприятие механизации коммунальных работ басманное</str><str>гуп пмкр басманное</str></arr>
+  <str name="nameshortsort">ОАО ПМКР "Басманное"</str>
+  <str name="namesort">Открытое акционерное общество "Предприятие механизации коммунальных работ "Басманное"</str>
+  <long name="ogrn">1107746900470</long>
+  <date name="ogrn_dt">2010-11-02T21:00:00Z</date>
+  <long name="okatocode">45286555000</long>
+  <int name="okfscode">13</int>
+  <int name="okogucode">4210001</int>
+  <int name="okopfcode">12247</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">3286623</long>
+  <int name="oktmocode">45375000</int>
+  <str name="okvedcode_bal">45212</str>
+  <str name="okvedcode_main">90002</str>
+  <arr name="okvedcodes"><str>9305</str><str>90003</str><str>632122</str>
+	<str>6340</str><str>742011</str><str>6311</str><str>5020</str>
+	<str>45212</str><str>45211</str></arr>
+  <long name="p11204_2005">21976000</long>
+  <long name="p11204_2006">26649000</long>
+  <long name="p11404_2011">39763000</long>
+  <long name="p11404_2012">34546000</long>
+  <long name="p11904_2005">21976000</long>
+  <long name="p11904_2006">26649000</long>
+  <long name="p11904_2011">39763000</long>
+  <long name="p11904_2012">34800000</long>
+  <long name="p12104_2005">4670000</long>
+  <long name="p12104_2006">5246000</long>
+  <long name="p12104_2011">4633000</long>
+  <long name="p12104_2012">4767000</long>
+  <long name="p12114_2005">3918000</long>
+  <long name="p12114_2006">4425000</long>
+  <long name="p12134_2005">752000</long>
+  <long name="p12134_2006">821000</long>
+  <long name="p12404_2005">12682000</long>
+  <long name="p12404_2006">6725000</long>
+  <long name="p12404_2011">22104000</long>
+  <long name="p12404_2012">31375000</long>
+  <long name="p12414_2005">12109000</long>
+  <long name="p12604_2005">2035000</long>
+  <long name="p12604_2006">2210000</long>
+  <long name="p12604_2011">2362000</long>
+  <long name="p12604_2012">2072000</long>
+  <long name="p12904_2005">19387000</long>
+  <long name="p12904_2006">14181000</long>
+  <long name="p12904_2011">29099000</long>
+  <long name="p12904_2012">38214000</long>
+  <long name="p13004_2005">41363000</long>
+  <long name="p13004_2006">40830000</long>
+  <long name="p13004_2011">68862000</long>
+  <long name="p13004_2012">73014000</long>
+  <long name="p14104_2005">105000</long>
+  <long name="p14104_2006">105000</long>
+  <long name="p14104_2011">20786000</long>
+  <long name="p14104_2012">20786000</long>
+  <long name="p14204_2005">25004000</long>
+  <long name="p14204_2006">28604000</long>
+  <long name="p14204_2011">21868000</long>
+  <long name="p14204_2012">21868000</long>
+  <long name="p14704_2005">1050000</long>
+  <long name="p14704_2011">1767000</long>
+  <long name="p14704_2012">5588000</long>
+  <long name="p14904_2005">26159000</long>
+  <long name="p14904_2006">28709000</long>
+  <long name="p14904_2011">44421000</long>
+  <long name="p14904_2012">48242000</long>
+  <long name="p16104_2006">1706000</long>
+  <long name="p16204_2005">15204000</long>
+  <long name="p16204_2006">10415000</long>
+  <long name="p16204_2011">24441000</long>
+  <long name="p16204_2012">24772000</long>
+  <long name="p16214_2005">9204000</long>
+  <long name="p16214_2006">5469000</long>
+  <long name="p16224_2005">3347000</long>
+  <long name="p16224_2006">2445000</long>
+  <long name="p16234_2005">1029000</long>
+  <long name="p16234_2006">928000</long>
+  <long name="p16244_2005">864000</long>
+  <long name="p16244_2006">747000</long>
+  <long name="p16254_2005">760000</long>
+  <long name="p16254_2006">826000</long>
+  <long name="p16904_2005">15204000</long>
+  <long name="p16904_2006">12121000</long>
+  <long name="p16904_2011">24441000</long>
+  <long name="p16904_2012">24772000</long>
+  <long name="p17004_2005">41363000</long>
+  <long name="p17004_2006">40830000</long>
+  <long name="p17004_2011">68862000</long>
+  <long name="p17004_2012">73014000</long>
+  <long name="p20103_2005">130552000</long>
+  <long name="p20103_2006">138016000</long>
+  <long name="p20103_2011">240141000</long>
+  <long name="p20103_2012">268409000</long>
+  <long name="p20203_2005">105862000</long>
+  <long name="p20203_2006">102602000</long>
+  <long name="p20203_2011">176064000</long>
+  <long name="p20203_2012">187199000</long>
+  <long name="p20293_2005">24690000</long>
+  <long name="p20293_2006">35414000</long>
+  <long name="p20293_2011">64077000</long>
+  <long name="p20293_2012">81210000</long>
+  <long name="p20403_2005">22457000</long>
+  <long name="p20403_2006">32962000</long>
+  <long name="p20403_2011">60164000</long>
+  <long name="p20403_2012">67199000</long>
+  <long name="p20503_2005">2233000</long>
+  <long name="p20503_2006">2452000</long>
+  <long name="p20503_2011">3913000</long>
+  <long name="p20503_2012">14011000</long>
+  <long name="p20903_2012">146000</long>
+  <long name="p21003_2005">384000</long>
+  <long name="p21003_2006">403000</long>
+  <long name="p21003_2011">1705000</long>
+  <long name="p21003_2012">5767000</long>
+  <long name="p21403_2005">1849000</long>
+  <long name="p21403_2006">2049000</long>
+  <long name="p21403_2011">2208000</long>
+  <long name="p21403_2012">8390000</long>
+  <long name="p21503_2005">444000</long>
+  <long name="p21503_2006">492000</long>
+  <long name="p21503_2011">441000</long>
+  <long name="p21503_2012">1678000</long>
+  <long name="p21903_2005">1405000</long>
+  <long name="p21903_2006">1557000</long>
+  <long name="p21903_2011">1767000</long>
+  <long name="p21903_2012">6712000</long>
+  <long name="p72053_2011">1767000</long>
+  <long name="p72053_2012">6712000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:25:36.814Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>194017, г санкт-петербург просп энгельса 43 литер а пом 1н</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург просп энгельса 43 литер а пом 1 н</str><str>г санкт-петербургпросп энгельса 43 литер а пом 1 н</str></arr>
+  <int name="addressindex">194017</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, ПРОСП ЭНГЕЛЬСА, 43 ЛИТЕР А ПОМ 1Н</str>
+  <long name="bsn_id">3463684</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: ЦВЕТКОВ АНДРЕЙ ВАСИЛЬЕВИЧ</str></arr>
+  <str name="chief_name">ЦВЕТКОВ АНДРЕЙ ВАСИЛЬЕВИЧ</str>
+  <arr name="chiefhistory"><str>волошин павел евгеньевич</str></arr>
+  <arr name="contact_history_phone_legal"><str>6988151</str><str>698-81-51</str></arr>
+  <arr name="contact_phone_legal"><str>962-6988151</str></arr>
+  <date name="dead_dt">2012-10-30T21:00:00Z</date>
+  <date name="founded_dt">2007-06-12T20:00:00Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7802394842</str><str>1077847446115</str><str>80575157</str>
+	<str>9077847523965</str><str>6097847278468</str><str>7127847327579</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7802394842</long>
+  <arr name="name"><str>общество с ограниченной ответственностью ревайс</str><str>ооо ревайс</str></arr>
+  <str name="nameshortsort">ООО "РЕВАЙС"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "РЕВАЙС"</str>
+  <long name="ogrn">1077847446115</long>
+  <date name="ogrn_dt">2007-06-12T20:00:00Z</date>
+  <long name="okatocode">40265562000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">80575157</long>
+  <int name="oktmocode">40315000</int>
+  <str name="okvedcode_main">51123</str>
+  <arr name="okvedcodes"><str>526</str><str>5155</str><str>5119</str>
+	<str>511237</str><str>5170</str><str>742014</str><str>5212</str>
+	<str>52611</str><str>515534</str></arr>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:43:57.866Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>170033, г тверь ул коминтерна д 79 офис 16</str><str>150043, г ярославльул жукова д 15а кв 11</str></arr>
+  <arr name="addresshistory"><str>г ярославльул жукова д 15а кв 11</str><str>г ярославль ул жукова д 15а кв 11</str></arr>
+  <int name="addressindex">170033</int>
+  <str name="addresssort">Г ТВЕРЬ, УЛ КОМИНТЕРНА Д 79 ОФИС 16</str>
+  <arr name="balance"><int>2007</int><int>2006</int></arr>
+  <arr name="balance_forms_2006"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">1913223</long>
+  <arr name="chief"><str>ДИРЕКТОР: ЦВЕТКОВ ДМИТРИЙ БОРИСОВИЧ</str></arr>
+  <str name="chief_name">ЦВЕТКОВ ДМИТРИЙ БОРИСОВИЧ</str>
+  <arr name="chiefhistory"><str>бабенко андрей евгеньевич</str></arr>
+  <date name="dead_dt">2011-11-29T21:00:00Z</date>
+  <date name="founded_dt">2006-07-06T08:55:53.039Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7606058869</str><str>1067606019612</str><str>95779776</str>
+	<str>2087604136101</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7606058869</long>
+  <arr name="name"><str>общество с ограниченной ответственностью тверьстальрегион</str><str>ооо тверьстальрегион</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью агисстальрегион</str><str>ооо агисстальрегион</str></arr>
+  <str name="nameshortsort">ООО "ТВЕРЬСТАЛЬРЕГИОН"</str>
+  <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТВЕРЬСТАЛЬРЕГИОН"</str>
+  <long name="ogrn">1067606019612</long>
+  <date name="ogrn_dt">2006-07-06T08:55:53.039Z</date>
+  <long name="okatocode">28401370000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">95779776</long>
+  <int name="oktmocode">28701000</int>
+  <str name="okvedcode_bal">5170</str>
+  <str name="okvedcode_main">5170</str>
+  <arr name="okvedcodes"><str>748</str></arr>
+  <long name="p12404_2006">559144</long>
+  <long name="p12404_2007">1322282</long>
+  <long name="p12414_2007">18583</long>
+  <long name="p12604_2006">11039</long>
+  <long name="p12604_2007">1510917</long>
+  <long name="p12904_2006">570180</long>
+  <long name="p12904_2007">2833199</long>
+  <long name="p13004_2006">570180</long>
+  <long name="p13004_2007">2833199</long>
+  <long name="p14104_2006">10000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14704_2006">1498</long>
+  <long name="p14704_2007">30253</long>
+  <long name="p14904_2006">11498</long>
+  <long name="p14904_2007">40253</long>
+  <long name="p16104_2006">518960</long>
+  <long name="p16204_2006">39722</long>
+  <long name="p16204_2007">2792946</long>
+  <long name="p16214_2007">2771123</long>
+  <long name="p16224_2006">15660</long>
+  <long name="p16224_2007">8700</long>
+  <long name="p16234_2006">2096</long>
+  <long name="p16234_2007">2620</long>
+  <long name="p16244_2006">5524</long>
+  <long name="p16244_2007">10503</long>
+  <long name="p16254_2006">16442</long>
+  <long name="p16904_2006">558682</long>
+  <long name="p16904_2007">2792946</long>
+  <long name="p17004_2006">570180</long>
+  <long name="p17004_2007">2833199</long>
+  <long name="p20103_2006">1619676</long>
+  <long name="p20103_2007">14488083</long>
+  <long name="p20203_2006">1554492</long>
+  <long name="p20203_2007">14271334</long>
+  <long name="p20293_2006">65184</long>
+  <long name="p20293_2007">216749</long>
+  <long name="p20303_2006">61108</long>
+  <long name="p20303_2007">158425</long>
+  <long name="p20503_2006">4076</long>
+  <long name="p20503_2007">58324</long>
+  <long name="p21003_2006">2106</long>
+  <long name="p21003_2007">20489</long>
+  <long name="p21403_2006">1970</long>
+  <long name="p21403_2007">37835</long>
+  <long name="p21503_2006">473</long>
+  <long name="p21503_2007">9080</long>
+  <long name="p21903_2006">1497</long>
+  <long name="p21903_2007">28755</long>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:22:51.858Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>344064, г ростов-на-дону пер технологический 6</str></arr>
+  <arr name="addresshistory"><str>г ростов-на-донупер технологический 6</str></arr>
+  <int name="addressindex">344064</int>
+  <str name="addresssort">г Ростов-на-Дону, пер Технологический, 6</str>
+  <arr name="balance"><int>2012</int><int>2011</int></arr>
+  <arr name="balance_forms_2011"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2012"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">4811531</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Василихин Алексей Анатольевич</str></arr>
+  <str name="chief_name">Василихин Алексей Анатольевич</str>
+  <arr name="chiefhistory"><str>соколков сергей витальевич</str><str>цветков андрей евгеньевич</str><str>кудин андрей викторович</str>
+	<str>гордеев владимир геннадьевич</str></arr>
+  <arr name="contact_fax_legal"><str>2326549</str></arr>
+  <arr name="contact_history_phone_legal"><str>232-33-64</str><str>232-33-64, 896045080</str></arr>
+  <arr name="contact_phone_legal"><str>863-232-33-64</str></arr>
+  <date name="founded_dt">2004-04-12T20:00:00Z</date>
+  <arr name="founder"><str>5280122,1026103715703,оао ргатп №1</str><str>граждане россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии(1)</str><str>5280122,оао ргатп-1</str><str>46583076,1026103267520,ооо тагаз</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>6165114314</str><str>1046165006821</str><str>73274426</str>
+	<str>2066165117918</str><str>2086165110975</str><str>2106165089523</str><str>2106165097180</str>
+	<str>2126165000905</str><str>2126165011366</str><str>2126165047171</str><str>2126165078334</str>
+	<str>2126165107374</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6165114314</long>
+  <arr name="name"><str>общество с ограниченной ответственностью тагаз трэйдинг</str><str>ооо тагаз трэйдинг</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью авторевю</str><str>ооо авторевю</str></arr>
+  <str name="nameshortsort">ООО "ТагАЗ Трэйдинг"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "ТагАЗ Трэйдинг"</str>
+  <long name="ogrn">1046165006821</long>
+  <date name="ogrn_dt">2004-04-12T20:00:00Z</date>
+  <long name="okatocode">60401374000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">73274426</long>
+  <int name="oktmocode">60701000</int>
+  <str name="okvedcode_bal">5010</str>
+  <str name="okvedcode_main">5010</str>
+  <arr name="okvedcodes"><str>50201</str><str>50202</str><str>50303</str>
+	<str>50301</str><str>50203</str><str>5020</str><str>50103</str>
+	<str>744</str><str>6340</str><str>63212</str><str>50101</str>
+	<str>50302</str><str>50102</str><str>74131</str></arr>
+  <long name="p11904_2011">36000</long>
+  <long name="p12104_2011">857000</long>
+  <long name="p12104_2012">19000</long>
+  <long name="p12404_2011">3028000</long>
+  <long name="p12404_2012">46417000</long>
+  <long name="p12504_2012">73534000</long>
+  <long name="p12604_2011">5000</long>
+  <long name="p12604_2012">1195000</long>
+  <long name="p12704_2011">201000</long>
+  <long name="p12704_2012">326000</long>
+  <long name="p12904_2011">4091000</long>
+  <long name="p12904_2012">121491000</long>
+  <long name="p13004_2011">4127000</long>
+  <long name="p13004_2012">121491000</long>
+  <long name="p14104_2011">100000</long>
+  <long name="p14104_2012">100000</long>
+  <long name="p14704_2011">-87000</long>
+  <long name="p14704_2012">71000</long>
+  <long name="p14904_2011">13000</long>
+  <long name="p14904_2012">171000</long>
+  <long name="p15154_2012">1000</long>
+  <long name="p15904_2012">1000</long>
+  <long name="p16104_2011">1000</long>
+  <long name="p16104_2012">108996000</long>
+  <long name="p16204_2011">4113000</long>
+  <long name="p16204_2012">11798000</long>
+  <long name="p16604_2012">525000</long>
+  <long name="p16904_2011">4114000</long>
+  <long name="p16904_2012">121319000</long>
+  <long name="p17004_2011">4127000</long>
+  <long name="p17004_2012">121491000</long>
+  <long name="p20103_2011">430449000</long>
+  <long name="p20103_2012">357122000</long>
+  <long name="p20203_2011">429092000</long>
+  <long name="p20203_2012">352436000</long>
+  <long name="p20293_2011">1357000</long>
+  <long name="p20293_2012">4686000</long>
+  <long name="p20303_2011">12598000</long>
+  <long name="p20303_2012">651000</long>
+  <long name="p20503_2011">-11241000</long>
+  <long name="p20503_2012">4035000</long>
+  <long name="p20603_2012">6279000</long>
+  <long name="p20703_2012">9830000</long>
+  <long name="p20903_2011">11227000</long>
+  <long name="p21003_2011">726000</long>
+  <long name="p21003_2012">412000</long>
+  <long name="p21403_2011">-740000</long>
+  <long name="p21403_2012">72000</long>
+  <long name="p21413_2011">36000</long>
+  <long name="p21423_2011">-325000</long>
+  <long name="p21423_2012">1000</long>
+  <long name="p21503_2011">36000</long>
+  <long name="p21503_2012">13000</long>
+  <long name="p21903_2011">-415000</long>
+  <long name="p21903_2012">58000</long>
+  <long name="p72013_2011">112000</long>
+  <long name="p72053_2011">-415000</long>
+  <long name="p72053_2012">58000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:47:10.308Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>344082, г ростов-на-дону просп сиверса 1</str><str>344082, г ростов-на-донуул сиверса 1</str></arr>
+  <arr name="addresshistory"><str>г ростов-на-донуул сиверса 1</str><str>г ростов-на-дону ул сиверса 1</str></arr>
+  <int name="addressindex">344082</int>
+  <str name="addresssort">г Ростов-на-Дону, просп Сиверса, 1</str>
+  <arr name="balance"><int>2012</int><int>2011</int><int>2010</int>
+	<int>2009</int><int>2008</int><int>2007</int><int>2006</int>
+	<int>2005</int><int>2004</int><int>2003</int><int>2002</int>
+	<int>2001</int><int>2000</int></arr>
+  <arr name="balance_forms_2000"><int>1</int></arr>
+  <arr name="balance_forms_2001"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2006"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2009"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2010"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2011"><int>1</int><int>2</int><int>3</int>
+	<int>4</int><int>5</int></arr>
+  <arr name="balance_forms_2012"><int>1</int><int>2</int><int>3</int>
+	<int>4</int></arr>
+  <long name="bsn_id">911393</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Григорьев Юрий Ростиславович</str></arr>
+  <str name="chief_name">Григорьев Юрий Ростиславович</str>
+  <arr name="chiefhistory"><str>школяренко михаил васильевич</str><str>соколков сергей витальевич</str><str>скрыпин иван михайлович</str>
+	<str>цветков андрей евгеньевич</str><str>григорьев юрий ростиславович</str></arr>
+  <arr name="contact_fax_legal"><str>2326549</str></arr>
+  <arr name="contact_history_phone_legal"><str>77-89-97</str><str>232-33-64</str></arr>
+  <arr name="contact_phone_legal"><str>863-232-33-64</str></arr>
+  <date name="founded_dt">2000-11-15T21:00:00Z</date>
+  <arr name="founder"><str>sароr invеsт inс</str><str>5142785,1026103264736,оао донавтовокзал</str><str>5280122,1026103715703,оао ргатп №1</str>
+	<str>комп ремвеrтоn еsтавlisнмеnт / ремвеrтоn аnsт</str></arr>
+  <arr name="founderhistory"><str>5142785,оао донавтовокзал</str><str>5142785,1026103264736,оао донавтовокзал</str><str>sapor invest inc</str>
+	<str>компания pemberton establishment / pemberton anst</str><str>40558574,ооо прометей</str><str>компания pemberton establishment / pemberton</str><str>5280122,аоот ргптп-1</str>
+	<str>5280122,оао ргатп-1</str><str>5280122,1026103715703,оао ргатп-1</str><str>55502734,ооо аксай-авто</str></arr>
+  <arr name="founderoksmcode"><int>438</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int><int>92</int><int>438</int></arr>
+  <arr name="ident"><str>6164089986</str><str>3769-РП</str><str>1026103302345</str>
+	<str>55498004</str><str>2076164268816</str><str>2086164187756</str><str>2096164038122</str>
+	<str>2116164008442</str><str>2116164019299</str><str>2126164085540</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6164089986</long>
+  <arr name="name"><str>общество с ограниченной ответственностью донавтотранс</str><str>ооо донавтотранс</str></arr>
+  <str name="nameshortsort">ООО "Донавтотранс"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Донавтотранс"</str>
+  <long name="ogrn">1026103302345</long>
+  <date name="ogrn_dt">2002-12-26T21:00:00Z</date>
+  <long name="okatocode">60401372000</long>
+  <int name="okfscode">34</int>
+  <int name="okogucode">4210011</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">55498004</long>
+  <int name="oktmocode">60701000</int>
+  <str name="okvedcode_bal">602112</str>
+  <str name="okvedcode_main">60211</str>
+  <arr name="okvedcodes"><str>602112</str><str>60212</str><str>60242</str>
+	<str>50203</str><str>6022</str><str>60243</str><str>602114</str>
+	<str>602111</str><str>6024</str><str>602113</str><str>6023</str>
+	<str>60241</str></arr>
+  <long name="p11104_2000">7000</long>
+  <long name="p11104_2001">2000</long>
+  <long name="p11104_2010">29000</long>
+  <long name="p11104_2011">22000</long>
+  <long name="p11104_2012">29000</long>
+  <long name="p11204_2001">6331000</long>
+  <long name="p11204_2006">4461000</long>
+  <long name="p11204_2007">85517000</long>
+  <long name="p11204_2008">75232000</long>
+  <long name="p11204_2009">51401000</long>
+  <long name="p11204_2010">37260000</long>
+  <long name="p11204_2011">23357000</long>
+  <long name="p11304_2010">15062000</long>
+  <long name="p11404_2006">2436000</long>
+  <long name="p11404_2007">2436000</long>
+  <long name="p11404_2008">7939000</long>
+  <long name="p11404_2009">11472000</long>
+  <long name="p11404_2010">2471000</long>
+  <long name="p11404_2011">54461000</long>
+  <long name="p11404_2012">25900000</long>
+  <long name="p11504_2007">5931000</long>
+  <long name="p11504_2011">15078000</long>
+  <long name="p11504_2012">2452000</long>
+  <long name="p11904_2000">7000</long>
+  <long name="p11904_2001">6333000</long>
+  <long name="p11904_2006">6897000</long>
+  <long name="p11904_2007">93884000</long>
+  <long name="p11904_2008">83171000</long>
+  <long name="p11904_2009">62873000</long>
+  <long name="p11904_2010">54822000</long>
+  <long name="p11904_2011">92918000</long>
+  <long name="p11904_2012">28381000</long>
+  <long name="p12104_2000">247000</long>
+  <long name="p12104_2001">3000</long>
+  <long name="p12104_2006">589000</long>
+  <long name="p12104_2007">1053000</long>
+  <long name="p12104_2008">231000</long>
+  <long name="p12104_2009">130000</long>
+  <long name="p12104_2010">546000</long>
+  <long name="p12104_2011">648000</long>
+  <long name="p12104_2012">3000</long>
+  <long name="p12114_2006">468000</long>
+  <long name="p12114_2007">515000</long>
+  <long name="p12114_2008">70000</long>
+  <long name="p12114_2009">11000</long>
+  <long name="p12114_2010">454000</long>
+  <long name="p12164_2000">247000</long>
+  <long name="p12164_2001">3000</long>
+  <long name="p12164_2006">12000</long>
+  <long name="p12164_2007">222000</long>
+  <long name="p12164_2008">161000</long>
+  <long name="p12164_2009">119000</long>
+  <long name="p12164_2010">92000</long>
+  <long name="p12174_2006">109000</long>
+  <long name="p12174_2007">316000</long>
+  <long name="p12204_2007">4451000</long>
+  <long name="p12204_2008">13000</long>
+  <long name="p12204_2009">16000</long>
+  <long name="p12204_2010">30000</long>
+  <long name="p12204_2011">423000</long>
+  <long name="p12404_2000">278000</long>
+  <long name="p12404_2001">1034000</long>
+  <long name="p12404_2006">4206000</long>
+  <long name="p12404_2007">13111000</long>
+  <long name="p12404_2008">11738000</long>
+  <long name="p12404_2009">5334000</long>
+  <long name="p12404_2010">4126000</long>
+  <long name="p12404_2011">12424000</long>
+  <long name="p12404_2012">15162000</long>
+  <long name="p12414_2001">298000</long>
+  <long name="p12414_2006">1339000</long>
+  <long name="p12414_2007">424000</long>
+  <long name="p12414_2009">181000</long>
+  <long name="p12414_2010">3950000</long>
+  <long name="p12504_2010">37763000</long>
+  <long name="p12504_2012">51966000</long>
+  <long name="p12604_2000">4000</long>
+  <long name="p12604_2001">11000</long>
+  <long name="p12604_2006">214000</long>
+  <long name="p12604_2007">45000</long>
+  <long name="p12604_2008">574000</long>
+  <long name="p12604_2009">238000</long>
+  <long name="p12604_2010">62000</long>
+  <long name="p12604_2011">844000</long>
+  <long name="p12604_2012">33000</long>
+  <long name="p12704_2007">2014000</long>
+  <long name="p12704_2009">90000</long>
+  <long name="p12704_2011">233000</long>
+  <long name="p12704_2012">25000</long>
+  <long name="p12904_2000">529000</long>
+  <long name="p12904_2001">1048000</long>
+  <long name="p12904_2006">5009000</long>
+  <long name="p12904_2007">20674000</long>
+  <long name="p12904_2008">12556000</long>
+  <long name="p12904_2009">5808000</long>
+  <long name="p12904_2010">42527000</long>
+  <long name="p12904_2011">14572000</long>
+  <long name="p12904_2012">67189000</long>
+  <long name="p13004_2000">536000</long>
+  <long name="p13004_2001">7381000</long>
+  <long name="p13004_2006">11906000</long>
+  <long name="p13004_2007">114558000</long>
+  <long name="p13004_2008">95727000</long>
+  <long name="p13004_2009">68681000</long>
+  <long name="p13004_2010">97349000</long>
+  <long name="p13004_2011">107490000</long>
+  <long name="p13004_2012">95570000</long>
+  <long name="p14104_2000">9000</long>
+  <long name="p14104_2001">6069000</long>
+  <long name="p14104_2006">10060000</long>
+  <long name="p14104_2007">10060000</long>
+  <long name="p14104_2008">10060000</long>
+  <long name="p14104_2009">10060000</long>
+  <long name="p14104_2010">10060000</long>
+  <long name="p14104_2011">10060000</long>
+  <long name="p14104_2012">10060000</long>
+  <long name="p14704_2001">1055000</long>
+  <long name="p14704_2006">-8118000</long>
+  <long name="p14704_2007">-13296000</long>
+  <long name="p14704_2008">-39913000</long>
+  <long name="p14704_2009">-49859000</long>
+  <long name="p14704_2010">-45931000</long>
+  <long name="p14704_2011">-45904000</long>
+  <long name="p14704_2012">-73970000</long>
+  <long name="p14904_2000">9000</long>
+  <long name="p14904_2001">7124000</long>
+  <long name="p14904_2006">1942000</long>
+  <long name="p14904_2007">-3236000</long>
+  <long name="p14904_2008">-29853000</long>
+  <long name="p14904_2009">-39799000</long>
+  <long name="p14904_2010">-35871000</long>
+  <long name="p14904_2011">-35844000</long>
+  <long name="p14904_2012">-63910000</long>
+  <long name="p15104_2006">510000</long>
+  <long name="p15104_2007">115051000</long>
+  <long name="p15104_2008">118393000</long>
+  <long name="p15104_2009">103340000</long>
+  <long name="p15104_2010">124227000</long>
+  <long name="p15104_2011">129207000</long>
+  <long name="p15104_2012">2490000</long>
+  <long name="p15904_2006">510000</long>
+  <long name="p15904_2007">115051000</long>
+  <long name="p15904_2008">118393000</long>
+  <long name="p15904_2009">103340000</long>
+  <long name="p15904_2010">124227000</long>
+  <long name="p15904_2011">129207000</long>
+  <long name="p15904_2012">2490000</long>
+  <long name="p16104_2000">480000</long>
+  <long name="p16104_2006">2163000</long>
+  <long name="p16104_2010">2900000</long>
+  <long name="p16104_2011">6575000</long>
+  <long name="p16104_2012">138574000</long>
+  <long name="p16204_2000">47000</long>
+  <long name="p16204_2001">257000</long>
+  <long name="p16204_2006">7291000</long>
+  <long name="p16204_2007">2743000</long>
+  <long name="p16204_2008">7187000</long>
+  <long name="p16204_2009">5140000</long>
+  <long name="p16204_2010">6093000</long>
+  <long name="p16204_2011">7497000</long>
+  <long name="p16204_2012">18370000</long>
+  <long name="p16214_2001">227000</long>
+  <long name="p16214_2006">473000</long>
+  <long name="p16214_2008">1092000</long>
+  <long name="p16214_2009">927000</long>
+  <long name="p16214_2010">1905000</long>
+  <long name="p16224_2006">1518000</long>
+  <long name="p16224_2007">643000</long>
+  <long name="p16224_2008">904000</long>
+  <long name="p16224_2009">1152000</long>
+  <long name="p16224_2010">264000</long>
+  <long name="p16234_2008">39000</long>
+  <long name="p16244_2000">7000</long>
+  <long name="p16244_2001">28000</long>
+  <long name="p16244_2006">529000</long>
+  <long name="p16244_2007">2049000</long>
+  <long name="p16244_2010">2566000</long>
+  <long name="p16254_2001">1000</long>
+  <long name="p16254_2006">4771000</long>
+  <long name="p16254_2007">51000</long>
+  <long name="p16254_2008">5152000</long>
+  <long name="p16254_2009">3061000</long>
+  <long name="p16254_2010">1358000</long>
+  <long name="p16404_2012">46000</long>
+  <long name="p16604_2011">55000</long>
+  <long name="p16904_2000">527000</long>
+  <long name="p16904_2001">257000</long>
+  <long name="p16904_2006">9454000</long>
+  <long name="p16904_2007">2743000</long>
+  <long name="p16904_2008">7187000</long>
+  <long name="p16904_2009">5140000</long>
+  <long name="p16904_2010">8993000</long>
+  <long name="p16904_2011">14127000</long>
+  <long name="p16904_2012">156990000</long>
+  <long name="p17004_2000">536000</long>
+  <long name="p17004_2001">7381000</long>
+  <long name="p17004_2006">11906000</long>
+  <long name="p17004_2007">114558000</long>
+  <long name="p17004_2008">95727000</long>
+  <long name="p17004_2009">68681000</long>
+  <long name="p17004_2010">97349000</long>
+  <long name="p17004_2011">107490000</long>
+  <long name="p17004_2012">95570000</long>
+  <long name="p20103_2001">7056000</long>
+  <long name="p20103_2006">33311000</long>
+  <long name="p20103_2007">36905000</long>
+  <long name="p20103_2008">22546000</long>
+  <long name="p20103_2009">31740000</long>
+  <long name="p20103_2010">42375000</long>
+  <long name="p20103_2011">49223000</long>
+  <long name="p20103_2012">40447000</long>
+  <long name="p20203_2001">4525000</long>
+  <long name="p20203_2006">32199000</long>
+  <long name="p20203_2007">35556000</long>
+  <long name="p20203_2008">33149000</long>
+  <long name="p20203_2009">44618000</long>
+  <long name="p20203_2010">40485000</long>
+  <long name="p20203_2011">36831000</long>
+  <long name="p20203_2012">90748000</long>
+  <long name="p20293_2001">2531000</long>
+  <long name="p20293_2006">1112000</long>
+  <long name="p20293_2007">1349000</long>
+  <long name="p20293_2008">-10603000</long>
+  <long name="p20293_2009">-12878000</long>
+  <long name="p20293_2010">1890000</long>
+  <long name="p20293_2011">12392000</long>
+  <long name="p20293_2012">-50301000</long>
+  <long name="p20403_2012">6000</long>
+  <long name="p20503_2001">2531000</long>
+  <long name="p20503_2006">1112000</long>
+  <long name="p20503_2007">1349000</long>
+  <long name="p20503_2008">-10603000</long>
+  <long name="p20503_2009">-12878000</long>
+  <long name="p20503_2010">1890000</long>
+  <long name="p20503_2011">12392000</long>
+  <long name="p20503_2012">-50307000</long>
+  <long name="p20603_2007">613000</long>
+  <long name="p20603_2008">938000</long>
+  <long name="p20603_2009">613000</long>
+  <long name="p20603_2010">1896000</long>
+  <long name="p20603_2011">4633000</long>
+  <long name="p20703_2008">11392000</long>
+  <long name="p20703_2009">18216000</long>
+  <long name="p20703_2010">16592000</long>
+  <long name="p20703_2011">18434000</long>
+  <long name="p20903_2007">2506000</long>
+  <long name="p20903_2008">68000</long>
+  <long name="p20903_2009">30277000</long>
+  <long name="p20903_2010">8246000</long>
+  <long name="p20903_2011">3291000</long>
+  <long name="p20903_2012">22304000</long>
+  <long name="p21003_2007">2032000</long>
+  <long name="p21003_2008">688000</long>
+  <long name="p21003_2009">9742000</long>
+  <long name="p21003_2010">1585000</long>
+  <long name="p21003_2011">1880000</long>
+  <long name="p21003_2012">22957000</long>
+  <long name="p21303_2001">1476000</long>
+  <long name="p21403_2001">1055000</long>
+  <long name="p21403_2006">1112000</long>
+  <long name="p21403_2007">2436000</long>
+  <long name="p21403_2008">-21677000</long>
+  <long name="p21403_2009">-9946000</long>
+  <long name="p21403_2010">-6145000</long>
+  <long name="p21403_2011">2000</long>
+  <long name="p21403_2012">-50960000</long>
+  <long name="p21413_2007">2128000</long>
+  <long name="p21503_2006">266000</long>
+  <long name="p21503_2007">63000</long>
+  <long name="p21903_2001">1055000</long>
+  <long name="p21903_2006">846000</long>
+  <long name="p21903_2007">4501000</long>
+  <long name="p21903_2008">-21677000</long>
+  <long name="p21903_2009">-9946000</long>
+  <long name="p21903_2010">-6145000</long>
+  <long name="p21903_2011">2000</long>
+  <long name="p21903_2012">-50960000</long>
+  <long name="p72053_2011">2000</long>
+  <long name="p72053_2012">-50960000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:10:50.763Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191186, г санкт-петербург ул б морская 14 литер а пом 8 н</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург ул шпалерная 54/2 литер а</str><str>г санкт-петербургул шпалерная 54/2 литер а</str></arr>
+  <int name="addressindex">191186</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ Б МОРСКАЯ, 14 ЛИТЕР А ПОМ 8 Н</str>
+  <arr name="balance"><int>2008</int><int>2007</int></arr>
+  <arr name="balance_forms_2007"><int>1</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">3487092</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: ПРОНИЧЕВ ИВАН ВЛАДИМИРОВИЧ</str></arr>
+  <str name="chief_name">ПРОНИЧЕВ ИВАН ВЛАДИМИРОВИЧ</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str></arr>
+  <date name="dead_dt">2011-07-30T20:00:00Z</date>
+  <date name="founded_dt">2007-01-30T14:52:19.226Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7842350591</str><str>1079847058906</str><str>98591300</str>
+	<str>2089847423829</str><str>7097847213919</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7842350591</long>
+  <arr name="name"><str>закрытое акционерное общество инвестпроект</str><str>зао инвестпроект</str></arr>
+  <str name="nameshortsort">ЗАО "Инвестпроект"</str>
+  <str name="namesort">Закрытое акционерное общество "Инвестпроект"</str>
+  <long name="ogrn">1079847058906</long>
+  <date name="ogrn_dt">2007-01-30T14:52:19.226Z</date>
+  <long name="okatocode">40298562000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12267</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">98591300</long>
+  <int name="oktmocode">40909000</int>
+  <str name="okvedcode_main">701</str>
+  <arr name="okvedcodes"><str>741</str></arr>
+  <long name="p12604_2007">10000</long>
+  <long name="p12604_2008">6000</long>
+  <long name="p12904_2007">10000</long>
+  <long name="p12904_2008">6000</long>
+  <long name="p13004_2007">10000</long>
+  <long name="p13004_2008">6000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14704_2008">-4000</long>
+  <long name="p14904_2007">10000</long>
+  <long name="p14904_2008">6000</long>
+  <long name="p17004_2007">10000</long>
+  <long name="p17004_2008">6000</long>
+  <long name="p21003_2008">4000</long>
+  <long name="p21403_2008">-4000</long>
+  <long name="p21903_2008">-4000</long>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:33:04.483Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191015, г санкт-петербург ул шпалерная 54</str></arr>
+  <int name="addressindex">191015</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ ШПАЛЕРНАЯ, 54</str>
+  <arr name="balance"><int>2008</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">5657839</long>
+  <arr name="chief"><str>ЛИКВИДАТОР: МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str></arr>
+  <str name="chief_name">МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str></arr>
+  <arr name="contact_phone_legal"><str>5790152</str></arr>
+  <date name="dead_dt">2009-09-29T20:00:00Z</date>
+  <date name="founded_dt">2008-03-11T10:56:49.073Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7842379819</str><str>1089847096129</str><str>85470500</str>
+	<str>7097847411040</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7842379819</long>
+  <arr name="name"><str>ликвидационная комиссия ооо петропроект (назначение ликвидатора)</str><str>ооо пп</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью петропроект</str></arr>
+  <str name="nameshortsort">ООО "ПП"</str>
+  <str name="namesort">ЛИКВИДАЦИОННАЯ КОМИССИЯ ООО "ПЕТРОПРОЕКТ" (НАЗНАЧЕНИЕ ЛИКВИДАТОРА)</str>
+  <long name="ogrn">1089847096129</long>
+  <date name="ogrn_dt">2008-03-11T10:56:49.073Z</date>
+  <long name="okatocode">40298564000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">85470500</long>
+  <int name="oktmocode">40911000</int>
+  <str name="okvedcode_main">7011</str>
+  <arr name="okvedcodes"><str>7031</str></arr>
+  <long name="p12104_2008">3436000</long>
+  <long name="p12134_2008">3436000</long>
+  <long name="p12404_2008">5411000</long>
+  <long name="p12604_2008">40000</long>
+  <long name="p12904_2008">8887000</long>
+  <long name="p13004_2008">8887000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14904_2008">10000</long>
+  <long name="p16104_2008">5000000</long>
+  <long name="p16204_2008">3877000</long>
+  <long name="p16254_2008">3877000</long>
+  <long name="p16904_2008">8877000</long>
+  <long name="p17004_2008">8887000</long>
+  <long name="p20103_2008">875000</long>
+  <long name="p20203_2008">866000</long>
+  <long name="p20293_2008">9000</long>
+  <long name="p20503_2008">9000</long>
+  <long name="p20903_2008">12000</long>
+  <long name="p21003_2008">22000</long>
+  <long name="p21403_2008">-1000</long>
+  <long name="p21413_2008">1000</long>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:54:42.81Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>111397, г москва ул новогиреевская д 29 корп 1</str></arr>
+  <arr name="addresshistory"><str>г москваул новогиреевская д 29 корп 1</str></arr>
+  <int name="addressindex">111397</int>
+  <str name="addresssort">г Москва, ул Новогиреевская, д 29, корп 1</str>
+  <long name="bsn_id">3747215</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Серов Андрей Евгеньевич</str></arr>
+  <str name="chief_name">Серов Андрей Евгеньевич</str>
+  <arr name="chiefhistory"><str>горовой виктор николаевич</str><str>цветков дмитрий вениаминович</str><str>серов андрей евгеньевич</str>
+	<str>сонин илья николаевич</str></arr>
+  <arr name="contact_fax_legal"><str>730-63-95</str></arr>
+  <arr name="contact_history_phone_legal"><str>305-60-03</str><str>3056003</str></arr>
+  <arr name="contact_phone_legal"><str>495-305-60-03</str></arr>
+  <date name="founded_dt">2006-05-05T20:00:00Z</date>
+  <arr name="founder"><str>граждане россии(2)</str></arr>
+  <arr name="founderhistory"><str>граждане россии (2)</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7709676627</str><str>1067746576754</str><str>95524467</str>
+	<str>2077746913671</str><str>2087755366708</str><str>2097748284797</str><str>8097748062591</str>
+	<str>2117747120852</str><str>9117747621026</str><str>6137746015005</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7709676627</long>
+  <arr name="name"><str>общество с ограниченной ответственностью частное охранное предприятие дельта форс вв</str><str>ооо чоп дельта форс вв</str></arr>
+  <str name="nameshortsort">ООО ЧОП "Дельта Форс ВВ"</str>
+  <str name="namesort">Общество с ограниченной ответственностью Частное охранное предприятие "Дельта Форс ВВ"</str>
+  <long name="ogrn">1067746576754</long>
+  <date name="ogrn_dt">2006-05-05T20:00:00Z</date>
+  <long name="okatocode">45263583000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">95524467</long>
+  <int name="oktmocode">45312000</int>
+  <str name="okvedcode_main">7460</str>
+  <arr name="okvedcodes"><str>7411</str><str>7484</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:49:50.399Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191015, г санкт-петербург ул шпалерная 60 литер а пом 67-н</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург просп новоизмайловский 69 литер а пом 3 н</str></arr>
+  <int name="addressindex">191015</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ ШПАЛЕРНАЯ, 60 ЛИТЕР А ПОМ 67-Н</str>
+  <long name="bsn_id">6263074</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: КАРПОВА ВАЛЕНТИНА АЛЕКСАНДРОВНА</str></arr>
+  <str name="chief_name">КАРПОВА ВАЛЕНТИНА АЛЕКСАНДРОВНА</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str><str>турков андрей юльевич</str></arr>
+  <arr name="contact_fax_legal"><str>3335351</str></arr>
+  <arr name="contact_phone_legal"><str>3335351</str></arr>
+  <date name="founded_dt">2009-05-04T14:50:54.221Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7810553574</str><str>1097847128950</str><str>61018149</str>
+	<str>8097847627133</str><str>6107847110717</str><str>7107847000419</str><str>7107847214842</str>
+	<str>7107847672410</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7810553574</long>
+  <arr name="name"><str>общество с ограниченной ответственностью чистый воздух</str><str>ооо чистый воздух</str></arr>
+  <str name="nameshortsort">ООО "Чистый воздух"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Чистый воздух"</str>
+  <long name="ogrn">1097847128950</long>
+  <date name="ogrn_dt">2009-05-04T14:50:54.221Z</date>
+  <long name="okatocode">40298564000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">61018149</long>
+  <int name="oktmocode">40911000</int>
+  <str name="okvedcode_main">703</str>
+  <arr name="okvedcodes"><str>701</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:53:11.301Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191015, г санкт-петербург ул шпалерная 54</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербургул шпалерная 54</str></arr>
+  <int name="addressindex">191015</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ ШПАЛЕРНАЯ, 54</str>
+  <arr name="balance"><int>2008</int><int>2007</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">3580940</long>
+  <arr name="chief"><str>ЛИКВИДАТОР: МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str></arr>
+  <str name="chief_name">МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str>
+  <arr name="chiefhistory"><str>срыбная ольга владимировна</str><str>цветков андрей евгеньевич</str></arr>
+  <date name="founded_dt">2007-07-10T13:51:49.479Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str><str>56326883,ооо интерлизингстрой</str><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7842362413</str><str>1077847486694</str><str>80593830</str>
+	<str>2089847423719</str><str>8089847414209</str><str>2087847508110</str><str>2097847293872</str>
+	<str>8097847545018</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7842362413</long>
+  <arr name="name"><str>ликвидационная комиссия ооо спецпроектсервис (назначение ликвидатора)</str><str>ооо спс</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью спецпроектсервис</str></arr>
+  <str name="nameshortsort">ООО "СПС"</str>
+  <str name="namesort">ЛИКВИДАЦИОННАЯ КОМИССИЯ ООО "СпецПроектСервис" (НАЗНАЧЕНИЕ ЛИКВИДАТОРА)</str>
+  <long name="ogrn">1077847486694</long>
+  <date name="ogrn_dt">2007-07-10T13:51:49.479Z</date>
+  <long name="okatocode">40298564000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">80593830</long>
+  <int name="oktmocode">40911000</int>
+  <str name="okvedcode_main">7011</str>
+  <arr name="okvedcodes"><str>7031</str></arr>
+  <long name="p11204_2008">20954000</long>
+  <long name="p11304_2007">8000</long>
+  <long name="p11904_2007">8000</long>
+  <long name="p11904_2008">20954000</long>
+  <long name="p12104_2008">4961000</long>
+  <long name="p12134_2008">4946000</long>
+  <long name="p12164_2008">15000</long>
+  <long name="p12204_2008">3919000</long>
+  <long name="p12404_2008">4525000</long>
+  <long name="p12504_2008">3073000</long>
+  <long name="p12604_2008">237000</long>
+  <long name="p12904_2008">16715000</long>
+  <long name="p13004_2007">8000</long>
+  <long name="p13004_2008">37669000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14704_2007">-25000</long>
+  <long name="p14704_2008">-22000</long>
+  <long name="p14904_2007">-15000</long>
+  <long name="p14904_2008">-12000</long>
+  <long name="p16104_2008">32319000</long>
+  <long name="p16204_2007">23000</long>
+  <long name="p16204_2008">5362000</long>
+  <long name="p16214_2008">913000</long>
+  <long name="p16224_2007">22000</long>
+  <long name="p16244_2007">1000</long>
+  <long name="p16244_2008">161000</long>
+  <long name="p16254_2008">4288000</long>
+  <long name="p16904_2007">23000</long>
+  <long name="p16904_2008">37681000</long>
+  <long name="p17004_2007">8000</long>
+  <long name="p17004_2008">37669000</long>
+  <long name="p20103_2007">5127000</long>
+  <long name="p20103_2008">1517000</long>
+  <long name="p20203_2008">1063000</long>
+  <long name="p20293_2007">5127000</long>
+  <long name="p20293_2008">454000</long>
+  <long name="p20303_2007">5148000</long>
+  <long name="p20503_2007">-21000</long>
+  <long name="p20503_2008">454000</long>
+  <long name="p21003_2007">5000</long>
+  <long name="p21003_2008">451000</long>
+  <long name="p21403_2007">-26000</long>
+  <long name="p21403_2008">3000</long>
+  <long name="p21903_2007">-26000</long>
+  <long name="p21903_2008">3000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:34:22.699Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191015, г санкт-петербург ул шпалерная 60 литер а пом 67-н</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург ул шпалерная 54</str></arr>
+  <int name="addressindex">191015</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ ШПАЛЕРНАЯ, 60 ЛИТЕР А ПОМ 67-Н</str>
+  <arr name="balance"><int>2008</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">5657480</long>
+  <arr name="chief"><str>ЛИКВИДАТОР: МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str></arr>
+  <str name="chief_name">МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str><str>карпова валентина александровна</str></arr>
+  <arr name="contact_fax_legal"><str>3335351</str></arr>
+  <arr name="contact_history_phone_legal"><str>5790152</str></arr>
+  <arr name="contact_phone_legal"><str>3335351</str></arr>
+  <date name="founded_dt">2008-03-12T15:50:55.14Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7842379914</str><str>1089847097746</str><str>85455245</str>
+	<str>2089848677830</str><str>9097847534700</str><str>6107847000937</str><str>7107847702186</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7842379914</long>
+  <arr name="name"><str>ликвидационная комиссия ооо балтинвестстрой (внесение сведений о ликвидационной комиссии)</str><str>ооо бис</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью балтинвестстрой</str></arr>
+  <str name="nameshortsort">ООО "БИС"</str>
+  <str name="namesort">ЛИКВИДАЦИОННАЯ КОМИССИЯ ООО "БалтИнвестСтрой" (ВНЕСЕНИЕ СВЕДЕНИЙ О ЛИКВИДАЦИОННОЙ КОМИССИИ)</str>
+  <long name="ogrn">1089847097746</long>
+  <date name="ogrn_dt">2008-03-12T15:50:55.14Z</date>
+  <long name="okatocode">40298564000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">85455245</long>
+  <int name="oktmocode">40911000</int>
+  <str name="okvedcode_main">7011</str>
+  <arr name="okvedcodes"><str>7020</str></arr>
+  <long name="p12604_2008">5000</long>
+  <long name="p12904_2008">5000</long>
+  <long name="p13004_2008">5000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14704_2008">-5000</long>
+  <long name="p14904_2008">5000</long>
+  <long name="p17004_2008">5000</long>
+  <long name="p21003_2008">5000</long>
+  <long name="p21403_2008">-5000</long>
+  <long name="p21903_2008">-5000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:54:31.668Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>681003, хабаровский край г комсомольск-на-амуре ул аллея труда д 58 корп 2 оф 5</str></arr>
+  <arr name="addresshistory"><str>самарская область ставропольский район с ягодное ул ставропольская д 76</str><str>хабаровский край г комсомольск-на-амуре ул аллея труда д 58/2 офис 5</str></arr>
+  <int name="addressindex">681003</int>
+  <str name="addresssort">Хабаровский край, г Комсомольск-на-Амуре, ул Аллея Труда, д 58, корп 2, оф 5</str>
+  <long name="bsn_id">7955311</long>
+  <arr name="chief"><str>ДИРЕКТОР: Назаров Василий Евгеньевич</str></arr>
+  <str name="chief_name">Назаров Василий Евгеньевич</str>
+  <arr name="chiefhistory"><str>цветков андрей владимирович</str></arr>
+  <date name="founded_dt">2010-10-20T20:00:00Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderhistory"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>6382060144</str><str>1106382003188</str><str>69071143</str>
+	<str>2116382021370</str><str>2112703035146</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6382060144</long>
+  <arr name="name"><str>общество с ограниченной ответственностью эдем</str><str>ооо эдем</str></arr>
+  <str name="nameshortsort">ООО "ЭДЕМ"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "ЭДЕМ"</str>
+  <long name="ogrn">1106382003188</long>
+  <date name="ogrn_dt">2010-10-20T20:00:00Z</date>
+  <long name="okatocode">8409000000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">69071143</long>
+  <int name="oktmocode">8709000</int>
+  <str name="okvedcode_main">5153</str>
+  <arr name="okvedcodes"><str>5137</str><str>6340</str><str>6024</str>
+	<str>6023</str><str>6022</str><str>6021</str><str>5246</str>
+	<str>4531</str><str>4532</str><str>4533</str><str>4534</str>
+	<str>4541</str><str>4542</str><str>4543</str><str>4544</str>
+	<str>4545</str><str>5010</str><str>5020</str><str>5030</str>
+	<str>5050</str><str>5113</str><str>5131</str><str>5132</str>
+	<str>5133</str><str>5134</str><str>5135</str><str>5136</str>
+	<str>5138</str><str>5139</str><str>5152</str><str>5154</str>
+	<str>5211</str><str>5212</str><str>5221</str><str>5222</str>
+	<str>5223</str><str>5224</str><str>5225</str><str>5226</str>
+	<str>5227</str><str>7440</str><str>4525</str><str>4524</str>
+	<str>4523</str><str>4522</str><str>4521</str><str>4511</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:57:52.383Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>115583, г москва ул воронежская д 8 корп 4</str><str>115583, г москваул воронежская д 8 корп 4</str></arr>
+  <arr name="addresshistory"><str>г москваваловая ул д 30/73 стр 4</str><str>г москваул воронежская д 8 корп 4</str><str>г москва ул воронежская д 8 корп 4</str></arr>
+  <int name="addressindex">115583</int>
+  <str name="addresssort">г Москва, ул Воронежская, д 8, корп 4</str>
+  <arr name="balance"><int>2008</int><int>2007</int><int>2006</int>
+	<int>2005</int><int>2004</int><int>2003</int></arr>
+  <arr name="balance_forms_2003"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2004"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2005"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2006"><int>1</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">1520586</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Веремеева Лолита Владимировна</str></arr>
+  <str name="chief_name">Веремеева Лолита Владимировна</str>
+  <arr name="chiefhistory"><str>сокольская екатерина алексеевна</str><str>цветков андрей евгеньевич</str><str>цветнов андрей евгеньевич</str></arr>
+  <arr name="contact_history_phone_legal"><str>917-24-22</str><str>9172422</str></arr>
+  <arr name="contact_phone_actual"><str>917-24-22</str></arr>
+  <arr name="contact_phone_legal"><str>917-24-22</str></arr>
+  <date name="founded_dt">2003-05-30T18:01:53.795Z</date>
+  <arr name="founder"><str>граждане россии(1)</str></arr>
+  <arr name="founderhistory"><str>гражданка россии</str><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>0</str><str>7705500855</str><str>1037705043210</str>
+	<str>14272848</str><str>9067746950010</str><str>2067757342850</str><str>2095472019740</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7705500855</long>
+  <arr name="name"><str>общество с ограниченной ответственностью станкомодернизация</str><str>ооо станкомодернизация</str></arr>
+  <str name="nameshortsort">ООО "СтанкоМодернизация"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "СтанкоМодернизация"</str>
+  <long name="ogrn">1037705043210</long>
+  <date name="ogrn_dt">2003-05-30T18:01:53.795Z</date>
+  <long name="okatocode">45296579000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">14272848</long>
+  <int name="oktmocode">45922000</int>
+  <str name="okvedcode_bal">29409</str>
+  <str name="okvedcode_main">29409</str>
+  <arr name="okvedcodes"><str>74131</str></arr>
+  <long name="p11304_2007">51000</long>
+  <long name="p11304_2008">99000</long>
+  <long name="p11904_2007">51000</long>
+  <long name="p11904_2008">99000</long>
+  <long name="p12104_2003">434000</long>
+  <long name="p12104_2004">903000</long>
+  <long name="p12104_2005">329000</long>
+  <long name="p12104_2006">22214000</long>
+  <long name="p12104_2007">23620000</long>
+  <long name="p12104_2008">7793000</long>
+  <long name="p12114_2006">6000</long>
+  <long name="p12114_2007">10000</long>
+  <long name="p12114_2008">9000</long>
+  <long name="p12144_2003">434000</long>
+  <long name="p12144_2004">903000</long>
+  <long name="p12144_2005">329000</long>
+  <long name="p12144_2006">22208000</long>
+  <long name="p12144_2007">23611000</long>
+  <long name="p12144_2008">7784000</long>
+  <long name="p12204_2003">1000</long>
+  <long name="p12204_2004">1000</long>
+  <long name="p12204_2005">9000</long>
+  <long name="p12204_2006">915000</long>
+  <long name="p12204_2007">79000</long>
+  <long name="p12204_2008">59000</long>
+  <long name="p12404_2003">5000</long>
+  <long name="p12404_2004">5000</long>
+  <long name="p12404_2005">222000</long>
+  <long name="p12404_2006">18837000</long>
+  <long name="p12404_2007">36993000</long>
+  <long name="p12404_2008">71034000</long>
+  <long name="p12414_2005">132000</long>
+  <long name="p12414_2006">8528000</long>
+  <long name="p12414_2007">22729000</long>
+  <long name="p12414_2008">23715000</long>
+  <long name="p12504_2007">1500000</long>
+  <long name="p12604_2003">25000</long>
+  <long name="p12604_2004">62000</long>
+  <long name="p12604_2005">298000</long>
+  <long name="p12604_2006">13033000</long>
+  <long name="p12604_2007">40179000</long>
+  <long name="p12604_2008">14741000</long>
+  <long name="p12904_2003">465000</long>
+  <long name="p12904_2004">971000</long>
+  <long name="p12904_2005">858000</long>
+  <long name="p12904_2006">55000000</long>
+  <long name="p12904_2007">102371000</long>
+  <long name="p12904_2008">93627000</long>
+  <long name="p13004_2003">465000</long>
+  <long name="p13004_2004">971000</long>
+  <long name="p13004_2005">858000</long>
+  <long name="p13004_2006">55000000</long>
+  <long name="p13004_2007">102422000</long>
+  <long name="p13004_2008">93725000</long>
+  <long name="p14104_2003">10000</long>
+  <long name="p14104_2004">10000</long>
+  <long name="p14104_2005">10000</long>
+  <long name="p14104_2006">10000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14704_2003">-309000</long>
+  <long name="p14704_2004">-24000</long>
+  <long name="p14704_2005">406000</long>
+  <long name="p14704_2006">1473000</long>
+  <long name="p14704_2007">2326000</long>
+  <long name="p14704_2008">5390000</long>
+  <long name="p14904_2003">-299000</long>
+  <long name="p14904_2004">-14000</long>
+  <long name="p14904_2005">416000</long>
+  <long name="p14904_2006">1483000</long>
+  <long name="p14904_2007">2336000</long>
+  <long name="p14904_2008">5400000</long>
+  <long name="p16204_2003">764000</long>
+  <long name="p16204_2004">985000</long>
+  <long name="p16204_2005">442000</long>
+  <long name="p16204_2006">53517000</long>
+  <long name="p16204_2007">100086000</long>
+  <long name="p16204_2008">88325000</long>
+  <long name="p16214_2003">716000</long>
+  <long name="p16214_2004">8000</long>
+  <long name="p16214_2005">42000</long>
+  <long name="p16214_2006">38021000</long>
+  <long name="p16214_2007">78924000</long>
+  <long name="p16214_2008">86773000</long>
+  <long name="p16224_2003">10000</long>
+  <long name="p16224_2005">115000</long>
+  <long name="p16224_2006">31000</long>
+  <long name="p16224_2007">67000</long>
+  <long name="p16224_2008">214000</long>
+  <long name="p16234_2003">4000</long>
+  <long name="p16234_2004">2000</long>
+  <long name="p16234_2005">7000</long>
+  <long name="p16234_2006">15000</long>
+  <long name="p16234_2007">10000</long>
+  <long name="p16234_2008">4000</long>
+  <long name="p16244_2003">34000</long>
+  <long name="p16244_2004">45000</long>
+  <long name="p16244_2005">165000</long>
+  <long name="p16244_2006">261000</long>
+  <long name="p16244_2008">209000</long>
+  <long name="p16254_2004">931000</long>
+  <long name="p16254_2005">112000</long>
+  <long name="p16254_2006">15187000</long>
+  <long name="p16254_2007">21085000</long>
+  <long name="p16254_2008">1126000</long>
+  <long name="p16904_2003">764000</long>
+  <long name="p16904_2004">985000</long>
+  <long name="p16904_2005">442000</long>
+  <long name="p16904_2006">53517000</long>
+  <long name="p16904_2007">100086000</long>
+  <long name="p16904_2008">88325000</long>
+  <long name="p17004_2003">465000</long>
+  <long name="p17004_2004">971000</long>
+  <long name="p17004_2005">858000</long>
+  <long name="p17004_2006">55000000</long>
+  <long name="p17004_2007">102422000</long>
+  <long name="p17004_2008">93725000</long>
+  <long name="p20103_2003">13489000</long>
+  <long name="p20103_2004">33538000</long>
+  <long name="p20103_2005">28101000</long>
+  <long name="p20103_2007">140088000</long>
+  <long name="p20103_2008">161008000</long>
+  <long name="p20203_2003">12923000</long>
+  <long name="p20203_2004">32190000</long>
+  <long name="p20203_2005">25557000</long>
+  <long name="p20203_2007">133348000</long>
+  <long name="p20203_2008">154472000</long>
+  <long name="p20293_2003">566000</long>
+  <long name="p20293_2004">1348000</long>
+  <long name="p20293_2005">2544000</long>
+  <long name="p20293_2007">6740000</long>
+  <long name="p20293_2008">6536000</long>
+  <long name="p20303_2003">810000</long>
+  <long name="p20303_2004">963000</long>
+  <long name="p20303_2005">1976000</long>
+  <long name="p20303_2007">5503000</long>
+  <long name="p20303_2008">3001000</long>
+  <long name="p20503_2003">-244000</long>
+  <long name="p20503_2004">385000</long>
+  <long name="p20503_2005">568000</long>
+  <long name="p20503_2007">1237000</long>
+  <long name="p20503_2008">3535000</long>
+  <long name="p20903_2007">175000</long>
+  <long name="p20903_2008">527000</long>
+  <long name="p21003_2007">19000</long>
+  <long name="p21003_2008">17000</long>
+  <long name="p21303_2003">65000</long>
+  <long name="p21303_2004">1000</long>
+  <long name="p21303_2005">1000</long>
+  <long name="p21403_2003">-309000</long>
+  <long name="p21403_2004">384000</long>
+  <long name="p21403_2005">567000</long>
+  <long name="p21403_2007">1393000</long>
+  <long name="p21403_2008">4045000</long>
+  <long name="p21503_2004">92000</long>
+  <long name="p21503_2005">136000</long>
+  <long name="p21503_2007">514000</long>
+  <long name="p21503_2008">981000</long>
+  <long name="p21903_2003">-309000</long>
+  <long name="p21903_2004">292000</long>
+  <long name="p21903_2005">431000</long>
+  <long name="p21903_2007">879000</long>
+  <long name="p21903_2008">3064000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:16:40.938Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>191015, г санкт-петербург ул шпалерная 60 литер а пом 67-н</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербургул шпалерная 54</str><str>г санкт-петербург ул шпалерная 54</str></arr>
+  <int name="addressindex">191015</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, УЛ ШПАЛЕРНАЯ, 60 ЛИТЕР А ПОМ 67-Н</str>
+  <arr name="balance"><int>2008</int><int>2007</int></arr>
+  <arr name="balance_forms_2007"><int>1</int></arr>
+  <arr name="balance_forms_2008"><int>1</int></arr>
+  <long name="bsn_id">3577270</long>
+  <arr name="chief"><str>ЛИКВИДАТОР: МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str></arr>
+  <str name="chief_name">МИРОНОВ ДЕНИС АЛЕКСАНДРОВИЧ</str>
+  <arr name="chiefhistory"><str>цветков андрей евгеньевич</str><str>карпова валентина александровна</str><str>гусева светлана николаевна</str></arr>
+  <date name="founded_dt">2007-07-10T18:02:30.553Z</date>
+  <arr name="founder"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="ident"><str>7842362452</str><str>1077847488113</str><str>80579818</str>
+	<str>8089847408357</str><str>7097847332829</str><str>2099847131360</str><str>6107847110960</str>
+	<str>7107847223554</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7842362452</long>
+  <arr name="name"><str>ликвидационная комиссия ооо инвестпроектменеджмент (сформирована ликвидационная комиссия)</str><str>ооо ипм</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью инвестпроектменеджмент</str></arr>
+  <str name="nameshortsort">ООО "ИПМ"</str>
+  <str name="namesort">Ликвидационная комиссия ООО "ИнвестПроектМенеджмент" (сформирована ликвидационная комиссия)</str>
+  <long name="ogrn">1077847488113</long>
+  <date name="ogrn_dt">2007-07-10T18:02:30.553Z</date>
+  <long name="okatocode">40298564000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">80579818</long>
+  <int name="oktmocode">40911000</int>
+  <str name="okvedcode_main">7011</str>
+  <arr name="okvedcodes"><str>7031</str></arr>
+  <long name="p12604_2007">10000</long>
+  <long name="p12604_2008">10000</long>
+  <long name="p12904_2007">10000</long>
+  <long name="p12904_2008">10000</long>
+  <long name="p13004_2007">10000</long>
+  <long name="p13004_2008">10000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14904_2007">10000</long>
+  <long name="p14904_2008">10000</long>
+  <long name="p17004_2007">10000</long>
+  <long name="p17004_2008">10000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:34:13.528Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>420107, г казань ул спартаковская д 2 помещение 94</str></arr>
+  <arr name="addresshistory"><str>самарская область г тольятти бульв королева д 9 кв 39</str><str>самарская облг тольяттибульв королева д 9 кв 39</str><str>самарская область г тольятти ул фрунзе д 43 а кв 103</str></arr>
+  <int name="addressindex">420107</int>
+  <str name="addresssort">г Казань, ул Спартаковская д 2 помещение 94</str>
+  <long name="bsn_id">3288269</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Белоногов Алексей Евгеньевич</str></arr>
+  <str name="chief_name">Белоногов Алексей Евгеньевич</str>
+  <arr name="chiefhistory"><str>цветков андрей владимирович</str><str>осадчий иван григорьевич</str></arr>
+  <arr name="contact_history_phone_legal"><str>610375</str><str>61-03-75</str></arr>
+  <arr name="contact_phone_legal"><str>8482-610375</str></arr>
+  <date name="founded_dt">2007-12-04T21:00:00Z</date>
+  <arr name="founder"><str>граждане россии(1)</str></arr>
+  <arr name="founderhistory"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>6321202232</str><str>1076320034306</str><str>83690775</str>
+	<str>2106320278623</str><str>2106320333293</str><str>2126320018911</str><str>2131690629167</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">6321202232</long>
+  <arr name="name"><str>общество с ограниченной ответственностью миг</str><str>ооо миг</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью луч</str><str>ооо луч</str></arr>
+  <str name="nameshortsort">ООО "МИГ"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "МИГ"</str>
+  <long name="ogrn">1076320034306</long>
+  <date name="ogrn_dt">2007-12-04T21:00:00Z</date>
+  <long name="okatocode">92401367000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">83690775</long>
+  <int name="oktmocode">92701000</int>
+  <str name="okvedcode_main">50101</str>
+  <arr name="okvedcodes"><str>5122</str><str>51151</str><str>511827</str>
+	<str>50303</str><str>51215</str><str>6024</str><str>51142</str>
+	<str>50301</str><str>51431</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:33:09.285Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>236022, г калининград советский просп 12 офис 408</str></arr>
+  <arr name="addresshistory"><str>г калининград советский просп 12 офис 408</str></arr>
+  <int name="addressindex">236022</int>
+  <str name="addresssort">Г КАЛИНИНГРАД, СОВЕТСКИЙ ПРОСП, 12, ОФИС 408</str>
+  <long name="bsn_id">5525248</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: ПОЛЕТАЕВ АНДРЕЙ ВАЛЕРЬЕВИЧ</str></arr>
+  <str name="chief_name">ПОЛЕТАЕВ АНДРЕЙ ВАЛЕРЬЕВИЧ</str>
+  <arr name="chiefhistory"><str>цветков вадим евгеньевич</str></arr>
+  <date name="dead_dt">2012-02-28T21:00:00Z</date>
+  <date name="founded_dt">2008-02-20T21:00:00Z</date>
+  <arr name="founder"><str>граждане россии (1)</str></arr>
+  <arr name="founderhistory"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>3904094819</str><str>1083905003423</str><str>84219896</str>
+	<str>2083925386213</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">3904094819</long>
+  <arr name="name"><str>общество с ограниченной ответственностью автотехмаш</str><str>ооо автотехмаш</str></arr>
+  <str name="nameshortsort">ООО "АВТОТЕХМАШ"</str>
+  <str name="namesort">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОТЕХМАШ"</str>
+  <long name="ogrn">1083905003423</long>
+  <date name="ogrn_dt">2008-02-20T21:00:00Z</date>
+  <long name="okatocode">27401385000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">84219896</long>
+  <int name="oktmocode">27701000</int>
+  <str name="okvedcode_main">5165</str>
+  <arr name="okvedcodes"><str>51655</str></arr>
+  <str name="status">49</str>
+  <date name="timestamp">2013-10-10T08:50:27.737Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>143500, московская область г истра ул панфилова д 9</str></arr>
+  <arr name="addresshistory"><str>г москваул ильинка д 13/19 стр 2</str><str>г москва ул ильинка д 13/19 стр 2</str><str>московская область г истра чеховский пер д 5</str></arr>
+  <int name="addressindex">143500</int>
+  <str name="addresssort">Московская область, г Истра, ул Панфилова, д 9</str>
+  <arr name="balance"><int>2010</int><int>2009</int><int>2008</int>
+	<int>2007</int><int>2006</int></arr>
+  <arr name="balance_forms_2006"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2007"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2009"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2010"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">1911289</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Кузнецов Андрей Андреевич</str></arr>
+  <str name="chief_name">Кузнецов Андрей Андреевич</str>
+  <arr name="chiefhistory"><str>цветков борис юрьевич</str><str>багиров фаиг камил оглы</str><str>святенко сергей евгеньевич</str></arr>
+  <arr name="contact_history_phone_legal"><str>206-90-86</str><str>2069086</str><str>2631642</str>
+	<str>660-71-31</str></arr>
+  <arr name="contact_phone_legal"><str>495-660-71-31</str></arr>
+  <date name="founded_dt">2006-05-29T20:00:00Z</date>
+  <arr name="founder"><str>граждане россии (2)</str></arr>
+  <arr name="founderhistory"><str>72164397,ооо земельная инвестиционная компания</str><str>88345267,5087746145031,ооо ритейлцентргрупп</str><str>95582513,ооо инвест строй</str>
+	<str>95582513,5087746035669,ооо инвест строй</str><str>граждане россии (2)</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7710630183</str><str>1067746644723</str><str>95582513</str>
+	<str>2077746713350</str><str>2077760283401</str><str>2087765668747</str><str>2105017039059</str>
+	<str>2115017017003</str><str>2135017013338</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7710630183</long>
+  <arr name="name"><str>общество с ограниченной ответственностью региональная эксплуатирующая компания - высокий берег</str><str>ооо рэк - вб</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью региональная эксплуатирующая компания</str><str>ооо рэк</str></arr>
+  <str name="nameshortsort">ООО "РЭК - ВБ"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Региональная эксплуатирующая компания - Высокий Берег"</str>
+  <long name="ogrn">1067746644723</long>
+  <date name="ogrn_dt">2006-05-29T20:00:00Z</date>
+  <long name="okatocode">46218501000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">95582513</long>
+  <int name="oktmocode">46618101</int>
+  <str name="okvedcode_bal">01412</str>
+  <str name="okvedcode_main">01412</str>
+  <arr name="okvedcodes"><str>452</str><str>9000</str><str>927</str>
+	<str>40105</str><str>90003</str><str>702</str><str>925</str>
+	<str>4521</str><str>45214</str><str>40304</str><str>4100</str>
+	<str>9262</str><str>40103</str><str>050212</str></arr>
+  <long name="p11204_2007">17000</long>
+  <long name="p11204_2008">77000</long>
+  <long name="p11204_2009">636000</long>
+  <long name="p11204_2010">1128000</long>
+  <long name="p11904_2007">17000</long>
+  <long name="p11904_2008">77000</long>
+  <long name="p11904_2009">636000</long>
+  <long name="p11904_2010">1128000</long>
+  <long name="p12104_2008">50000</long>
+  <long name="p12104_2009">20000</long>
+  <long name="p12104_2010">1000</long>
+  <long name="p12114_2008">49000</long>
+  <long name="p12114_2009">10000</long>
+  <long name="p12164_2008">1000</long>
+  <long name="p12164_2009">10000</long>
+  <long name="p12164_2010">1000</long>
+  <long name="p12404_2006">101000</long>
+  <long name="p12404_2007">31000</long>
+  <long name="p12404_2008">302000</long>
+  <long name="p12404_2009">1091000</long>
+  <long name="p12404_2010">3101000</long>
+  <long name="p12414_2006">98000</long>
+  <long name="p12414_2007">17000</long>
+  <long name="p12414_2008">281000</long>
+  <long name="p12414_2009">1070000</long>
+  <long name="p12414_2010">3054000</long>
+  <long name="p12604_2006">102000</long>
+  <long name="p12604_2007">12000</long>
+  <long name="p12604_2008">243000</long>
+  <long name="p12604_2009">13000</long>
+  <long name="p12604_2010">25000</long>
+  <long name="p12904_2006">202000</long>
+  <long name="p12904_2007">43000</long>
+  <long name="p12904_2008">595000</long>
+  <long name="p12904_2009">1124000</long>
+  <long name="p12904_2010">3127000</long>
+  <long name="p13004_2006">202000</long>
+  <long name="p13004_2007">60000</long>
+  <long name="p13004_2008">672000</long>
+  <long name="p13004_2009">1760000</long>
+  <long name="p13004_2010">4255000</long>
+  <long name="p14104_2006">10000</long>
+  <long name="p14104_2007">10000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14104_2009">10000</long>
+  <long name="p14104_2010">10000</long>
+  <long name="p14704_2006">-11000</long>
+  <long name="p14704_2007">-98000</long>
+  <long name="p14704_2008">-98000</long>
+  <long name="p14704_2009">-92000</long>
+  <long name="p14704_2010">35000</long>
+  <long name="p14904_2006">-1000</long>
+  <long name="p14904_2007">-88000</long>
+  <long name="p14904_2008">-88000</long>
+  <long name="p14904_2009">-82000</long>
+  <long name="p14904_2010">45000</long>
+  <long name="p15104_2009">188000</long>
+  <long name="p15104_2010">192000</long>
+  <long name="p15904_2009">188000</long>
+  <long name="p15904_2010">192000</long>
+  <long name="p16104_2007">30000</long>
+  <long name="p16104_2008">405000</long>
+  <long name="p16104_2009">1239000</long>
+  <long name="p16104_2010">3124000</long>
+  <long name="p16204_2006">203000</long>
+  <long name="p16204_2007">118000</long>
+  <long name="p16204_2008">355000</long>
+  <long name="p16204_2009">415000</long>
+  <long name="p16204_2010">894000</long>
+  <long name="p16214_2006">172000</long>
+  <long name="p16214_2007">28000</long>
+  <long name="p16214_2008">197000</long>
+  <long name="p16214_2009">185000</long>
+  <long name="p16214_2010">437000</long>
+  <long name="p16224_2007">71000</long>
+  <long name="p16224_2008">18000</long>
+  <long name="p16224_2009">146000</long>
+  <long name="p16224_2010">162000</long>
+  <long name="p16234_2007">6000</long>
+  <long name="p16234_2008">9000</long>
+  <long name="p16234_2010">52000</long>
+  <long name="p16244_2006">12000</long>
+  <long name="p16244_2007">5000</long>
+  <long name="p16244_2008">8000</long>
+  <long name="p16244_2009">5000</long>
+  <long name="p16244_2010">19000</long>
+  <long name="p16254_2006">19000</long>
+  <long name="p16254_2007">8000</long>
+  <long name="p16254_2008">123000</long>
+  <long name="p16254_2009">79000</long>
+  <long name="p16254_2010">224000</long>
+  <long name="p16904_2006">203000</long>
+  <long name="p16904_2007">148000</long>
+  <long name="p16904_2008">760000</long>
+  <long name="p16904_2009">1654000</long>
+  <long name="p16904_2010">4018000</long>
+  <long name="p17004_2006">202000</long>
+  <long name="p17004_2007">60000</long>
+  <long name="p17004_2008">672000</long>
+  <long name="p17004_2009">1760000</long>
+  <long name="p17004_2010">4255000</long>
+  <long name="p20103_2006">204000</long>
+  <long name="p20103_2007">734000</long>
+  <long name="p20103_2008">1014000</long>
+  <long name="p20103_2009">1853000</long>
+  <long name="p20103_2010">4405000</long>
+  <long name="p20203_2006">214000</long>
+  <long name="p20203_2007">821000</long>
+  <long name="p20203_2008">315000</long>
+  <long name="p20203_2009">1207000</long>
+  <long name="p20203_2010">3023000</long>
+  <long name="p20293_2006">-10000</long>
+  <long name="p20293_2007">-87000</long>
+  <long name="p20293_2008">699000</long>
+  <long name="p20293_2009">646000</long>
+  <long name="p20293_2010">1382000</long>
+  <long name="p20403_2008">677000</long>
+  <long name="p20403_2009">618000</long>
+  <long name="p20403_2010">954000</long>
+  <long name="p20503_2006">-10000</long>
+  <long name="p20503_2007">-87000</long>
+  <long name="p20503_2008">22000</long>
+  <long name="p20503_2009">28000</long>
+  <long name="p20503_2010">428000</long>
+  <long name="p20603_2009">3000</long>
+  <long name="p20703_2008">7000</long>
+  <long name="p20703_2009">34000</long>
+  <long name="p20703_2010">302000</long>
+  <long name="p20903_2009">82000</long>
+  <long name="p20903_2010">132000</long>
+  <long name="p21003_2006">1000</long>
+  <long name="p21003_2007">1000</long>
+  <long name="p21003_2008">14000</long>
+  <long name="p21003_2009">77000</long>
+  <long name="p21003_2010">90000</long>
+  <long name="p21403_2006">-11000</long>
+  <long name="p21403_2007">-88000</long>
+  <long name="p21403_2008">1000</long>
+  <long name="p21403_2009">2000</long>
+  <long name="p21403_2010">168000</long>
+  <long name="p21503_2009">2000</long>
+  <long name="p21503_2010">41000</long>
+  <long name="p21903_2006">-11000</long>
+  <long name="p21903_2007">-88000</long>
+  <long name="p21903_2008">1000</long>
+  <long name="p21903_2010">127000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:21:28.09Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>660021, г красноярск ул авиаторов д 15</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург ул кораблестроителей 40 корп 1 кв 432</str><str>г санкт-петербург просп ветеранов 8 литера а пом 18-н</str><str>г санкт-петербург просп ветеранов 8 литер а пом 18-н</str>
+	<str>г красноярск ул авиаторов 15</str></arr>
+  <int name="addressindex">660021</int>
+  <str name="addresssort">г Красноярск, ул Авиаторов, д 15</str>
+  <long name="bsn_id">5658504</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Шилов Андрей Викторович</str></arr>
+  <str name="chief_name">Шилов Андрей Викторович</str>
+  <arr name="chiefhistory"><str>цыганов максим евгеньевич</str><str>цветков денис петрович</str><str>гришин дмитрий владимирович</str>
+	<str>загоровский константин эдуардович</str></arr>
+  <arr name="contact_history_phone_legal"><str>9111730929</str><str>8911-1730929</str><str>391-2542323</str></arr>
+  <arr name="contact_phone_legal"><str>391-254-23-23</str></arr>
+  <date name="founded_dt">2008-03-30T20:00:00Z</date>
+  <arr name="founder"><str>граждане россии(1)</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7801465272</str><str>1089847127941</str><str>85497031</str>
+	<str>9089847075111</str><str>2099847165834</str><str>2117847372510</str><str>2117847956609</str>
+	<str>9117847573252</str><str>2127847329212</str><str>2127847658233</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7801465272</long>
+  <arr name="name"><str>общество с ограниченной ответственностью атлант спб</str><str>ооо атлант спб</str></arr>
+  <str name="nameshortsort">ООО "Атлант СПб"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Атлант СПб"</str>
+  <long name="ogrn">1089847127941</long>
+  <date name="ogrn_dt">2008-03-30T20:00:00Z</date>
+  <long name="okatocode">4401374000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">85497031</long>
+  <int name="oktmocode">4701000</int>
+  <str name="okvedcode_main">5170</str>
+  <arr name="okvedcodes"><str>7484</str><str>7482</str><str>74502</str>
+	<str>7414</str><str>511827</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:54:58.214Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>121096, г москва ул 2-я филевская д 7/19 корп 6</str></arr>
+  <arr name="addresshistory"><str>г москваул 2-я филевская д 7/19 стр 6</str></arr>
+  <int name="addressindex">121096</int>
+  <str name="addresssort">г Москва, ул 2-я Филевская, д 7/19, корп 6</str>
+  <long name="bsn_id">3716769</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Елатонцев Николай Юрьевич</str></arr>
+  <str name="chief_name">Елатонцев Николай Юрьевич</str>
+  <arr name="chiefhistory"><str>милованов андрей николаевич</str><str>цветков александр евгеньевич</str></arr>
+  <arr name="contact_fax_legal"><str>737-37-57</str></arr>
+  <arr name="contact_history_phone_legal"><str>737-37-52</str><str>7373757</str><str>737-37-57</str></arr>
+  <arr name="contact_phone_legal"><str>095-737-37-57</str></arr>
+  <date name="founded_dt">2003-12-07T21:00:00Z</date>
+  <arr name="founder"><str>граждане россии(6)</str></arr>
+  <arr name="founderhistory"><str>граждане россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7730501122</str><str>1037789030520</str><str>71988541</str>
+	<str>2067760362240</str><str>2087757216920</str><str>7107746589922</str><str>2117747090635</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7730501122</long>
+  <arr name="name"><str>общество с ограниченной ответственностью онлайн систем групп</str><str>ооо онлайн систем групп</str></arr>
+  <str name="nameshortsort">ООО "Онлайн Систем Групп"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "Онлайн Систем Групп"</str>
+  <long name="ogrn">1037789030520</long>
+  <date name="ogrn_dt">2003-12-07T21:00:00Z</date>
+  <long name="okatocode">45268595000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">71988541</long>
+  <int name="oktmocode">45328000</int>
+  <str name="okvedcode_main">7220</str>
+  <arr name="okvedcodes"><str>7250</str><str>7260</str><str>7484</str>
+	<str>7210</str><str>524813</str><str>52454</str><str>5170</str>
+	<str>51642</str><str>514322</str><str>7310</str><str>7230</str>
+	<str>7240</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:37:49.693Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>192029, г санкт-петербург просп обуховской обороны 76 литер а</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербургпросп обуховской обороны 76 литер а</str></arr>
+  <int name="addressindex">192029</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, ПРОСП ОБУХОВСКОЙ ОБОРОНЫ, 76 ЛИТЕР А</str>
+  <arr name="balance"><int>2009</int><int>2008</int></arr>
+  <arr name="balance_forms_2008"><int>1</int><int>2</int></arr>
+  <arr name="balance_forms_2009"><int>1</int><int>2</int></arr>
+  <long name="bsn_id">3460710</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Глушков Алексей Александрович</str></arr>
+  <str name="chief_name">Глушков Алексей Александрович</str>
+  <arr name="chiefhistory"><str>полтавский андрей геннадьевич</str><str>цветков алексей евгеньевич</str><str>михайлов игорь геннадьевич</str></arr>
+  <arr name="contact_fax_legal"><str>3465331</str></arr>
+  <arr name="contact_history_fax_legal"><str>3376713</str></arr>
+  <arr name="contact_history_phone_legal"><str>337-67-13</str><str>3376713</str></arr>
+  <arr name="contact_phone_legal"><str>812-3465331</str></arr>
+  <date name="founded_dt">2007-04-15T20:00:00Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>на балансе ооо уимп-азс-строй</str><str>74793097,1047855125009,ооо уимп-инвест</str><str>98674701,1077847286340,ооо азс-строй</str>
+	<str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7811371859</str><str>1077847286340</str><str>98674701</str>
+	<str>9077847089322</str><str>7089847550599</str><str>7097847091082</str><str>9097847265090</str>
+	<str>6117847989066</str><str>7117847738265</str><str>7117847854876</str><str>6127847050370</str>
+	<str>8127847403995</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7811371859</long>
+  <arr name="name"><str>общество с ограниченной ответственностью азс-строй</str><str>ооо азс-строй</str></arr>
+  <arr name="namehistory"><str>общество с ограниченной ответственностью уимп-азс-строй</str><str>ооо уимп-азс-строй</str></arr>
+  <str name="nameshortsort">ООО "АЗС-Строй"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "АЗС-Строй"</str>
+  <long name="ogrn">1077847286340</long>
+  <date name="ogrn_dt">2007-04-15T20:00:00Z</date>
+  <long name="okatocode">40285561000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">4210014</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">98674701</long>
+  <int name="oktmocode">40378000</int>
+  <str name="okvedcode_bal">45211</str>
+  <str name="okvedcode_main">45211</str>
+  <arr name="okvedcodes"><str>5170</str><str>4545</str><str>28229</str>
+	<str>742011</str><str>45111</str><str>4531</str><str>63112</str></arr>
+  <long name="p11204_2008">1039000</long>
+  <long name="p11204_2009">624000</long>
+  <long name="p11904_2008">1039000</long>
+  <long name="p11904_2009">624000</long>
+  <long name="p12104_2008">9958000</long>
+  <long name="p12104_2009">28887000</long>
+  <long name="p12114_2008">8148000</long>
+  <long name="p12114_2009">25812000</long>
+  <long name="p12134_2008">1627000</long>
+  <long name="p12134_2009">3071000</long>
+  <long name="p12164_2008">184000</long>
+  <long name="p12164_2009">5000</long>
+  <long name="p12204_2008">11000</long>
+  <long name="p12204_2009">3000</long>
+  <long name="p12404_2008">43902000</long>
+  <long name="p12404_2009">70108000</long>
+  <long name="p12414_2008">38641000</long>
+  <long name="p12414_2009">39663000</long>
+  <long name="p12504_2009">584000</long>
+  <long name="p12604_2008">625000</long>
+  <long name="p12604_2009">555000</long>
+  <long name="p12904_2008">54496000</long>
+  <long name="p12904_2009">100137000</long>
+  <long name="p13004_2008">55535000</long>
+  <long name="p13004_2009">100760000</long>
+  <long name="p14104_2008">10000</long>
+  <long name="p14104_2009">10000</long>
+  <long name="p14114_2008">3000</long>
+  <long name="p14114_2009">3000</long>
+  <long name="p14704_2008">37000</long>
+  <long name="p14704_2009">-594000</long>
+  <long name="p14904_2008">45000</long>
+  <long name="p14904_2009">-587000</long>
+  <long name="p16204_2008">55490000</long>
+  <long name="p16204_2009">101347000</long>
+  <long name="p16214_2008">45928000</long>
+  <long name="p16214_2009">69088000</long>
+  <long name="p16224_2008">272000</long>
+  <long name="p16224_2009">422000</long>
+  <long name="p16234_2008">140000</long>
+  <long name="p16234_2009">81000</long>
+  <long name="p16244_2008">828000</long>
+  <long name="p16244_2009">400000</long>
+  <long name="p16254_2008">8322000</long>
+  <long name="p16254_2009">31357000</long>
+  <long name="p16904_2008">55490000</long>
+  <long name="p16904_2009">101347000</long>
+  <long name="p17004_2008">55535000</long>
+  <long name="p17004_2009">100760000</long>
+  <long name="p20103_2008">169448000</long>
+  <long name="p20103_2009">49465000</long>
+  <long name="p20203_2008">156045000</long>
+  <long name="p20203_2009">44533000</long>
+  <long name="p20293_2008">13403000</long>
+  <long name="p20293_2009">4932000</long>
+  <long name="p20403_2008">11786000</long>
+  <long name="p20403_2009">6247000</long>
+  <long name="p20503_2008">1617000</long>
+  <long name="p20503_2009">-1315000</long>
+  <long name="p20603_2009">1095000</long>
+  <long name="p20903_2008">108000</long>
+  <long name="p20903_2009">263000</long>
+  <long name="p21003_2008">882000</long>
+  <long name="p21003_2009">674000</long>
+  <long name="p21403_2008">843000</long>
+  <long name="p21403_2009">-631000</long>
+  <long name="p21503_2008">483000</long>
+  <long name="p21903_2008">360000</long>
+  <long name="p21903_2009">-631000</long>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:42:54.441Z</date>
+ </doc>
+ <doc>
+  <arr name="address"><str>197046, г санкт-петербург наб петроградская 20 литера а</str></arr>
+  <arr name="addresshistory"><str>г санкт-петербург ул лабутина 10 литер а пом 18-н</str></arr>
+  <int name="addressindex">197046</int>
+  <str name="addresssort">Г САНКТ-ПЕТЕРБУРГ, НАБ ПЕТРОГРАДСКАЯ, 20 ЛИТЕРА А</str>
+  <long name="bsn_id">6036254</long>
+  <arr name="chief"><str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: РОГОЖКИН МАКСИМ ГЕННАДЬЕВИЧ</str></arr>
+  <str name="chief_name">РОГОЖКИН МАКСИМ ГЕННАДЬЕВИЧ</str>
+  <arr name="chiefhistory"><str>иванов андрей николаевич</str><str>винников валерий михайлович</str><str>краснописцев сергей валентинович</str>
+	<str>луговой эдуард евгеньевич</str><str>цветков борис иванович</str></arr>
+  <arr name="contact_history_phone_legal"><str>79052141600</str><str>7905-2141600</str></arr>
+  <arr name="contact_phone_legal"><str>812-3348277</str></arr>
+  <date name="founded_dt">2008-12-02T21:00:00Z</date>
+  <arr name="founder"><str>гражданин россии</str></arr>
+  <arr name="founderhistory"><str>гражданин россии</str></arr>
+  <arr name="founderoksmcode"><int>643</int></arr>
+  <arr name="founderoksmcodehistory"><int>643</int></arr>
+  <arr name="ident"><str>7839396388</str><str>1087847006048</str><str>89066150</str>
+	<str>7097847516310</str><str>9097847839839</str><str>2107847270474</str><str>6107847808293</str>
+	<str>2117847407610</str><str>7117847957946</str></arr>
+  <bool name="in_tpp">false</bool>
+  <long name="inn">7839396388</long>
+  <arr name="name"><str>общество с ограниченной ответственностью альфапроект</str><str>ооо альфапроект</str></arr>
+  <str name="nameshortsort">ООО "АльфаПроект"</str>
+  <str name="namesort">Общество с ограниченной ответственностью "АльфаПроект"</str>
+  <long name="ogrn">1087847006048</long>
+  <date name="ogrn_dt">2008-12-02T21:00:00Z</date>
+  <long name="okatocode">40288563000</long>
+  <int name="okfscode">16</int>
+  <int name="okogucode">49013</int>
+  <int name="okopfcode">12165</int>
+  <int name="okopfpre2013code">65</int>
+  <long name="okpo">89066150</long>
+  <int name="oktmocode">40391000</int>
+  <str name="okvedcode_main">7420</str>
+  <arr name="okvedcodes"><str>454</str><str>453</str><str>452</str></arr>
+  <str name="status">17</str>
+  <date name="timestamp">2013-10-10T08:57:43.349Z</date>
+ </doc>
+</result>
+<lst name="highlighting">
+ <lst name="8371193">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: &lt;em&gt;Цветков&lt;/em&gt; &lt;em&gt;Андрей&lt;/em&gt; &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3263318">
+  <arr name="chief">
+	<str>ДИРЕКТОР: &lt;em&gt;ЦВЕТКОВ&lt;/em&gt; &lt;em&gt;АНДРЕЙ&lt;/em&gt; &lt;em&gt;ЕВГЕНЬЕВИЧ&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="4756986">
+  <arr name="chief">
+	<str>ДИРЕКТОР: &lt;em&gt;ЦВЕТКОВ&lt;/em&gt; &lt;em&gt;АНДРЕЙ&lt;/em&gt; &lt;em&gt;ЕВГЕНЬЕВИЧ&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="4743636">
+  <arr name="chief">
+	<str>ДИРЕКТОР: &lt;em&gt;Цветков&lt;/em&gt; &lt;em&gt;Андрей&lt;/em&gt; &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3997004">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: &lt;em&gt;ЦВЕТКОВ&lt;/em&gt; &lt;em&gt;АНДРЕЙ&lt;/em&gt; &lt;em&gt;ЕВГЕНЬЕВИЧ&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="1444880">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: &lt;em&gt;Цветков&lt;/em&gt; Алексей &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>васильев &lt;em&gt;андрей&lt;/em&gt; николаевич</str>
+  </arr>
+ </lst>
+ <lst name="3130072">
+  <arr name="chief">
+	<str>ДИРЕКТОР: &lt;em&gt;Цветков&lt;/em&gt; &lt;em&gt;Андрей&lt;/em&gt; Владимирович</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>богодяж артем &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="1104966">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: &lt;em&gt;Цветков&lt;/em&gt; Алексей &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>дмитриев &lt;em&gt;андрей&lt;/em&gt; алексеевич</str>
+  </arr>
+ </lst>
+ <lst name="2001650">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3463684">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: &lt;em&gt;ЦВЕТКОВ&lt;/em&gt; &lt;em&gt;АНДРЕЙ&lt;/em&gt; ВАСИЛЬЕВИЧ</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>волошин павел &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="1913223">
+  <arr name="chief">
+	<str>ДИРЕКТОР: &lt;em&gt;ЦВЕТКОВ&lt;/em&gt; ДМИТРИЙ БОРИСОВИЧ</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>бабенко &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="4811531">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="911393">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3487092">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="5657839">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3747215">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Серов &lt;em&gt;Андрей&lt;/em&gt; &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>серов &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="6263074">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3580940">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="5657480">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="7955311">
+  <arr name="chief">
+	<str>ДИРЕКТОР: Назаров Василий &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; владимирович</str>
+  </arr>
+ </lst>
+ <lst name="1520586">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3577270">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3288269">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Белоногов Алексей &lt;em&gt;Евгеньевич&lt;/em&gt;</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; &lt;em&gt;андрей&lt;/em&gt; владимирович</str>
+  </arr>
+ </lst>
+ <lst name="5525248">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: ПОЛЕТАЕВ &lt;em&gt;АНДРЕЙ&lt;/em&gt; ВАЛЕРЬЕВИЧ</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; вадим &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="1911289">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Кузнецов &lt;em&gt;Андрей&lt;/em&gt; Андреевич</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; борис юрьевич</str>
+  </arr>
+ </lst>
+ <lst name="5658504">
+  <arr name="chief">
+	<str>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Шилов &lt;em&gt;Андрей&lt;/em&gt; Викторович</str>
+  </arr>
+  <arr name="chiefhistory">
+	<str>цыганов максим &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3716769">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; александр &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="3460710">
+  <arr name="chiefhistory">
+	<str>&lt;em&gt;цветков&lt;/em&gt; алексей &lt;em&gt;евгеньевич&lt;/em&gt;</str>
+  </arr>
+ </lst>
+ <lst name="6036254">
+  <arr name="chiefhistory">
+	<str>иванов &lt;em&gt;андрей&lt;/em&gt; николаевич</str>
+  </arr>
+ </lst>
+</lst>
+</response>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+    <doc>
+        <field name="id">Individual-1</field>
+        <field name="name">Individual 1</field>
+    </doc>
+    <doc>
+        <field name="id">Individual-2</field>
+        <field name="name">Individual 2</field>
+    </doc>
+    <doc>
+        <field name="id">Individual-3</field>
+        <field name="name">Individual 3</field>
+    </doc>
+    <doc>
+        <field name="id">Individual-4</field>
+        <field name="name">Individual 4</field>
+    </doc>
+    <doc>
+        <field name="id">Individual-5</field>
+        <field name="name">Individual 5</field>
+    </doc>
+
+    <doc>
+        <field name="id">Foreign-1</field>
+        <field name="name">Foreign 1</field>
+        <field name="subtype">foreign</field>
+    </doc>
+</add>

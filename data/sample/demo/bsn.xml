@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<add overwrite="true">
+    <doc>
+        <field name="bsn_id">1</field>
+        <field name="okpo">58985182</field>
+        <field name="inn">7703345227</field>
+        <field name="ogrn">1037739110562</field>
+
+        <field name="ident">58985182</field>
+        <field name="ident">7703345227</field>
+        <field name="ident">1037739110562</field>
+
+        <!-- Тест: отсутствие кодов:
+        <field name="okvedcode_bal">7220</field>
+        <field name="okvedcode_main">7220</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+        -->
+        <field name="okatocode">46000000000</field>
+
+        <field name="name">НЕКОММЕРЧЕСКОЕ ПАРТНЕРСТВО «НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО»</field>
+        <field name="name">НП «НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО»</field>
+        <field name="namesort">НЕКОММЕРЧЕСКОЕ ПАРТНЕРСТВО «НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО»</field>
+        <field name="nameshortsort">НП «НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО»</field>
+
+        <field name="chief">Малеев Владимир Иванович</field>
+        <field name="chief_name">Малеев Владимир Иванович</field>
+
+        <field name="related_individual">Малеев Владимир Иванович 772905147180 070802111278</field>
+        <field name="related_individual">Иванов Петр Иванович</field>
+        <field name="related_individual">Иванов Иван Петрович</field>
+        <field name="related_individual">Иванов Петр Петрович 070802111278</field>
+
+        <field name="related_individual">Иванов Иван Иванович 772905147180 070802111278</field>
+        <field name="related_individual">Петров Петр Петрович 230800474974 070801010101</field>
+        <field name="related_individual">Сидоров Сидр Сидорович</field>
+
+        <field name="address">123242, Г МОСКВА, УЛ МАЛАЯ ГРУЗИНСКАЯ, Д 10, СТР 1</field>
+        <field name="addresssort">Г МОСКВА, УЛ МАЛАЯ ГРУЗИНСКАЯ, Д 10, СТР 1</field>
+        <field name="addressindex">123242</field>
+
+        <field name="founded_dt">2002-04-14T18:02:04.229Z</field>
+
+        <field name="p20103_2012">123456</field>
+        <field name="p20103_2013">323456</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">2</field>
+        <field name="okpo">78486593</field>
+        <field name="inn">7714611569</field>
+        <field name="ogrn">1057747690890</field>
+
+        <field name="ident">78486593</field>
+        <field name="ident">7714611569</field>
+        <field name="ident">1057747690890</field>
+
+        <field name="okvedcode_bal">7240</field>
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45277598000</field>
+        <field name="okfscode">16</field>
+        <field name="okopfcode">12267</field>
+
+        <field name="name">ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО"</field>
+        <field name="name">ЗАО "НКБ"</field>
+        <field name="namesort">ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "НАЦИОНАЛЬНОЕ КРЕДИТНОЕ БЮРО"</field>
+        <field name="nameshortsort">ЗАО "НКБ" "&amp;&lt;&gt;"</field>
+
+        <field name="chief">МАЛЕЕВ ВЛАДИМИР ИВАНОВИЧ</field>
+        <field name="chief_name">МАЛЕЕВ ВЛАДИМИР ИВАНОВИЧ</field>
+
+        <field name="related_individual">Малеев Владимир Иванович 070802111278</field>
+
+        <field name="related_individual">Иванов Иван Иванович 772905147180</field>
+        <field name="related_individual">Петров Петр Петрович 230800474974</field>
+        <field name="related_individual">Сидоров Сидр Сидорович</field>
+
+        <field name="address">123007, Г МОСКВА, ХОРОШЕВСКИЙ 3-Й ПР, Д 1, КОРП 1</field>
+        <field name="addresssort">Г МОСКВА, ХОРОШЕВСКИЙ 3-Й ПР, Д 1, КОРП 1</field>
+        <field name="addressindex">123007</field>
+
+        <field name="founded_dt">2005-04-14T18:02:04.229Z</field>
+
+        <field name="p20103_2012">654321</field>
+        <field name="p20103_2013">354321</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">3</field>
+        <field name="okpo">29360200</field>
+        <field name="inn">7719026593</field>
+        <field name="ogrn">1027739185968</field>
+
+        <field name="ident">29360200</field>
+        <field name="ident">7719026593</field>
+        <field name="ident">1027739185968</field>
+
+        <field name="okvedcode_main">7230</field>
+        <field name="okatocode">45263588000</field>
+        <field name="okfscode">12</field>
+        <field name="okopfcode">15200</field>
+
+        <field name="name">ГЛАВНЫЙ МЕЖРЕГИОНАЛЬНЫЙ ЦЕНТР ОБРАБОТКИ И РАСПРОСТРАНЕНИЯ СТАТИСТИЧЕСКОЙ ИНФОРМАЦИИ ГОСУДАРСТВЕННОГО КОМИТЕТА РОССИЙСКОЙ ФЕДЕРАЦИИ ПО СТАТИСТИКЕ (ГОСУДАРСТВЕННОЕ ФЕДЕРАЛЬНОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ)-ГМЦ ГОСКОМСТАТА РОССИИ</field>
+        <field name="name">ГМЦ Росстата</field>
+        <field name="namesort">ГЛАВНЫЙ МЕЖРЕГИОНАЛЬНЫЙ ЦЕНТР ОБРАБОТКИ И РАСПРОСТРАНЕНИЯ СТАТИСТИЧЕСКОЙ ИНФОРМАЦИИ ГОСУДАРСТВЕННОГО КОМИТЕТА РОССИЙСКОЙ ФЕДЕРАЦИИ ПО СТАТИСТИКЕ (ГОСУДАРСТВЕННОЕ ФЕДЕРАЛЬНОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ)-ГМЦ ГОСКОМСТАТА РОССИИ</field>
+        <field name="nameshortsort">ГМЦ Росстата</field>
+
+        <field name="chief">ЖЫЧЕВ ЕВГЕНИЙ БОРИСОВИЧ</field>
+        <field name="chief_name">ЖЫЧЕВ ЕВГЕНИЙ БОРИСОВИЧ</field>
+
+        <field name="related_individual">Иванов Иван Иванович 070802111278</field>
+        <field name="related_individual">Петров Петр Петрович 070801010101</field>
+        <field name="related_individual">Сидоров Сидр Сидорович</field>
+
+        <field name="address">105679, г Москва, шоссе Измайловское, д 44</field>
+        <field name="addresssort">г Москва, шоссе Измайловское, д 44</field>
+        <field name="addressindex">105679</field>
+
+        <!-- <field name="founded_dt">1994-04-14T18:02:04.229Z</field> -->
+    </doc>
+    <doc>
+        <field name="bsn_id">4</field>
+        <field name="okpo">11574520</field>
+        <field name="inn">7714081262</field>
+        <field name="ogrn">1027739150284</field>
+
+        <field name="ident">11574520</field>
+        <field name="ident">7714081262</field>
+        <field name="ident">1027739150284</field>
+
+        <field name="okvedcode_main">2211</field>
+        <field name="okatocode">45277553000</field>
+        <field name="okfscode">16</field>
+        <!--field name="okopfcode"></field-->
+
+        <field name="name">Закрытое акционерное общество «Издательский дом «Экономическая газета»</field>
+        <field name="name">ЗАО «Издательский дом «Экономическая газета»</field>
+        <field name="namesort">Закрытое акционерное общество «Издательский дом «Экономическая газета»</field>
+        <field name="nameshortsort">ЗАО «Издательский дом «Экономическая газета»</field>
+
+        <field name="chief">Козенкова Татьяна Андреевна</field>
+        <field name="chief_name">Козенкова Татьяна Андреевна</field>
+
+        <field name="related_individual">Иванов Иван Иванович</field>
+        <field name="related_individual">Петров Петр Петрович</field>
+        <field name="related_individual">Сидоров Сидр Сидорович</field>
+
+        <field name="address">125319, г Москва, ул Черняховского, д 16</field>
+        <field name="addresssort">г Москва, ул Черняховского, д 16</field>
+        <field name="addressindex">125319</field>
+
+        <field name="founded_dt">1994-04-14T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">5</field>
+        <field name="okpo">29198909</field>
+        <field name="inn">7714082347</field>
+        <field name="ogrn">1027739863854</field>
+
+        <field name="ident">29198909</field>
+        <field name="ident">7714082347</field>
+        <field name="ident">1027739863854</field>
+
+        <field name="okvedcode_main">7230</field>
+        <field name="okatocode">36440363000</field>
+        <field name="okfscode">23</field>
+        <!--field name="okopfcode"></field-->
+
+        <field name="name">Ликвидационная комиссия ООО «Репорт Депо»</field>
+        <field name="name">ЛК ООО «Репорт Депо»</field>
+        <field name="namesort">Ликвидационная комиссия ООО «Репорт Депо»</field>
+        <field name="nameshortsort">ЛК ООО «Репорт Депо»</field>
+
+        <field name="chief">Карянова Римма Нигатовна</field>
+        <field name="chief_name">Карянова Римма Нигатовна</field>
+
+        <field name="address">445030, Самарская область, г Тольятти, бульв Цветной, д 14, кв 45</field>
+        <field name="addresssort">Самарская область, г Тольятти, бульв Цветной, д 14, кв 45</field>
+        <field name="addressindex">445030</field>
+
+        <field name="founded_dt">1993-04-14T18:02:04.229Z</field>
+        <field name="dead_dt">2010-04-29T20:00:00Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">6</field>
+        <field name="okpo">42836669</field>
+        <field name="inn">7716115277</field>
+        <field name="ogrn">1037739365751</field>
+
+        <field name="ident">42836669</field>
+        <field name="ident">7716115277</field>
+        <field name="ident">1037739365751</field>
+
+        <field name="okvedcode_main">2211</field>
+        <field name="okatocode">45280577000</field>
+        <field name="okfscode">16</field>
+        <!--field name="okopfcode"></field-->
+
+        <field name="name">ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО «АКДИ ЭКОНОМИКА И ЖИЗНЬ»</field>
+        <field name="name">ОАО «АКДИ ЭКОНОМИКА И ЖИЗНЬ»</field>
+        <field name="namesort">ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО «АКДИ ЭКОНОМИКА И ЖИЗНЬ»</field>
+        <field name="nameshortsort">ОАО «АКДИ ЭКОНОМИКА И ЖИЗНЬ»</field>
+
+        <field name="chief">ИВАНОВА ТАТЬЯНА АЛЕКСАНДРОВНА</field>
+        <field name="chief_name">ИВАНОВА ТАТЬЯНА АЛЕКСАНДРОВНА</field>
+
+        <field name="address">129226, Г МОСКВА, УЛ ДОКУКИНА, Д 8, КОРП 2, КВ 712</field>
+        <field name="addresssort">Г МОСКВА, УЛ ДОКУКИНА, Д 8, КОРП 2, КВ 712</field>
+        <field name="addressindex">129226</field>
+
+        <field name="founded_dt">1996-04-14T18:02:04.229Z</field>
+        <field name="dead_dt">2010-01-13T14:00:00Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">7</field>
+        <field name="okpo">00033815</field>
+        <field name="inn">7710026920</field>
+        <field name="ogrn">1027746000853</field>
+
+        <field name="ident">00033815</field>
+        <field name="ident">7710026920</field>
+        <field name="ident">1027746000853</field>
+
+        <field name="okvedcode_main">74131</field>
+        <field name="okatocode">45286585000</field>
+        <field name="okfscode">49</field>
+        <!--field name="okopfcode"></field-->
+
+        <field name="name">ТОРГОВО-ПРОМЫШЛЕННАЯ ПАЛАТА РОССИЙСКОЙ ФЕДЕРАЦИИ</field>
+        <field name="name">ТПП РОССИИ</field>
+        <field name="namesort">ТОРГОВО-ПРОМЫШЛЕННАЯ ПАЛАТА РОССИЙСКОЙ ФЕДЕРАЦИИ</field>
+        <field name="nameshortsort">ТПП РОССИИ</field>
+
+        <field name="chief">ПРИМАКОВ ЕВГЕНИЙ МАКСИМОВИЧ</field>
+        <field name="chief_name">ПРИМАКОВ ЕВГЕНИЙ МАКСИМОВИЧ</field>
+
+        <field name="address">109012, Г МОСКВА, УЛ ИЛЬИНКА, Д 6/1, КОРП 1</field>
+        <field name="addresssort">Г МОСКВА, УЛ ИЛЬИНКА, Д 6/1, КОРП 1</field>
+        <field name="addressindex">109012</field>
+
+        <field name="founded_dt">1994-04-14T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">8</field>
+        <field name="okpo">79893975</field>
+        <field name="inn">2999999999999</field>
+        <field name="ogrn">2999999999999</field>
+
+        <field name="ident">79893975</field>
+        <field name="ident">2999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">30001</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Лютик» (филиал)</field>
+        <field name="name">ООО «Лютик» (филиал)</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Лютик» (филиал)</field>
+        <field name="nameshortsort">ООО «Лютик» (филиал)</field>
+
+        <field name="chief">Иванов Иван Иванович</field>
+        <field name="chief_name">Иванов Иван Иванович</field>
+
+        <field name="address">654321, Россия, г. Москва, ул. Тверская, д. 111</field>
+        <field name="addresssort">Россия, г. Москва, ул. Тверская, д. 111</field>
+        <field name="addressindex">654321</field>
+
+        <field name="founded_dt">2012-04-14T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">9</field>
+        <field name="okpo">30756876</field>
+        <field name="inn">2999999999999</field>
+        <field name="ogrn">2999999999999</field>
+
+        <field name="ident">30756876</field>
+        <field name="ident">2999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">3426000000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Ромашка»</field>
+        <field name="name">ООО «Ромашка»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Ромашка»</field>
+        <field name="nameshortsort">ООО «Ромашка»</field>
+
+        <field name="chief"></field>
+        <field name="chief_name"></field>
+
+        <field name="address">654321, Россия, г. Москва, ул. Тверская, д. 111</field>
+        <field name="addresssort">Россия, г. Москва, ул. Тверская, д. 111</field>
+        <field name="addressindex">654321</field>
+
+        <field name="founded_dt">2012-04-14T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">10</field>
+        <field name="okpo">3999999999999</field>
+        <field name="inn">3999999999999</field>
+        <field name="ogrn">3999999999999</field>
+        <field name="ident">3999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">16</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Закрытое акционерное общество «Россия»</field>
+        <field name="name">ЗАО Россия</field>
+        <field name="namesort">Закрытое акционерное общество «Россия»</field>
+        <field name="nameshortsort">ЗАО Россия</field>
+
+        <field name="chief">Иванов Иван Иванович</field>
+        <field name="chief_name">Иванов Иван Иванович</field>
+
+        <field name="address">000000, Россия, г. Москва, ул. Свободы, д. 0, корп. 0, кв. 0</field>
+        <field name="addresssort">Россия, г. Москва, ул. Свободы, д. 0, корп. 0, кв. 0</field>
+        <field name="addressindex">000000</field>
+
+        <field name="founded_dt">1991-04-14T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">11</field>
+        <field name="okpo">4999999999999</field>
+        <field name="inn">4999999999999</field>
+        <field name="ogrn">4999999999999</field>
+        <field name="ident">4999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Предшественник А»</field>
+        <field name="name">ООО «Предшественник А»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Предшественник А»</field>
+        <field name="nameshortsort">ООО «Предшественник А»</field>
+
+        <field name="chief">АБДУЛКЕРИМОВ АСВАР РАГИМОВИЧ</field>
+        <field name="chief_name">АБДУЛКЕРИМОВ АСВАР РАГИМОВИЧ</field>
+
+        <field name="address">117209, г Москва, ул Болотниковская, д 52, корп 1</field>
+        <field name="addresssort">г Москва, ул Болотниковская, д 52, корп 1</field>
+        <field name="addressindex">117209</field>
+
+        <field name="founded_dt">2008-10-10T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">12</field>
+        <field name="okpo">5999999999999</field>
+        <field name="inn">5999999999999</field>
+        <field name="ogrn">5999999999999</field>
+        <field name="ident">5999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Предшественник Б»</field>
+        <field name="name">ООО «Предшественник Б»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Предшественник Б»</field>
+        <field name="nameshortsort">ООО «Предшественник Б»</field>
+
+        <field name="chief">Аверин Александр Александрович</field>
+        <field name="chief_name">Аверин Александр Александрович</field>
+
+        <field name="address">105005, г Москва, ул Казакова, д 5, стр 1</field>
+        <field name="addresssort">г Москва, ул Казакова, д 5, стр 1</field>
+        <field name="addressindex">105005</field>
+
+        <field name="founded_dt">2010-03-25T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">13</field>
+        <field name="okpo">6999999999999</field>
+        <field name="inn">6999999999999</field>
+        <field name="ogrn">6999999999999</field>
+        <field name="ident">6999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Предшественник В»</field>
+        <field name="name">ООО «Предшественник В»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Предшественник В»</field>
+        <field name="nameshortsort">ООО «Предшественник В»</field>
+
+        <field name="chief">Киселев Денис Юрьевич</field>
+        <field name="chief_name">Киселев Денис Юрьевич</field>
+
+        <field name="address">119017, г Москва, пер Старомонетный, д 9, стр 1</field>
+        <field name="addresssort">г Москва, пер Старомонетный, д 9, стр 1</field>
+        <field name="addressindex">119017</field>
+
+        <field name="founded_dt">2006-05-24T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">14</field>
+        <field name="okpo">7999999999999</field>
+        <field name="inn">7999999999999</field>
+        <field name="ogrn">7999999999999</field>
+        <field name="ident">7999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Правоприемник А Б В»</field>
+        <field name="name">ООО «Правоприемник А Б В»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Правоприемник А Б В»</field>
+        <field name="nameshortsort">ООО «Правоприемник А Б В»</field>
+
+        <field name="chief">Паспортников Павел Валерьевич</field>
+        <field name="chief_name">Паспортников Павел Валерьевич</field>
+
+        <field name="address">600017, г Владимир, ул Зеленая,1А,офис 104</field>
+        <field name="addresssort">г Владимир, ул Зеленая,1А,офис 104</field>
+        <field name="addressindex">600017</field>
+
+        <field name="founded_dt">2011-10-25T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">15</field>
+        <field name="okpo">7999999999999</field>
+        <field name="inn">7999999999999</field>
+        <field name="ogrn">7999999999999</field>
+        <field name="ident">7999999999999</field>
+
+        <field name="okvedcode_main">7220</field>
+        <field name="okatocode">45286575000</field>
+        <field name="okfscode">41</field>
+        <field name="okopfcode">20500</field>
+
+        <field name="name">Общество с ограниченной ответственностью «Правоприемник всех»</field>
+        <field name="name">ООО «Правоприемник всех»</field>
+        <field name="namesort">Общество с ограниченной ответственностью «Правоприемник всех»</field>
+        <field name="nameshortsort">ООО «Правоприемник всех»</field>
+
+        <field name="chief">Осипов Денис Витальевич</field>
+        <field name="chief_name">Осипов Денис Витальевич</field>
+
+        <field name="address">450106, г Уфа, ул Караидельская,2 кв 39</field>
+        <field name="addresssort">г Уфа, ул Караидельская,2 кв 39</field>
+        <field name="addressindex">450106</field>
+
+        <field name="founded_dt">2010-09-27T18:02:04.229Z</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">100</field>
+        <field name="name">Корневая компания для поиска бенефициаров</field>
+        <field name="nameshortsort">Корневая компания для поиска бенефициаров</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">101</field>
+        <field name="name">Компания бенефициар первого уровня</field>
+        <field name="nameshortsort">Компания бенефициар первого уровня</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">102</field>
+        <field name="name">Компания бенефициар первого уровня</field>
+        <field name="nameshortsort">Компания бенефициар первого уровня</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">103</field>
+        <field name="name">Компания бенефициар первого уровня</field>
+        <field name="nameshortsort">Компания бенефициар первого уровня</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">104</field>
+        <field name="name">Компания бенефициар второго уровня</field>
+        <field name="nameshortsort">Компания бенефициар второго уровня</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">105</field>
+        <field name="name">Компания бенефициар второго уровня</field>
+        <field name="nameshortsort">Компания бенефициар второго уровня</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">106</field>
+        <field name="name">Компания бенефициар третьего уровня</field>
+        <field name="nameshortsort">Компания бенефициар третьего уровня</field>
+    </doc>
+
+    <doc>
+        <field name="bsn_id">200</field>
+        <field name="name">ООО "ФТ1"</field>
+        <field name="nameshortsort">ООО "ФТ1"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">201</field>
+        <field name="name">ООО "ФТ2"</field>
+        <field name="nameshortsort">ООО "ФТ2"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">202</field>
+        <field name="name">ООО "ФТ3"</field>
+        <field name="nameshortsort">ООО "ФТ3"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">203</field>
+        <field name="name">ООО "ФТ4"</field>
+        <field name="nameshortsort">ООО "ФТ4"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">204</field>
+        <field name="name">ООО "ФТ5"</field>
+        <field name="nameshortsort">ООО "ФТ5"</field>
+    </doc>
+
+    <doc>
+        <field name="bsn_id">301</field>
+        <field name="name">ООО "Однофамильцы 1"</field>
+        <field name="nameshortsort">ООО "Однофамильцы 1"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">302</field>
+        <field name="name">ООО "Однофамильцы 2"</field>
+        <field name="nameshortsort">ООО "Однофамильцы 2"</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">401</field>
+        <field name="name">ООО "Connections 1"</field>
+        <field name="nameshortsort">ООО "Connections 1"</field>
+        <field name="ident">1000000401</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">402</field>
+        <field name="name">ООО "Connections 2"</field>
+        <field name="nameshortsort">ООО "Connections 2"</field>
+        <field name="ident">1000000402</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">403</field>
+        <field name="name">ООО "Connections 3"</field>
+        <field name="nameshortsort">ООО "Connections 3"</field>
+        <field name="ident">1000000403</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">404</field>
+        <field name="name">ООО "Connections 4"</field>
+        <field name="nameshortsort">ООО "Connections 4"</field>
+        <field name="ident">1000000404</field>
+    </doc>
+    <doc>
+        <field name="bsn_id">405</field>
+        <field name="name">ООО "Connections 5"</field>
+        <field name="nameshortsort">ООО "Connections 5"</field>
+        <field name="ident">1000000405</field>
+    </doc>
+
+
+</add>

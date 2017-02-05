@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- testing -->
+<configuration>
+    <!--
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %-5level: %msg &lt;%logger{80}&gt;%n</pattern>
+        </encoder>
+    </appender>
+    -->
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/relations.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/logs/relations.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>180</maxHistory><!-- 180 дней -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %-5level: %msg &lt;%logger{80}&gt;%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.apache.cxf.interceptor" level="WARN"/>
+
+    <logger name="ru.nullpointer.nkbrelation" level="INFO"/>
+
+    <logger name="ru.nullpointer.nkbrelation.dao.algo.FindKinsmenAlgo" level="DEBUG"/>
+
+    <logger name="org.atmosphere.handler.ReflectorServletProcessor" level="OFF"/>
+    <logger name="org.atmosphere.cpr.DefaultBroadcaster" level="OFF"/>
+
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <appender name="FILE-REQUESTLOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/relations-requestlog.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/logs/relations-requestlog.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %logger{80}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- URL без последнего слеша -->
+    <logger name="requestLog=/internal/api/egrul/info" level="INFO" additivity="false">
+        <appender-ref ref="FILE-REQUESTLOG"/>
+    </logger>
+
+    <appender name="FILE-CLIENTLOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/relations-clientlog.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/logs/relations-clientlog.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %logger{80}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="requestLog=/api/client/log" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE-CLIENTLOG"/>
+    </logger>
+
+    <!-- Вызовы API в отдельный файл -->
+    <appender name="APILOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/relations-api.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/logs/relations-api.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>180</maxHistory><!-- 180 дней -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%msg %d{dd.MM.yyyy HH:mm:ss}%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ru.nullpointer.nkbrelation.api" level="INFO" additivity="false">
+        <appender-ref ref="APILOG"/>
+    </logger>
+
+</configuration>

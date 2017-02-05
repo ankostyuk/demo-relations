@@ -1,0 +1,13 @@
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.I1", "_dstId": "COMPANY.501", "shareAmount": 1000, "sharePercent": 50, "inn": "100000000002", "_since": 10000000101, "_actual": 10000000101, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.I2", "_dstId": "COMPANY.501", "shareAmount": 1000, "sharePercent": 50, "inn": "100000000002", "_since": 10000000101, "_actual": 10000000101, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.I1", "_dstId": "COMPANY.501", "shareAmount": 2000, "sharePercent": 100, "inn": "100000000002", "_since": 10000000102, "_actual": 10000000102, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.I1", "_dstId": "COMPANY.501", "shareAmount": 3000, "sharePercent": 20, "inn": "100000000002", "_since": 10000000100, "_actual": 10000000103, "_source": "egrul"}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.502", "_dstId": "COMPANY.501", "shareAmount": 100, "sharePercent": 10, "inn": "100000000002", "_since": 10000000101, "_actual": 10000000101, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.503", "_dstId": "COMPANY.501", "shareAmount": 100, "sharePercent": 10, "inn": "100000000002", "_since": 10000000101, "_actual": 10000000101, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.504", "_dstId": "COMPANY.501", "shareAmount": 100, "sharePercent": 10, "inn": "100000000002", "_since": 10000000099, "_actual": 10000000102, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.I1", "_dstId": "COMPANY.501", "_since": 10000000101, "_actual": 10000000101, "_source": "egrul"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.I1", "_dstId": "COMPANY.501", "_since": 10000000102, "_actual": 10000000102, "_source": "egrul"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.I2", "_dstId": "COMPANY.501", "_since": 10000000102, "_actual": 10000000102, "_source": "egrul"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.I2", "_dstId": "COMPANY.502", "_since": 10000000103, "_actual": 10000000103, "_source": "egrul_individual_executive"}

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="id">fax_legal211353</field>
+    <field name="value">211353</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal83952211352</field>
+    <field name="value">83952-211352</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal211353</field>
+    <field name="value">211353</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal3952211352</field>
+    <field name="value">3952-211352</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+</add>

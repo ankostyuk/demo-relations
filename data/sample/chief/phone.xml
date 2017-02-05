@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="id">phone_legal3113662</field>
+    <field name="value">3113662</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal51413</field>
+    <field name="value">5-14-13</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal4923351404</field>
+    <field name="value">49233-5-14-04</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_actual235163</field>
+    <field name="value">23-51-63</field>
+    <field name="phoneType">phone_actual</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal9857769705</field>
+    <field name="value">985-776-97-05</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal2616019</field>
+    <field name="value">261-60-19</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal84992616019</field>
+    <field name="value">8-499-261-60-19</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_actual2616019</field>
+    <field name="value">261-60-19</field>
+    <field name="phoneType">phone_actual</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal9626988151</field>
+    <field name="value">962-6988151</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal2326549</field>
+    <field name="value">2326549</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal8632323364</field>
+    <field name="value">863-232-33-64</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal2326549</field>
+    <field name="value">2326549</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal8632323364</field>
+    <field name="value">863-232-33-64</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal5790152</field>
+    <field name="value">5790152</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal7306395</field>
+    <field name="value">730-63-95</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal4953056003</field>
+    <field name="value">495-305-60-03</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal3335351</field>
+    <field name="value">3335351</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal3335351</field>
+    <field name="value">3335351</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal3335351</field>
+    <field name="value">3335351</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal3335351</field>
+    <field name="value">3335351</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal9172422</field>
+    <field name="value">917-24-22</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_actual9172422</field>
+    <field name="value">917-24-22</field>
+    <field name="phoneType">phone_actual</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal8482610375</field>
+    <field name="value">8482-610375</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal4956607131</field>
+    <field name="value">495-660-71-31</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal3912542323</field>
+    <field name="value">391-254-23-23</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal7373757</field>
+    <field name="value">737-37-57</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal0957373757</field>
+    <field name="value">095-737-37-57</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">fax_legal3465331</field>
+    <field name="value">3465331</field>
+    <field name="phoneType">fax_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal8123465331</field>
+    <field name="value">812-3465331</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+  <doc>
+    <field name="id">phone_legal8123348277</field>
+    <field name="value">812-3348277</field>
+    <field name="phoneType">phone_legal</field>
+  </doc>
+</add>

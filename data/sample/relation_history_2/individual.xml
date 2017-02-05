@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+    <doc>
+        <field name="id">I1</field>
+        <field name="name">Indi1</field>
+    </doc>
+    <doc>
+        <field name="id">I2</field>
+        <field name="name">Indi2</field>
+    </doc>
+    <doc>
+        <field name="id">I3</field>
+        <field name="name">Indi3</field>
+    </doc>
+    <doc>
+        <field name="id">I4</field>
+        <field name="name">Indi4</field>
+    </doc>
+</add>

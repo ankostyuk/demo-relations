@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<add overwrite="true">
+  <doc>
+    <field name="index">125299</field>
+    <field name="id">b5e93bc5f7cc57200ed5b4f2b41f713582e66931</field>
+    <field name="value">г Москва, ул Клары Цеткин, д 2/3, стр 1</field>
+  </doc>
+  <doc>
+    <field name="index">142180</field>
+    <field name="id">fb1b962a8a0193144ddbeac03656714c80a33e5e</field>
+    <field name="value">МОСКОВСКАЯ ОБЛАСТЬ, Г КЛИМОВСК, УЛ СОВЕТСКАЯ, Д 10</field>
+  </doc>
+  <doc>
+    <field name="index">142105</field>
+    <field name="id">42eb8246ece965f1621b343fabbdd14f876540f6</field>
+    <field name="value">МОСКОВСКАЯ ОБЛАСТЬ, Г ПОДОЛЬСК, УЛ ПИОНЕРСКАЯ, Д 29</field>
+  </doc>
+</add>

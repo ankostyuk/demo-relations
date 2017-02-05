@@ -1,0 +1,7 @@
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.2", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.2", "_dstId": "COMPANY.3", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.2", "_dstId": "COMPANY.4", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.2", "_dstId": "COMPANY.5", "_actual": 1363112360000, "_since": 1363112360000}
+
+{"_holderDst": true, "_type": "CUSTOMER_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.6", "_actual": 1363112360000, "_since": 1363112360000}
+{"_holderDst": true, "_type": "PARTICIPANT_COMPANY", "_srcId": "COMPANY.3", "_dstId": "COMPANY.6", "_actual": 1363112360000, "_since": 1363112360000}

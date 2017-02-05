@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:mockito="http://www.mockito.org/spring/mockito" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd http://www.mockito.org/spring/mockito http://www.mockito.org/spring/mockito.xsd">
+
+    <import resource="classpath:/spring/algo.xml" />
+    <import resource="classpath:/spring/filter.xml" />
+    <import resource="classpath:/spring/meta.xml" />
+    <import resource="classpath:/spring/dao.xml" />
+    <import resource="classpath:/spring/propertyTransform.xml" />
+    <import resource="classpath:/spring/applicationContext.xml" />
+
+    <bean id="nodeFactory" class="ru.nullpointer.nkbrelation.dao.impl.NodeFactory">
+        <constructor-arg ref="graphDatabaseService"/>
+    </bean>
+
+    <!--<bean id="graphDatabaseService" class="ru.nullpointer.nkbrelation.dao.TestGraphDatabaseFactory">-->
+        <!--<property name="bsnRelations" value="src/test/resources/data/relations/DuplicateRelations.json" />-->
+    <!--</bean>-->
+
+    <bean id="securityService" class="ru.nullpointer.nkbrelation.service.security.AnonymousSecurityServiceWrapper">
+        <property name="securityService">
+            <bean class="ru.nullpointer.nkbrelation.service.security.SimpleSecurityService">
+                <property name="userDetailsService" ref="userDetailsService" />
+            </bean>
+        </property>
+    </bean>
+
+    <security:user-service id="userDetailsService">
+        <security:user name="user0" password="user0" authorities="REPORT_VIEW" />
+    </security:user-service>
+
+    <bean id="anonymousResolver" class="org.springframework.security.authentication.AuthenticationTrustResolverImpl" />
+
+    <bean id="okfsClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="Код формы собственности: " />
+    </bean>
+
+    <bean id="okvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="Код вида деятельности: " />
+    </bean>
+
+    <bean id="shortOkvedClassifier" class="ru.nullpointer.nkbrelation.service.transform.derived.DummyClassifier">
+        <property name="prefix" value="ОКВЭД: " />
+    </bean>
+
+    <bean id="billingService" class="ru.nullpointer.nkbrelation.service.billing.AnonymousBillingServiceWrapper">
+        <property name="billingService">
+            <bean class="ru.nullpointer.nkbrelation.service.billing.SimpleBillingService" />
+        </property>
+    </bean>
+
+</beans>

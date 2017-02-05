@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd
+    ">
+
+    <!-- i18n -->
+    <bean id="messageSource" class="ru.nullpointer.i18n.common.JsonBundleMessageSource">
+        <property name="jsonBundlePaths">
+            <list>
+                <value>classpath:/creditnet/translation/position/bundle.json</value>
+                <value>classpath:/creditnet/translation/shareholder/bundle.json</value>
+                <value>classpath:/creditnet/translation/egrul/bundle.json</value>
+            </list>
+        </property>
+        <property name="defaultBundle" value="ru" />
+    </bean>
+
+    <bean id="webApplicationFontResolver" class="ru.nullpointer.nkbrelation.config.WebApplicationFontResolver" />
+
+    <context:component-scan base-package="ru.nullpointer.nkbrelation.service" />
+    <context:component-scan base-package="ru.nullpointer.nkbrelation.cleanup" />
+
+    <bean id="graphRepository" class="ru.nullpointer.nkbrelation.repo.impl.GraphRepositoryImpl" />
+
+    <bean id="traceResultBuilder" class="ru.nullpointer.nkbrelation.dao.impl.TraceResultBuilder">
+        <property name="graphDatabaseService" ref="graphDatabaseService" />
+        <property name="graphRepository" ref="graphRepository" />
+    </bean>
+
+    <context:property-placeholder location="classpath:/*.properties" local-override="true" />
+
+    <!-- Данный objectMapper настроен на REST API.
+    В иных случаях может быть неожидаемое поведение.
+    TODO: реализовать разные objectMapper для разных задач. -->
+    <bean id="objectMapper" class="ru.nullpointer.nkbrelation.config.ObjectMapperFactoryBean" />
+
+    <!-- mongo -->
+    <mongo:mongo host="${relations.mongo.host}" port="${relations.mongo.port}" />
+    <mongo:db-factory dbname="${relations.mongo.dbname}" mongo-ref="mongo"/>
+    <mongo:mapping-converter db-factory-ref="mongoDbFactory"/>
+
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg ref="mongoDbFactory"/>
+    </bean>
+
+    <bean id="mongoGridFsTemplate" class="org.springframework.data.mongodb.gridfs.GridFsTemplate">
+        <constructor-arg ref="mongoDbFactory" />
+        <constructor-arg ref="mappingConverter" />
+    </bean>
+
+    <!-- Report Export -->
+    <bean id="internalReportImageProducer" class="ru.nullpointer.nkbrelation.export.image.XHTMLRendererImageProducer">
+        <property name="rendererFactory">
+            <bean class="ru.nullpointer.nkbrelation.xhtmlrenderer.RendererFactory">
+                <property name="userAgent">
+                    <bean id="userAgentCallback" class="ru.nullpointer.nkbrelation.xhtmlrenderer.ClassPathUserAgent" />
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="externalReportImageProducer" class="ru.nullpointer.nkbrelation.export.image.WebrenderImageProducer">
+        <property name="webrenderUrlTemplate" value="${relations.webrender.url.template}" />
+    </bean>
+
+</beans>

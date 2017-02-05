@@ -1,0 +1,154 @@
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.3", "_dstId": "COMPANY.1", "shareAmount": 3, "sharePercent": 10, "_since": 1083867436000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.4", "_dstId": "COMPANY.1", "sharePercent": 20, "_actual": 1215371900000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.5", "_dstId": "COMPANY.1", "shareAmount": 980009499.99, "sharePercent": 99.99994897909205, "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.6", "_dstId": "COMPANY.1", "shareAmount": 500.01, "sharePercent": 0.00005102090794991888, "_actual": 1215371900000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.7", "_dstId": "COMPANY.1", "shareAmount": 50, "sharePercent": 0, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.1", "shareAmount": 250, "_since": 1083867436000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.2", "shareAmount": 25000, "sharePercent": 50}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.2", "shareAmount": 25000, "sharePercent": 50}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.2", "_dstId": "COMPANY.1", "shareAmount": 0.001, "sharePercent": 0.04}
+{"_holderDst": true, "_type": "EXECUTIVE_COMPANY", "_srcId": "COMPANY.2", "_dstId": "COMPANY.1", "representative": "Малеев В. И."}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-8", "_dstId": "COMPANY.1", "shareAmount": 1.987, "sharePercent": 1.123, "inn": "555666777888", "_actual": 1041480306000, "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-8", "_dstId": "COMPANY.2", "shareAmount": 0, "sharePercent": 0, "inn": "555666777888", "_actual": 1041480306000, "_source": "egrul"}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.8", "shareAmount": 0, "sharePercent": 50}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.8", "shareAmount": 10000, "sharePercent": 10, "_since": 1420113600000, "_actual": 1451649600000, "_source": "eaf", "outdated": true}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.8", "shareAmount": 20000, "sharePercent": 20, "_since": 1420200000000, "_actual": 1451736000000, "_source": "egrul", "outdated": true}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.8", "shareAmount": 30000, "sharePercent": 30, "_since": 1420286400000, "_actual": 1451822400000, "_source": "rosstat", "outdated": false}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-10", "_dstId": "COMPANY.8", "shareAmount": 0, "sharePercent": 50}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9", "shareAmount": 0, "sharePercent": 50}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9", "shareAmount": 10000, "sharePercent": 10, "_since": 1422792000000, "_actual": 1454328000000, "_source": "eaf", "outdated": true}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9", "shareAmount": 20000, "sharePercent": 20, "_since": 1422878400000, "_actual": 1454414400000, "_source": "egrul", "outdated": true}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9", "shareAmount": 30000, "sharePercent": 30, "_since": 1422964800000, "_actual": 1454500800000, "_source": "rosstat", "outdated": false}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-10", "_dstId": "COMPANY.9", "shareAmount": 0, "sharePercent": 50}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-10", "_dstId": "COMPANY.10", "shareAmount": 0, "sharePercent": 100}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-10", "_dstId": "COMPANY.10"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-SUBTYPE-2", "_dstId": "COMPANY.5", "shareAmount": 0, "sharePercent": 70}
+
+{"_holderDst": true, "_type": "EXECUTIVE_COMPANY", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9", "representative": "Абрамов Борис Витальевич"}
+
+{"_holderDst": true, "_type": "HEAD_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.9", "_actual": 1363112360000, "_source": "egrul"}
+{"_holderDst": true, "_type": "HEAD_COMPANY", "_srcId": "COMPANY.9", "_dstId": "COMPANY.8", "_actual": 1363112360000, "_source": "egrul"}
+
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.1", "position": "СТАРШИЙ ПАРТНЕР", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat", "inn": "987654321098"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.2", "position": "ГЕНЕРАЛЬНЫЙ ДИРЕКТОР", "inn": "123456789012"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.4", "position": "Член наблюдательного совета", "inn": "123456789012"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.5", "position": "ЛИКВИДАТОР", "inn": "987654321098"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.9", "position": "Президент", "inn": "987654321098"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.1", "shareAmount": 1234567890, "sharePercent": 33.33, "inn": "987654321098"}
+
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-2", "_dstId": "COMPANY.3"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-3", "_dstId": "COMPANY.4"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-4", "_dstId": "COMPANY.5"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-5", "_dstId": "COMPANY.6"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-6", "_dstId": "COMPANY.7"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.1066f0110df697ad1c0b1481a42f5c49621d6b38", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.1066f0110df697ad1c0b1481a42f5c49621d6b38", "_dstId": "COMPANY.10"}
+
+{"_holderDst": true, "_type": "REGISTER_HOLDER", "_srcId": "COMPANY.10", "_dstId": "COMPANY.6", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "REGISTER_HOLDER", "_srcId": "COMPANY.10", "_dstId": "COMPANY.7"}
+{"_holderDst": true, "_type": "REGISTER_HOLDER", "_srcId": "COMPANY.10", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "REGISTER_HOLDER", "_srcId": "COMPANY.10", "_dstId": "COMPANY.9"}
+
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-1", "_dstId": "COMPANY.1", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-2", "_dstId": "COMPANY.2"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-3", "_dstId": "COMPANY.3"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-4", "_dstId": "COMPANY.4"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-5", "_dstId": "COMPANY.5"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-6", "_dstId": "COMPANY.6"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-7", "_dstId": "COMPANY.7"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-8", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-8", "_dstId": "COMPANY.9"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-9", "_dstId": "COMPANY.10"}
+
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.6", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.7"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.9"}
+
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.10"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.10"}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.10", "_since": 1422792000000, "_actual": 1454328000000, "_source": "eaf", "outdated": true}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.10", "_since": 1422878400000, "_actual": 1454414400000, "_source": "egrul", "outdated": true}
+{"_holderDst": true, "_type": "ADDRESS", "_srcId": "ADDRESS.DEMO-ADDRESS-10", "_dstId": "COMPANY.10", "_since": 1422964800000, "_actual": 1454500800000, "_source": "rosstat", "outdated": false}
+
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-1", "_dstId": "COMPANY.1", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-1", "_dstId": "COMPANY.2"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-1", "_dstId": "COMPANY.2"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-2", "_dstId": "COMPANY.1", "_since": 1083867436000, "_actual": 1215371900000, "_source": "rosstat"}
+
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-3", "_dstId": "COMPANY.3"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-4", "_dstId": "COMPANY.3"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-5", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-5", "_dstId": "COMPANY.9"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-6", "_dstId": "COMPANY.8"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-6", "_dstId": "COMPANY.9"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-7", "_dstId": "COMPANY.10"}
+{"_holderDst": true, "_type": "PHONE", "_srcId": "PHONE.DEMO-PHONE-7", "_dstId": "COMPANY.10"}
+
+{"_holderDst": false, "_type": "PREDECESSOR_COMPANY", "_srcId": "COMPANY.11", "_dstId": "COMPANY.14", "_since": 1083867436000, "_actual": 1363112360000, "_source": "egrul"}
+{"_holderDst": false, "_type": "PREDECESSOR_COMPANY", "_srcId": "COMPANY.12", "_dstId": "COMPANY.14", "_actual": 1363112360000, "_source": "egrul"}
+{"_holderDst": true, "_type": "PREDECESSOR_COMPANY", "_srcId": "COMPANY.13", "_dstId": "COMPANY.14", "_actual": 1363079350000, "_source": "egrul"}
+{"_holderDst": false, "_type": "PREDECESSOR_COMPANY", "_srcId": "COMPANY.14", "_dstId": "COMPANY.15", "_since": 1083867436000, "_actual": 1363079350000, "_source": "egrul"}
+
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.101", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.102", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.103", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.104", "_dstId": "COMPANY.102"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.105", "_dstId": "COMPANY.103"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.106", "_dstId": "COMPANY.105"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_IVAN", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_SERG", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_IGOR", "_dstId": "COMPANY.100"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_IGOR", "_dstId": "COMPANY.101"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_NIK", "_dstId": "COMPANY.104"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_ALEX", "_dstId": "COMPANY.104"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.BEN_URIY", "_dstId": "COMPANY.106"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.FIND_TR_NODE1", "_dstId": "COMPANY.200"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.FIND_TR_NODE2", "_dstId": "COMPANY.201"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.200", "_dstId": "COMPANY.202", "_source": "egrul"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.200", "_dstId": "COMPANY.203", "_source": "rosstat"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.202"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.203", "_actual": 1363112360000}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.201", "_dstId": "COMPANY.203", "_actual": 1363112360001}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-11", "_dstId": "COMPANY.200"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-11", "_dstId": "COMPANY.204"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-12", "_dstId": "COMPANY.200"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-12", "_dstId": "COMPANY.203"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-13", "_dstId": "COMPANY.201"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.LASTNAME-13", "_dstId": "COMPANY.204"}
+
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.KINSMAN-1", "_dstId": "COMPANY.301"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.KINSMAN-2", "_dstId": "COMPANY.301"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.KINSMAN-2", "_dstId": "COMPANY.302"}
+{"_holderDst": true, "_type": "FOUNDER_INDIVIDUAL", "_srcId": "INDIVIDUAL.KINSMAN-3", "_dstId": "COMPANY.302"}
+
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.401", "_dstId": "COMPANY.402"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.402", "_dstId": "COMPANY.403"}
+{"_holderDst": true, "_type": "FOUNDER_COMPANY", "_srcId": "COMPANY.404", "_dstId": "COMPANY.405"}
+
+{"_holderDst": true, "_type": "AFFILIATED_COMPANY", "_srcId": "COMPANY.1", "_dstId": "COMPANY.2"}
+{"_holderDst": true, "_type": "AFFILIATED_COMPANY", "_srcId": "COMPANY.8", "_dstId": "COMPANY.2", "causes": [{"name": "AFFILIATE_SAME_GROUP", "since": 123456789012}], "shareCapital": 4.0E-9, "shareStock": 0.001200340056}
+
+{"_holderDst": true, "_type": "AFFILIATED_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.2", "causes": [{"name": "AFFILIATE_MEMBER_BOARD_DIRECTORS", "since": 113456789012}, {"name": "AFFILIATE_SOLE_EXECUTIVE", "since": 123456789012}, {"name": "AFFILIATE_SAME_GROUP", "since": 133456789012}, {"name": "AFFILIATE_20_PERCENT", "since": 423456789012}], "_since": 1083867436000, "shareCapital": 100, "shareStock": 0, "_actual": 1363112360000, "_source": "disclosure"}
+{"_holderDst": true, "_type": "AFFILIATED_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-8", "_dstId": "COMPANY.2", "causes": [{"name": "AFFILIATE_MEMBER_BOARD_DIRECTORS", "since": 123456789012}], "_since": 1083867436000, "_actual": 1363112360000, "_source": "disclosure"}
+{"_holderDst": true, "_type": "AFFILIATED_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-10", "_dstId": "COMPANY.2", "causes": [{"name": "AFFILIATE_20_PERCENT", "since": 123456789012}], "shareCapital": 34, "shareStock": 0.00006336, "_actual": 1363112360000, "_source": "disclosure"}
+{"_holderDst": true, "_type": "AFFILIATED_INDIVIDUAL", "_srcId": "INDIVIDUAL.1066f0110df697ad1c0b1481a42f5c49621d6b38", "_dstId": "COMPANY.2", "_actual": 1363112360000, "_source": "disclosure"}
+
+{"_holderDst": true, "_type": "AFFILIATED_INDIVIDUAL", "_srcId": "INDIVIDUAL.DEMO-INDIVIDUAL-1", "_dstId": "COMPANY.1", "causes": [{"name": "AFFILIATE_MEMBER_BOARD_DIRECTORS", "since": 123456789012}], "shareCapital": 10, "shareStock": 0.01, "_actual": 1363112360000, "_source": "disclosure"}
+
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.571f9fcdc3eb326cd2fe6d516004d523d8d3ee9e", "_dstId": "COMPANY.4"}
+{"_holderDst": true, "_type": "EXECUTIVE_INDIVIDUAL", "_srcId": "INDIVIDUAL.cf2e185405bca02e4f3fce161c47b48ee2d88225", "_dstId": "COMPANY.5"}

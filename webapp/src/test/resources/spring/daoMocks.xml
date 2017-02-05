@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:mockito="http://www.mockito.org/spring/mockito"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    http://www.mockito.org/spring/mockito classpath:/spring/mockito.xsd
+    ">
+
+    <mockito:mock id="companyNodeDAO" class="ru.nullpointer.nkbrelation.dao.NodeDAO" />
+    <mockito:mock id="individualNodeDAO" class="ru.nullpointer.nkbrelation.dao.NodeDAO" />
+    <mockito:mock id="addressNodeDAO" class="ru.nullpointer.nkbrelation.dao.NodeDAO" />
+    <mockito:mock id="phoneNodeDAO" class="ru.nullpointer.nkbrelation.dao.NodeDAO" />
+    <mockito:mock id="purchaseNodeDAO" class="ru.nullpointer.nkbrelation.dao.NodeDAO" />
+
+    <bean id="nodeDAOList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="companyNodeDAO" />
+                <ref bean="individualNodeDAO" />
+                <ref bean="addressNodeDAO" />
+                <ref bean="phoneNodeDAO" />
+                <ref bean="purchaseNodeDAO" />
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <mockito:mock id="relationDAO" class="ru.nullpointer.nkbrelation.dao.RelationDAO" />
+
+    <bean id="relationTypeDAO" class="ru.nullpointer.nkbrelation.dao.impl.RelationTypeDAOImpl">
+        <property name="relationTypeList" ref="relationTypeList" />
+    </bean>
+
+    <bean id="actualDateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy-MM-dd" />
+    </bean>
+
+</beans>

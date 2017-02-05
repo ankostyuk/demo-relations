@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+    ">
+
+    <!-- Node types -->
+    <bean id="companyNodeType" class="ru.nullpointer.nkbrelation.domain.meta.NodeType">
+        <property name="name" value="COMPANY" />
+        <property name="sortField" value="${relations.meta.lastYearSalesProperty}" />
+        <property name="sortAscending" value="false" />
+        <property name="idField" value="bsn_id" />
+        <property name="nameField" value="nameshortsort" />
+        <property name="searchTypes" value="q" />
+        <property name="facetFields" value="region_code" />
+        <property name="properties">
+            <list>
+                <bean p:name="bsn_id" p:type="INTEGER" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okpo" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="inn" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="ogrn" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okvedcode_bal" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okvedcode_main" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okatocode" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okfscode" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okopfcode" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="name" p:type="STRING" p:query="true" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="namesort" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="nameshortsort" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="chief" p:type="STRING" p:query="true" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="chief_name" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="address" p:type="STRING" p:query="true" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="addresssort" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="addressindex" p:query="true" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="founded_dt" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="dead_dt" p:type="INTEGER" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="${relations.meta.lastYearSalesProperty}" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="balance" p:type="INTEGER" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="region_code" p:type="STRING" p:query="true" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                 <bean p:name="kpp" p:type="STRING" p:query="false" p:display="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <bean p:name="individual_placeholders" p:array="true" class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="egrul_state" class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="egrul_reg" class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="egrul_liq" class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+
+                <!--
+                    Раскрытие информации эмитентом
+
+                    disclosure_type: "interfax"
+                    Страница эмитента: http://disclosure.interfax.ru/portal/company.aspx?id={disclosure_id}
+                    Аффилированные лица: http://disclosure.interfax.ru/portal/files.aspx?id={disclosure_id}&type=6
+                -->
+                <bean p:name="disclosure_type" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="disclosure_id" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <!-- Dynamic properties -->
+                <bean p:name="balance_forms_*" p:type="INTEGER" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.DynamicProperty" />
+
+                <!-- Derived properties -->
+                <bean p:name="okved_bal_text" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okved_bal_short_text" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okved_main_text" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okved_main_short_text" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="okfs_text" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="chief_gender" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="name_diff" p:type="BOOLEAN" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="individualNodeType" class="ru.nullpointer.nkbrelation.domain.meta.NodeType">
+        <property name="name" value="INDIVIDUAL" />
+        <property name="sortField" value="namesort" />
+        <property name="searchTypes" value="q" />
+        <property name="properties">
+            <list>
+                <bean p:name="id" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="name" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="namesort" p:type="STRING" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="namebase" p:type="STRING" p:query="true" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="subtype" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <!-- Derived properties -->
+                <bean p:name="gender" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="addressNodeType" class="ru.nullpointer.nkbrelation.domain.meta.NodeType">
+        <property name="name" value="ADDRESS" />
+        <property name="sortField" value="valuesort" />
+        <property name="nameField" value="value" />
+        <property name="searchTypes" value="q" />
+        <property name="properties">
+            <list>
+                <bean p:name="id" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="index" p:type="STRING" class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="value" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="valuesort" p:type="STRING" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="phoneNodeType" class="ru.nullpointer.nkbrelation.domain.meta.NodeType">
+        <property name="name" value="PHONE" />
+        <property name="sortField" value="valuesort" />
+        <property name="nameField" value="value" />
+        <property name="searchTypes" value="q" />
+        <property name="properties">
+            <list>
+                <bean p:name="id" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="phoneType" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="value" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="valuesort" p:type="STRING" p:display="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="purchaseNodeType" class="ru.nullpointer.nkbrelation.domain.meta.NodeType">
+        <property name="name" value="PURCHASE" />
+        <property name="sortField" value="total_price" />
+        <property name="sortAscending" value="false" />
+        <property name="nameField" value="name" />
+        <property name="properties">
+            <list>
+                <bean p:name="id" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="name" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="law" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="form" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="etp" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="date" p:type="INTEGER" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="href" p:type="STRING" p:query="false"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="currency" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="total_price" p:type="DOUBLE" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <!-- Эти свойства трансформируются в derived свойство "lots" -->
+                <bean p:name="lot_name_*" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.DynamicProperty" />
+                <bean p:name="lot_price_*" p:type="DOUBLE"
+                      class="ru.nullpointer.nkbrelation.domain.meta.DynamicProperty" />
+                <bean p:name="abandoned" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="applications" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="applications_rejection" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+
+                <!-- Derived properties -->
+                <bean p:name="lots" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <!-- Relation types -->
+    <bean id="founderCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="FOUNDER_COMPANY" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+
+        <property name="sourceSortTarget" value="RELATION" />
+        <property name="sourceSortField" value="shareAmount" />
+        <property name="sourceSortAscending" value="false" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+
+        <property name="destinationSortTarget" value="RELATION" />
+        <property name="destinationSortField" value="shareAmount" />
+        <property name="destinationSortAscending" value="false" />
+
+        <property name="destinationFacetFields" value="region_code" />
+
+        <property name="historySupport" value="true" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="shareAmount" p:type="DOUBLE" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="sharePercent" p:type="DOUBLE" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="outdated" p:type="BOOLEAN" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="founderIndividualRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="FOUNDER_INDIVIDUAL" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+
+        <property name="sourceSortTarget" value="RELATION" />
+        <property name="sourceSortField" value="shareAmount" />
+        <property name="sourceSortAscending" value="false" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="okatocode" />
+
+        <property name="destinationFacetFields" value="region_code" />
+        <property name="relationFacetFields" value="inn" />
+
+        <property name="historySupport" value="true" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="shareAmount" p:type="DOUBLE" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="sharePercent" p:type="DOUBLE" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="inn" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="outdated" p:type="BOOLEAN" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="headCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="HEAD_COMPANY" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+    </bean>
+
+    <bean id="executiveCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="EXECUTIVE_COMPANY" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="representative" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+
+                <!-- Derived properties -->
+                <bean p:name="representative_gender" p:type="STRING" p:derived="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="executiveIndividualRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="EXECUTIVE_INDIVIDUAL" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="okatocode" />
+
+        <property name="destinationFacetFields" value="region_code" />
+        <property name="relationFacetFields" value="inn" />
+
+        <property name="historySupport" value="true" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="inn" p:type="STRING" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="position" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="outdated" p:type="BOOLEAN" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="affiliatedCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="AFFILIATED_COMPANY" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+
+        <property name="relationFacetFields" value="causes.name" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="causes" p:array="true" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="shareCapital" p:type="DOUBLE"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="shareStock" p:type="DOUBLE"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="affiliatedIndividualRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="AFFILIATED_INDIVIDUAL" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="okatocode" />
+
+        <property name="relationFacetFields" value="causes.name" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="causes" p:array="true" p:query="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="shareCapital" p:type="DOUBLE"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="shareStock" p:type="DOUBLE"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="predecessorCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="PREDECESSOR_COMPANY" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+    </bean>
+
+    <bean id="registerHolderRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="REGISTER_HOLDER" />
+
+        <property name="sourceNodeType" value="COMPANY" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+    </bean>
+
+    <bean id="addressRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="ADDRESS" />
+
+        <property name="sourceNodeType" value="ADDRESS" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="okatocode" />
+    </bean>
+
+    <bean id="phoneRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="PHONE" />
+
+        <property name="sourceNodeType" value="PHONE" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="okatocode" />
+    </bean>
+
+    <bean id="employeeRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="EMPLOYEE" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="COMPANY" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="namesort" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="email" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="phone" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <!-- Закупки -->
+    <bean id="customerCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="CUSTOMER_COMPANY" />
+        <property name="sourceNodeType" value="COMPANY" />
+
+        <property name="sourceSortTarget" value="NODE" />
+        <property name="sourceSortField" value="namesort" />
+
+        <property name="destinationNodeType" value="PURCHASE" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="date" />
+        <property name="destinationSortAscending" value="false" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="lots" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="participantCompanyRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="PARTICIPANT_COMPANY" />
+        <property name="sourceNodeType" value="COMPANY" />
+
+        <property name="sourceSortTarget" value="NODE" />
+        <property name="sourceSortField" value="namesort" />
+
+        <property name="destinationNodeType" value="PURCHASE" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="date" />
+        <property name="destinationSortAscending" value="false" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="lots" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="participantIndividualRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="PARTICIPANT_INDIVIDUAL" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+        <property name="sourceSortTarget" value="NODE" />
+
+        <property name="destinationNodeType" value="PURCHASE" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="date" />
+        <property name="destinationSortAscending" value="false" />
+
+        <property name="relationFacetFields" value="inn" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="lots" p:array="true"
+                      class="ru.nullpointer.nkbrelation.domain.meta.ObjectProperty" />
+                <bean p:name="inn" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <bean id="commissionMemberRelType" class="ru.nullpointer.nkbrelation.domain.meta.RelationType">
+        <property name="name" value="COMMISSION_MEMBER" />
+
+        <property name="sourceNodeType" value="INDIVIDUAL" />
+        <property name="sourceSortTarget" value="RELATION" />
+        <property name="sourceSortField" value="number" />
+
+        <property name="destinationNodeType" value="PURCHASE" />
+
+        <property name="destinationSortTarget" value="NODE" />
+        <property name="destinationSortField" value="date" />
+        <property name="destinationSortAscending" value="false" />
+
+        <property name="properties">
+            <list>
+                <bean p:name="number" p:type="INTEGER"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+                <bean p:name="role" p:type="STRING"
+                      class="ru.nullpointer.nkbrelation.domain.meta.SimpleProperty" />
+            </list>
+        </property>
+    </bean>
+
+    <util:list id="relationTypeList">
+        <ref bean="founderCompanyRelType" />
+        <ref bean="founderIndividualRelType" />
+        <ref bean="headCompanyRelType" />
+        <ref bean="executiveCompanyRelType" />
+        <ref bean="executiveIndividualRelType" />
+        <ref bean="affiliatedCompanyRelType" />
+        <ref bean="affiliatedIndividualRelType" />
+        <ref bean="predecessorCompanyRelType" />
+        <ref bean="registerHolderRelType" />
+        <ref bean="addressRelType" />
+        <ref bean="phoneRelType" />
+
+        <ref bean="employeeRelType" />
+        <!-- Закупки -->
+        <ref bean="customerCompanyRelType" />
+        <ref bean="participantCompanyRelType" />
+        <ref bean="participantIndividualRelType" />
+        <ref bean="commissionMemberRelType" />
+    </util:list>
+</beans>

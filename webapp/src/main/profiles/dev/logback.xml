@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dev -->
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %-5level: %msg &lt;%logger{80}&gt;%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${catalina.home}/logs/relations-dev.log</file>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %-5level: %msg &lt;%logger{80}&gt;%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ru.nullpointer.nkbrelation" level="DEBUG"/>
+
+    <logger name="org.springframework" level="DEBUG"/>
+
+    <logger name="org.xhtmlrenderer" level="DEBUG"/>
+
+    <logger name="org.apache.commons.httpclient" level="DEBUG"/>
+    <!--
+    <logger name="httpclient.wire" level="DEBUG"/>
+    -->
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <appender name="FILE-REQUESTLOG" class="ch.qos.logback.core.FileAppender">
+        <file>${catalina.home}/logs/relations-requestlog-dev.log</file>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %logger{80}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- URL без последнего слеша -->
+    <logger name="requestLog=/internal/api/egrul/info" level="INFO" additivity="false">
+        <appender-ref ref="FILE-REQUESTLOG"/>
+    </logger>
+
+    <appender name="FILE-CLIENTLOG" class="ch.qos.logback.core.FileAppender">
+        <file>${catalina.home}/logs/relations-clientlog-dev.log</file>
+        <encoder>
+            <pattern>%d{dd.MM.yyyy HH:mm:ss} [%.8thread] %logger{80}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="requestLog=/api/client/log" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE-CLIENTLOG"/>
+    </logger>
+
+</configuration>
